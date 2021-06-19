@@ -1,0 +1,5008 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Studio Ellio</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/work1.css" />
+
+    <link rel="icon" type="image/gif" href="images/elliofavicon.ico" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="javs.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap" rel="stylesheet">
+
+    </script>
+
+    <!-- <style>
+        .mobile-container {
+            max-width: 480px;
+            margin: auto;
+            background-color: #000;
+            height: 500px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #000;
+            position: relative;
+            top: -70px;
+        }
+
+        .topnav #myLinks {
+            display: none;
+        }
+
+        .topnav a {
+            color: white;
+            padding: 20px 9px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+        }
+
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        /* .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            } */
+
+        /* .active {
+                background-color: #4CAF50;
+                color: white;
+            } */
+
+
+
+
+        /* body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-object {
+    
+                width: 60% !important;
+    
+            } */
+        .floer .floor_plans_btns.active {
+            color: #000;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: 'ag';
+            padding-top: 8px;
+        }
+
+        .floor_plans_btns {
+            /* background-color: grey; */
+            color: #fff;
+            padding: 5px 14px;
+            font-size: 15px;
+            /* font-weight: 600; */
+            letter-spacing: 1px;
+            cursor: pointer;
+            font-family: 'ag';
+        }
+
+        .floor_plans_btns:hover {
+            background-color: #fff;
+            color: #000;
+            border-radius: 20px;
+            /* transition: 0.5s ease; */
+            padding-top: 8px;
+        }
+
+        @font-face {
+            font-family: bb;
+            src: url('fonts/Mukta-Bold.ttf');
+        }
+
+        .portfolio a:hover {
+            text-decoration: none;
+        }
+
+        .img-wrapper {
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .img-wrapper img {
+            width: 100%;
+
+        }
+
+        .img-overlay {
+            background: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+        }
+
+        .img-overlay i {
+            color: #fff;
+            font-size: 3em;
+        }
+
+        #overlay {
+            background: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #overlay img {
+            margin: 0;
+            width: 80%;
+            height: auto;
+            -o-object-fit: contain;
+            object-fit: contain;
+            padding: 5%;
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+            #overlay img {
+                width: 60%;
+            }
+        }
+
+
+
+        @media screen and (min-width: 1200px) {
+            #overlay img {
+                width: 50%;
+            }
+        }
+
+
+
+        #nextButton {
+            color: #fff;
+            font-size: 2em;
+            transition: opacity 0.8s;
+        }
+
+
+
+        #nextButton:hover {
+            opacity: 0.7;
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+            #nextButton {
+                font-size-adjust: 3em;
+            }
+        }
+
+
+
+        #prevButton {
+
+            color: #fff;
+
+            font-size: 2em;
+
+            transition: opacity 0.8s;
+
+        }
+
+
+
+        #prevButton:hover {
+
+            opacity: 0.7;
+
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+
+            #prevButton {
+
+                font-size: 3em;
+
+            }
+
+        }
+
+
+
+        #exitButton {
+
+            color: #fff;
+
+            font-size: 2em;
+
+            transition: opacity 0.8s;
+
+            position: absolute;
+
+            top: 15px;
+
+            right: 15px;
+
+        }
+
+
+
+        #exitButton:hover {
+
+            opacity: 0.7;
+
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+
+            body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-object {
+
+                width: 90% !important;
+
+            }
+
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+
+            #exitButton {
+
+                font-size: 3em;
+
+            }
+
+        }
+
+
+
+        .for_slick_slider {
+
+            display: flex;
+
+        }
+
+
+
+        .for_slick_slider .items {
+
+            width: 3550px;
+
+            height: 250px;
+
+            margin: 20px;
+
+        }
+
+
+
+        .for_slick_slider .items img {
+
+            width: 350px;
+
+            height: 250px;
+
+            transition: all linear .4s;
+
+
+
+        }
+
+
+
+        .animateBg {
+
+            background: linear-gradient(20deg, rgb(255, 47, 0), rgb(233, 74, 59), rgb(245, 187, 187), #fff);
+
+            background-size: 300% 300%;
+
+            animation: gradient 15s ease infinite;
+
+        }
+
+
+
+        @-webkit-keyframes gradient {
+
+            0% {
+
+                background-position: 0% 50%;
+
+            }
+
+
+
+            50% {
+
+                background-position: 100% 50%;
+
+            }
+
+
+
+            100% {
+
+                background-position: 0% 50%;
+
+            }
+
+        }
+
+
+
+        @keyframes gradient {
+
+            0% {
+
+                background-position: 0% 50%;
+
+            }
+
+
+
+            50% {
+
+                background-position: 100% 50%;
+
+            }
+
+
+
+            100% {
+
+                background-position: 0% 50%;
+
+            }
+
+        }
+
+        gallery-slider {
+            max-width: 100%;
+            width: 1300px;
+            padding: 200px 50px;
+        }
+
+        .gallery-module {
+            position: relative;
+            margin-bottom: 80px;
+        }
+
+        .gallery-module .slick-arrow {
+            position: absolute;
+            top: 50%;
+            width: 52px;
+            height: 52px;
+            margin-top: -26px;
+            background-color: #000;
+            padding: 0;
+            font-size: 0;
+            z-index: 1;
+            border-radius: 0;
+            overflow: hidden;
+        }
+
+        .gallery-module .slick-arrow.slick-prev {
+            left: 0;
+        }
+
+        .gallery-module .slick-arrow.slick-prev::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 13px;
+            height: 13px;
+            margin-left: -4px;
+            margin-top: -8px;
+            border-top: solid 4px #fff;
+            border-left: solid 4px #fff;
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .gallery-module .slick-arrow.slick-prev::after {
+            left: 100%;
+        }
+
+        .gallery-module .slick-arrow.slick-next {
+            right: 0;
+        }
+
+        .gallery-module .slick-arrow.slick-next::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 13px;
+            height: 13px;
+            margin-left: -9px;
+            margin-top: -8px;
+            border-right: solid 4px #fff;
+            border-bottom: solid 4px #fff;
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .gallery-module .slick-arrow.slick-next::after {
+            left: -100%;
+        }
+
+        .gallery-module .slick-arrow:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            z-index: -1;
+            transition: left 0.15s;
+        }
+
+        .gallery-module .slick-arrow:hover::after {
+            left: 0;
+        }
+
+        .gallery-module .gallery-slider {
+            position: relative;
+            padding: 0 26px;
+        }
+
+        .gallery-module .gallery-slider li {
+            margin: 0 2px;
+        }
+
+        .gallery-module .gallery-slider li img {
+            width: 100%;
+        }
+
+        .mfp-gallery .mfp-container {
+            max-width: 1100px;
+            left: 50%;
+            -ms-transform: translateX(-50%);
+            -webkit-transofmr: translateX(-50%);
+            transform: translateX(-50%);
+            padding: 0 50px;
+        }
+
+        .mfp-gallery .mfp-content {
+            width: 100%;
+            background-color: transparent;
+            padding: 0;
+            z-index: 0;
+        }
+
+        .mfp-gallery .mfp-content img {
+            width: 100%;
+            padding: 0;
+        }
+
+        .mfp-gallery .mfp-image-holder .mfp-close,
+        .mfp-gallery .mfp-iframe-holder .mfp-close {
+            top: 0px;
+            right: -50;
+            width: 50px;
+            height: 50px;
+            padding: 0;
+            padding-left: 5px;
+            background-color: transparent;
+            opacity: 1;
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .mfp-gallery .mfp-arrow {
+            position: absolute;
+            top: 50%;
+            width: 52px;
+            height: 52px;
+            margin-top: -26px;
+            background-color: #000;
+            padding: 0;
+            font-size: 0;
+            z-index: 2;
+            border-radius: 0;
+            overflow: hidden;
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-left {
+            left: 25px;
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-left::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 13px;
+            height: 13px;
+            margin-left: -4px;
+            margin-top: -8px;
+            border-top: solid 4px #fff;
+            border-left: solid 4px #fff;
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-left::after {
+            left: 100%;
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-right {
+            right: 25px;
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-right::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 13px;
+            height: 13px;
+            margin-left: -9px;
+            margin-top: -8px;
+            border-right: solid 4px #fff;
+            border-bottom: solid 4px #fff;
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-right::after {
+            left: -100%;
+        }
+
+        .mfp-gallery .mfp-arrow:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            z-index: -1;
+            transition: left 0.15s;
+        }
+
+        .mfp-gallery .mfp-arrow:hover::after {
+            left: 0;
+        }
+
+        /* Magnific Popup CSS */
+        .mfp-bg {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1042;
+            overflow: hidden;
+            position: fixed;
+            background: #0b0b0b;
+            opacity: 0.8;
+        }
+
+        .mfp-wrap {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1043;
+            position: fixed;
+            outline: none !important;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .mfp-container {
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            box-sizing: border-box;
+        }
+
+        .mfp-container:before {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        .mfp-align-top .mfp-container:before {
+            display: none;
+        }
+
+        .mfp-content {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 auto;
+            text-align: left;
+            z-index: 1045;
+        }
+
+        .mfp-inline-holder .mfp-content,
+        .mfp-ajax-holder .mfp-content {
+            width: 100%;
+            cursor: auto;
+        }
+
+        .mfp-ajax-cur {
+            cursor: progress;
+        }
+
+        .mfp-zoom-out-cur,
+        .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+            cursor: -moz-zoom-out;
+            cursor: -webkit-zoom-out;
+            cursor: zoom-out;
+        }
+
+        .mfp-zoom {
+            cursor: pointer;
+            cursor: -webkit-zoom-in;
+            cursor: -moz-zoom-in;
+            cursor: zoom-in;
+        }
+
+        .mfp-auto-cursor .mfp-content {
+            cursor: auto;
+        }
+
+        /* .mfp-close,
+            .mfp-arrow,
+            .mfp-preloader,
+            .mfp-counter {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+            } */
+
+        .mfp-loading.mfp-figure {
+            display: none;
+        }
+
+        .mfp-hide {
+            display: none !important;
+        }
+
+        .mfp-preloader {
+            color: #CCC;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            text-align: center;
+            margin-top: -0.8em;
+            left: 8px;
+            right: 8px;
+            z-index: 1044;
+        }
+
+        .mfp-preloader a {
+            color: #CCC;
+        }
+
+        .mfp-preloader a:hover {
+            color: #FFF;
+        }
+
+        .mfp-s-ready .mfp-preloader {
+            display: none;
+        }
+
+        .mfp-s-error .mfp-content {
+            display: none;
+        }
+
+        button.mfp-close,
+        button.mfp-arrow {
+            cursor: pointer;
+            border: 0;
+            -webkit-appearance: none;
+            display: block;
+            outline: none;
+            padding: 0;
+            z-index: 1046;
+            box-shadow: none;
+            touch-action: manipulation;
+        }
+
+        button::-moz-focus-inner {
+            padding: 0;
+            border: 0;
+        }
+
+        .mfp-close {
+            width: 44px;
+            height: 44px;
+            line-height: 44px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            text-decoration: none;
+            text-align: center;
+            padding: 0 0 18px 10px;
+            color: #FFF;
+            font-style: normal;
+            font-size: 28px;
+            font-family: Arial, Baskerville, monospace;
+        }
+
+        .mfp-close:hover,
+        .mfp-close:focus {
+            opacity: 1;
+        }
+
+        .mfp-close:active {
+            top: 1px;
+        }
+
+        .mfp-close-btn-in .mfp-close {
+            color: #333;
+        }
+
+        .mfp-image-holder .mfp-close,
+        .mfp-iframe-holder .mfp-close {
+            color: #FFF;
+            right: -6px;
+            text-align: right;
+            padding-right: 6px;
+            width: 100%;
+        }
+
+        /* .mfp-counter {
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: #CCC;
+                font-size: 12px;
+                line-height: 18px;
+                white-space: nowrap;
+            } */
+
+        .mfp-arrow {
+            position: absolute;
+            margin: 0;
+            top: 50%;
+            padding: 0;
+            width: 90px;
+            height: 110px;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .mfp-arrow:hover,
+        .mfp-arrow:focus {
+            opacity: 1;
+        }
+
+        .mfp-arrow-left {
+            left: 0;
+        }
+
+        .mfp-arrow-right {
+            right: 0;
+        }
+
+        .mfp-iframe-holder {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .mfp-iframe-holder .mfp-content {
+            line-height: 0;
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .mfp-iframe-holder .mfp-close {
+            top: -40px;
+        }
+
+        .mfp-iframe-scaler {
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            padding-top: 56.25%;
+        }
+
+        .mfp-iframe-scaler iframe {
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            background: #000;
+        }
+
+        /* Main image in popup */
+        img.mfp-img {
+            width: auto;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            line-height: 0;
+            box-sizing: border-box;
+            padding: 40px 0 40px;
+            margin: 0 auto;
+        }
+
+        /* The shadow behind the image */
+        .mfp-figure {
+            line-height: 0;
+        }
+
+        .mfp-figure:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 40px;
+            bottom: 40px;
+            display: block;
+            right: 0;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            background: #444;
+        }
+
+        .mfp-figure small {
+            color: #BDBDBD;
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        .mfp-figure figure {
+            margin: 0;
+        }
+
+        .mfp-bottom-bar {
+            margin-top: -36px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            cursor: auto;
+        }
+
+        .mfp-title {
+            text-align: left;
+            line-height: 18px;
+            color: #F3F3F3;
+            word-wrap: break-word;
+            padding-right: 36px;
+        }
+
+        .mfp-image-holder .mfp-content {
+            max-width: 100%;
+        }
+
+        .mfp-gallery .mfp-image-holder .mfp-figure {
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 800px) and (orientation: landscape),
+        screen and (max-height: 300px) {
+
+            /**
+           * Remove all paddings around the image on small screen
+           */
+            .mfp-img-mobile .mfp-image-holder {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .mfp-img-mobile img.mfp-img {
+                padding: 0;
+            }
+
+            .mfp-img-mobile .mfp-figure:after {
+                top: 0;
+                bottom: 0;
+            }
+
+            .mfp-img-mobile .mfp-figure small {
+                display: inline;
+                margin-left: 5px;
+            }
+
+            .mfp-img-mobile .mfp-bottom-bar {
+                background: rgba(0, 0, 0, 0.6);
+                bottom: 0;
+                margin: 0;
+                top: auto;
+                padding: 3px 5px;
+                position: fixed;
+                box-sizing: border-box;
+            }
+
+            .mfp-img-mobile .mfp-bottom-bar:empty {
+                padding: 0;
+            }
+
+            /* .mfp-img-mobile .mfp-counter {
+                    right: 5px;
+                    top: 3px;
+                } */
+
+            .mfp-img-mobile .mfp-close {
+                top: 0;
+                right: 0;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                background: rgba(0, 0, 0, 0.6);
+                position: fixed;
+                text-align: center;
+                padding: 0;
+            }
+        }
+
+        @media all and (max-width: 900px) {
+            .mfp-arrow {
+                -webkit-transform: scale(0.75);
+                transform: scale(0.75);
+            }
+
+            .mfp-arrow-left {
+                -webkit-transform-origin: 0;
+                transform-origin: 0;
+            }
+
+            .mfp-arrow-right {
+                -webkit-transform-origin: 100%;
+                transform-origin: 100%;
+            }
+
+            .mfp-container {
+                padding-left: 6px;
+                padding-right: 6px;
+            }
+        }
+
+        /* 
+    */
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list {
+            position: relative;
+            overflow: hidden;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-list:focus {
+            outline: none;
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track {
+            position: relative;
+            left: 0;
+            top: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slick-track:before,
+        .slick-track:after {
+            content: "";
+            display: table;
+        }
+
+        .slick-track:after {
+            clear: both;
+        }
+
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+
+        .slick-slide {
+            float: left;
+            height: 100%;
+            min-height: 1px;
+            display: none;
+        }
+
+        [dir=rtl] .slick-slide {
+            float: right;
+        }
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+    </style> -->
+
+    <style>
+        .mobile-container {
+            max-width: 480px;
+            margin: auto;
+            background-color: #000;
+            height: 500px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #000;
+            position: relative;
+            /* top: -70px; */
+        }
+
+        .topnav #myLinks {
+            display: none;
+        }
+
+        .topnav a {
+            color: white;
+            padding: 20px 9px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+        }
+
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0px;
+            padding-left: 25px;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        } */
+
+        /* .active {
+            background-color: #4CAF50;
+            color: white;
+        } */
+
+
+
+
+        /* body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-object {
+
+            width: 60% !important;
+
+        } */
+        .floer .floor_plans_btns.active {
+            color: #000;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: 'ag';
+            padding-top: 8px;
+        }
+
+        .floor_plans_btns {
+            /* background-color: grey; */
+            color: #fff;
+            padding: 5px 14px;
+            font-size: 15px;
+            /* font-weight: 600; */
+            letter-spacing: 1px;
+            cursor: pointer;
+            font-family: 'ag';
+        }
+
+        .floor_plans_btns:hover {
+            background-color: #fff;
+            color: #000;
+            border-radius: 20px;
+            /* transition: 0.5s ease; */
+            padding-top: 8px;
+        }
+
+        @media only screen and (min-width: 100px) and (max-width: 1080px) {
+            .mfp-image-holder .mfp-content {
+                max-width: 100% !important;
+                margin-top: 70px;
+            }
+
+            .mfp-gallery .mfp-arrow.mfp-arrow-right {
+                right: 10px !important;
+            }
+
+            .mfp-gallery .mfp-arrow.mfp-arrow-left {
+                left: 10px !important;
+            }
+
+            .mfp-gallery .mfp-arrow {
+                top: 53% !important;
+            }
+        }
+
+        @font-face {
+            font-family: bb;
+            src: url('fonts/Mukta-Bold.ttf');
+        }
+
+        .portfolio a:hover {
+            text-decoration: none;
+        }
+
+        .img-wrapper {
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .img-wrapper img {
+            width: 100%;
+
+        }
+
+        .img-overlay {
+            background: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+        }
+
+        .img-overlay i {
+            color: #fff;
+            font-size: 3em;
+        }
+
+        #overlay {
+            background: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #overlay img {
+            margin: 0;
+            width: 80%;
+            height: auto;
+            -o-object-fit: contain;
+            object-fit: contain;
+            padding: 5%;
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+            #overlay img {
+                width: 60%;
+            }
+        }
+
+
+
+        @media screen and (min-width: 1200px) {
+            #overlay img {
+                width: 50%;
+            }
+        }
+
+
+
+        #nextButton {
+            color: #fff;
+            font-size: 2em;
+            transition: opacity 0.8s;
+        }
+
+
+
+        #nextButton:hover {
+            opacity: 0.7;
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+            #nextButton {
+                font-size-adjust: 3em;
+            }
+        }
+
+
+
+        #prevButton {
+
+            color: #fff;
+
+            font-size: 2em;
+
+            transition: opacity 0.8s;
+
+        }
+
+
+
+        #prevButton:hover {
+
+            opacity: 0.7;
+
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+
+            #prevButton {
+
+                font-size: 3em;
+
+            }
+
+        }
+
+
+
+        #exitButton {
+
+            color: #fff;
+
+            font-size: 2em;
+
+            transition: opacity 0.8s;
+
+            position: absolute;
+
+            top: 15px;
+
+            right: 15px;
+
+        }
+
+
+
+        #exitButton:hover {
+
+            opacity: 0.7;
+
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+
+            body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-object {
+
+                width: 90% !important;
+
+            }
+
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+
+            #exitButton {
+
+                font-size: 3em;
+
+            }
+
+        }
+
+
+
+        .for_slick_slider {
+
+            display: flex;
+
+        }
+
+
+
+        .for_slick_slider .items {
+
+            width: 3550px;
+
+            height: 250px;
+
+            margin: 20px;
+
+        }
+
+
+
+        .for_slick_slider .items img {
+
+            width: 350px;
+
+            height: 250px;
+
+            transition: all linear .4s;
+
+
+
+        }
+
+
+
+        .animateBg {
+
+            background: linear-gradient(20deg, rgb(255, 47, 0), rgb(233, 74, 59), rgb(245, 187, 187), #fff);
+
+            background-size: 300% 300%;
+
+            animation: gradient 15s ease infinite;
+
+        }
+
+
+
+        @-webkit-keyframes gradient {
+
+            0% {
+
+                background-position: 0% 50%;
+
+            }
+
+
+
+            50% {
+
+                background-position: 100% 50%;
+
+            }
+
+
+
+            100% {
+
+                background-position: 0% 50%;
+
+            }
+
+        }
+
+
+
+        @keyframes gradient {
+
+            0% {
+
+                background-position: 0% 50%;
+
+            }
+
+
+
+            50% {
+
+                background-position: 100% 50%;
+
+            }
+
+
+
+            100% {
+
+                background-position: 0% 50%;
+
+            }
+
+        }
+
+        gallery-slider {
+            max-width: 100%;
+            width: 1300px;
+            padding: 200px 50px;
+        }
+
+        .gallery-module {
+            position: relative;
+            margin-bottom: 80px;
+        }
+
+        .gallery-module .slick-arrow {
+            position: absolute;
+            top: 50%;
+            width: 52px;
+            height: 52px;
+            margin-top: -26px;
+            background-color: #000;
+            padding: 0;
+            font-size: 0;
+            z-index: 1;
+            border-radius: 0;
+            overflow: hidden;
+        }
+
+        .gallery-module .slick-arrow.slick-prev {
+            left: 0;
+        }
+
+        .gallery-module .slick-arrow.slick-prev::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 13px;
+            height: 13px;
+            margin-left: -4px;
+            margin-top: -8px;
+            border-top: solid 4px #fff;
+            border-left: solid 4px #fff;
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .gallery-module .slick-arrow.slick-prev::after {
+            left: 100%;
+        }
+
+        .gallery-module .slick-arrow.slick-next {
+            right: 0;
+        }
+
+        .gallery-module .slick-arrow.slick-next::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 13px;
+            height: 13px;
+            margin-left: -9px;
+            margin-top: -8px;
+            border-right: solid 4px #fff;
+            border-bottom: solid 4px #fff;
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .gallery-module .slick-arrow.slick-next::after {
+            left: -100%;
+        }
+
+        .gallery-module .slick-arrow:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            z-index: -1;
+            transition: left 0.15s;
+        }
+
+        .gallery-module .slick-arrow:hover::after {
+            left: 0;
+        }
+
+        .gallery-module .gallery-slider {
+            position: relative;
+            padding: 0 26px;
+        }
+
+        .gallery-module .gallery-slider li {
+            margin: 0 2px;
+        }
+
+        .gallery-module .gallery-slider li img {
+            width: 100%;
+        }
+
+        .mfp-gallery .mfp-container {
+            max-width: 1255px;
+            left: 50%;
+            -ms-transform: translateX(-50%);
+            -webkit-transofmr: translateX(-50%);
+            transform: translateX(-50%);
+            padding: 0 50px;
+        }
+
+        .mfp-gallery .mfp-content {
+            width: 100%;
+            background-color: transparent;
+            padding: 0;
+            z-index: 0;
+        }
+
+        .mfp-gallery .mfp-content img {
+            max-height: 550px;
+            width: 100%;
+            padding: 0;
+        }
+
+        .mfp-gallery .mfp-image-holder .mfp-close,
+        .mfp-gallery .mfp-iframe-holder .mfp-close {
+            top: 0px;
+            right: -50;
+            width: 50px;
+            height: 50px;
+            padding: 0;
+            padding-left: 5px;
+            background-color: transparent;
+            opacity: 1;
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .mfp-gallery .mfp-arrow {
+            position: absolute;
+            top: 50%;
+            width: 52px;
+            height: 52px;
+            margin-top: -26px;
+            background-color: transparent;
+            padding: 0;
+            font-size: 0;
+            z-index: 2;
+            border-radius: 0;
+            overflow: hidden;
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-left {
+            left: 65px;
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-left::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 25px;
+            height: 25px;
+            margin-left: -4px;
+            margin-top: -8px;
+            border-top: solid 4px #fff;
+            border-left: solid 4px #fff;
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-left::after {
+            left: 100%;
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-right {
+            right: 65px;
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-right::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 25px;
+            height: 25px;
+            margin-left: -9px;
+            margin-top: -8px;
+            border-right: solid 4px #fff;
+            border-bottom: solid 4px #fff;
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .mfp-gallery .mfp-arrow.mfp-arrow-right::after {
+            left: -100%;
+        }
+
+        /* .mfp-gallery .mfp-arrow:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            z-index: -1;
+            transition: left 0.15s;
+        } */
+
+        .mfp-gallery .mfp-arrow:hover::after {
+            left: 0;
+        }
+
+        /* Magnific Popup CSS */
+        .mfp-bg {
+            top: 100px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1042;
+            overflow: hidden;
+            position: fixed;
+            background: #0b0b0b;
+            opacity: 0.8;
+        }
+
+        .mfp-wrap {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1043;
+            position: fixed;
+            outline: none !important;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .mfp-container {
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            box-sizing: border-box;
+        }
+
+        .mfp-container:before {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        .mfp-align-top .mfp-container:before {
+            display: none;
+        }
+
+        .mfp-content {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 auto;
+            text-align: left;
+            z-index: 1045;
+        }
+
+        .mfp-inline-holder .mfp-content,
+        .mfp-ajax-holder .mfp-content {
+            width: 100%;
+            cursor: auto;
+        }
+
+        .mfp-ajax-cur {
+            cursor: progress;
+        }
+
+        .mfp-zoom-out-cur,
+        .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+            cursor: -moz-zoom-out;
+            cursor: -webkit-zoom-out;
+            cursor: zoom-out;
+        }
+
+        .mfp-zoom {
+            cursor: pointer;
+            cursor: -webkit-zoom-in;
+            cursor: -moz-zoom-in;
+            cursor: zoom-in;
+        }
+
+        .mfp-auto-cursor .mfp-content {
+            cursor: auto;
+        }
+
+        /* .mfp-close,
+        .mfp-arrow,
+        .mfp-preloader,
+        .mfp-counter {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        } */
+
+        .mfp-loading.mfp-figure {
+            display: none;
+        }
+
+        .mfp-hide {
+            display: none !important;
+        }
+
+        .mfp-preloader {
+            color: #CCC;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            text-align: center;
+            margin-top: -0.8em;
+            left: 8px;
+            right: 8px;
+            z-index: 1044;
+        }
+
+        .mfp-preloader a {
+            color: #CCC;
+        }
+
+        .mfp-preloader a:hover {
+            color: #FFF;
+        }
+
+        .mfp-s-ready .mfp-preloader {
+            display: none;
+        }
+
+        .mfp-s-error .mfp-content {
+            display: none;
+        }
+
+        button.mfp-close,
+        button.mfp-arrow {
+            cursor: pointer;
+            border: 0;
+            -webkit-appearance: none;
+            display: block;
+            outline: none;
+            padding: 0;
+            z-index: 1046;
+            box-shadow: none;
+            touch-action: manipulation;
+        }
+
+        button::-moz-focus-inner {
+            padding: 0;
+            border: 0;
+        }
+
+        .mfp-close {
+            width: 44px;
+            height: 44px;
+            line-height: 44px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            text-decoration: none;
+            text-align: center;
+            padding: 0 0 18px 10px;
+            color: #FFF;
+            font-style: normal;
+            font-size: 28px;
+            font-family: Arial, Baskerville, monospace;
+        }
+
+        .mfp-close:hover,
+        .mfp-close:focus {
+            opacity: 1;
+        }
+
+        .mfp-close:active {
+            top: 1px;
+        }
+
+        .mfp-close-btn-in .mfp-close {
+            color: #333;
+        }
+
+        .mfp-image-holder .mfp-close,
+        .mfp-iframe-holder .mfp-close {
+            color: #FFF;
+            right: -6px;
+            text-align: right;
+            padding-right: 6px;
+            width: 100%;
+        }
+
+        /* .mfp-counter {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #CCC;
+            font-size: 12px;
+            line-height: 18px;
+            white-space: nowrap;
+        } */
+
+        .mfp-arrow {
+            position: absolute;
+            margin: 0;
+            top: 50%;
+            padding: 0;
+            width: 90px;
+            height: 110px;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .mfp-arrow:hover,
+        .mfp-arrow:focus {
+            opacity: 1;
+        }
+
+        .mfp-arrow-left {
+            left: 0;
+        }
+
+        .mfp-arrow-right {
+            right: 0;
+        }
+
+        .mfp-iframe-holder {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .mfp-iframe-holder .mfp-content {
+            line-height: 0;
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .mfp-iframe-holder .mfp-close {
+            top: -40px;
+        }
+
+        .mfp-iframe-scaler {
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            padding-top: 56.25%;
+        }
+
+        .mfp-iframe-scaler iframe {
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            background: #000;
+        }
+
+        /* Main image in popup */
+        img.mfp-img {
+            width: auto;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            line-height: 0;
+            box-sizing: border-box;
+            padding: 40px 0 40px;
+            margin: 0 auto;
+        }
+
+        /* The shadow behind the image */
+        .mfp-figure {
+            line-height: 0;
+        }
+
+        .mfp-figure:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 40px;
+            bottom: 40px;
+            display: block;
+            right: 0;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            background: #444;
+        }
+
+        .mfp-figure small {
+            color: #BDBDBD;
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        .mfp-figure figure {
+            margin: 0;
+        }
+
+        .mfp-bottom-bar {
+            margin-top: -36px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            cursor: auto;
+        }
+
+        .mfp-title {
+            text-align: left;
+            line-height: 18px;
+            color: #F3F3F3;
+            word-wrap: break-word;
+            padding-right: 36px;
+        }
+
+        .mfp-image-holder .mfp-content {
+            max-width: 70%;
+            margin-top: 70PX;
+        }
+
+        .mfp-gallery .mfp-image-holder .mfp-figure {
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 800px) and (orientation: landscape),
+        screen and (max-height: 300px) {
+
+            /**
+       * Remove all paddings around the image on small screen
+       */
+            .mfp-img-mobile .mfp-image-holder {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .mfp-img-mobile img.mfp-img {
+                padding: 0;
+            }
+
+            .mfp-img-mobile .mfp-figure:after {
+                top: 0;
+                bottom: 0;
+            }
+
+            .mfp-img-mobile .mfp-figure small {
+                display: inline;
+                margin-left: 5px;
+            }
+
+            .mfp-img-mobile .mfp-bottom-bar {
+                background: rgba(0, 0, 0, 0.6);
+                bottom: 0;
+                margin: 0;
+                top: auto;
+                padding: 3px 5px;
+                position: fixed;
+                box-sizing: border-box;
+            }
+
+            .mfp-img-mobile .mfp-bottom-bar:empty {
+                padding: 0;
+            }
+
+            /* .mfp-img-mobile .mfp-counter {
+                right: 5px;
+                top: 3px;
+            } */
+
+            .mfp-img-mobile .mfp-close {
+                top: 0;
+                right: 0;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                background: rgba(0, 0, 0, 0.6);
+                position: fixed;
+                text-align: center;
+                padding: 0;
+            }
+        }
+
+        @media all and (max-width: 900px) {
+            .mfp-arrow {
+                -webkit-transform: scale(0.75);
+                transform: scale(0.75);
+            }
+
+            .mfp-arrow-left {
+                -webkit-transform-origin: 0;
+                transform-origin: 0;
+            }
+
+            .mfp-arrow-right {
+                -webkit-transform-origin: 100%;
+                transform-origin: 100%;
+            }
+
+            .mfp-container {
+                padding-left: 6px;
+                padding-right: 6px;
+            }
+        }
+
+        /* 
+*/
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list {
+            position: relative;
+            overflow: hidden;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-list:focus {
+            outline: none;
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track {
+            position: relative;
+            left: 0;
+            top: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slick-track:before,
+        .slick-track:after {
+            content: "";
+            display: table;
+        }
+
+        .slick-track:after {
+            clear: both;
+        }
+
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+
+        .slick-slide {
+            float: left;
+            height: 100%;
+            min-height: 1px;
+            display: none;
+        }
+
+        [dir=rtl] .slick-slide {
+            float: right;
+        }
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="work" onclick="workFunction();">
+        <div id="top" class="opp ">
+            <h2 id="page-title" class="wok_sep_work">
+                <a href="index.html " class="text-white ">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </a>
+                WORK
+            </h2>
+            <a href="index.html" class="new_burger hide-xs">
+                <img src="images/Compile_Folder-logo.png" class="work_logo" id="se_icon"></a>
+        </div>
+
+        <div class="d-flex justify-content-between " id="work_sep_reps">
+            <div class="hide-xs" style="margin-top: 44px;
+                                    margin-left: 25px;">
+                <a href="index.html " class="text-white wrk_link">
+                    <img src="images/right-arrow.svg" alt="" width="15px" style="margin-top: -1px;">
+                    <span class="">WORK</span></a>
+            </div>
+            <div class="logo">
+                <a href="index.html" class="new_burger hide-xs">
+                    <img src="images/Compile_Folder-logo.png" class="work_logo" id="se_icon"></a>
+            </div>
+        </div>
+
+        <div class=" text-center mt-4 floer">
+            <div class="mt-4 w-100  floor_nos flex-wrap "
+                style="justify-content: space-around;padding-left: 35px;padding-right: 20px;">
+                <div class="floor_plans_btns ss mt-1 active" id="1">
+                    <span>ALL
+                        <sup>24</sup></span>
+                </div>
+                <div class="floor_plans_btns ss mt-1" id="2">
+                    <span class="nav_types">
+                        <span class="nav_types">PACKAGING
+                            <sup>06</sup></span>
+                    </span>
+                </div>
+                <div class="floor_plans_btns ss mt-1" id="3">
+                    <span class="nav_types"><span class="nav_types">BRANDING
+                            <sup>06</sup></span></span>
+                </div>
+                <div class="floor_plans_btns ss mt-1" id="4">
+                    <span class="nav_types"><span class="nav_types">LOGOFOLIO <sup>06</sup></span></span>
+                </div>
+                <div class="floor_plans_btns ss mt-1" id="5">
+                    <span class="nav_types"><span class="nav_types">ILLUSTRATION <sup>09</sup></span></span>
+                </div>
+                <div class="floor_plans_btns ss mt-1" id="6">
+                    <span class="nav_types"><span class="nav_types">PRINT MEDIA <sup>03</sup></span></span>
+                </div>
+                <div class="floor_plans_btns ss mt-1" id="7">
+                    <span class="nav_types"><span class="nav_types">DIGITAL COMMUNICATION
+                            <sup>03</sup></span></span>
+                </div>
+                <div class="floor_plans_btns ss mt-1" id="8">
+                    <span class="nav_types"><span class="nav_types">SOCIAL MEDIA <sup>03</sup></span></span>
+                </div>
+                <script type="text/javascript">
+                    $(document).on('click', '.floer,.floor_nos, .floor_plans_btns', function () {
+                        $(this).addClass('active').siblings().removeClass('active')
+                    })
+                </script>
+            </div>
+
+            <div class="topnav mob_nav">
+
+                <div id="myLinks" style="display: none;line-height:1rem">
+                    <a href="#" class="ss" id="1" onclick="myFunction();">All</a>
+                    <a href="#" class="ss" id="2" onclick="myFunction();"><span class="nav_types">PACKAGING
+                            <sup>06</sup></span></a>
+                    <a href="#" class="ss" id="3" onclick="myFunction();"><span class="nav_types">BRANDING
+                            <sup>06</sup></span></a>
+                    <a href="#news" class="ss" id="4" onclick="myFunction();"><span class="nav_types">LOGOFOLIO
+                            <sup>06</sup></span></a>
+                    <a href="#contact" class="ss" id="5" onclick="myFunction();"><span class="nav_types">ILLUSTRATION
+                            <sup>09</sup></span></a>
+                    <a href="#about" class="ss" id="6" onclick="myFunction();"><span class="nav_types">PRINT
+                            MEDIA
+                            <sup>03</sup></span></a>
+                    <a href="#news" class="ss" id="7" onclick="myFunction();"><span class="nav_types">DIGITAL
+                            COMMUNICATION
+                            <sup>03</sup></span></a>
+                    <a href="#contact" class="ss" id="8" onclick="myFunction();"><span class="nav_types">SOCIAL
+                            MEDIA
+                            <sup>03</sup></span></a>
+                </div>
+                <div class="" style="
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 15px;
+                        ">
+                    <div onclick="window.location.href='index.html'"><span class="text-white" style="
+                                                                    /* margin-left: -15px !important; */
+                                                                    /* margin-right: 28px !important; */
+                                                                "> <img src="images/right-arrow.svg" alt=""
+                                width="15px" style="margin-top: -1px;"><span class="pl-1">WORK</span></span>
+                    </div>
+                    <div>
+                        <span href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <img src="images/icons-02.png" style="width:22px;color: #fff;"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div id="io" style="">
+    
+                    <div class="btn ss " id="1" class="active" style="">
+    
+                        <a class="active" style="">ALL
+                            <sup>24</sup>
+                        </a>
+    
+                    </div>
+    
+                    <div class="btn ss mt-1 " id="2">
+    
+                        <a> <span class="nav_types">PACKAGING
+                                <sup>06</sup></span>
+                        </a>
+    
+                    </div>
+    
+                    <div class="btn ss mt-1" id="3">
+                        <a><span class="nav_types">BRANDING 
+                            <sup>03</sup></span>
+                        </a>
+                    </div>
+    
+                    <div class="btn ss mt-1" id="4">
+    
+                        <a><span class="nav_types">LOGOFOLIO <sup>06</sup></span></a>
+    
+                    </div>
+    
+                    <div class="btn ss mt-1" id="5">
+    
+                        <a> <span class="nav_types">ILLUSTRATION <sup>09</sup></span></a>
+    
+                    </div>
+    
+                    <div class="btn ss mt-1" id="6">
+    
+                        <a><span class="nav_types">PRINT MEDIA <sup>03</sup></span></a>
+    
+                    </div>
+    
+                    <div class="btn ss mt-1" id="7">
+    
+                        <a> <span class="nav_types">DIGITAL COMMUNICATION <sup>03</sup></span></a>
+    
+                    </div>
+    
+                    <div class="btn ss mt-1" id="8">
+    
+                        <a> <span class="nav_types">SOCIAL MEDIA <sup>03</sup></span></a>
+    
+                    </div>
+    
+    
+                </div> -->
+
+            <br class="breakng">
+
+            <div class="portfolio sshide pb-4 mob_img_resp items_spacing_mobile" id="ss1" style="">
+                <div id="gallery">
+
+                    <div id="image-gallery">
+                        <div class="row d-flex m-2 flex-row">
+                            <div class="col-md-4">
+                                <div class="image">
+                                    <a href="pure_cult.html" style="color: #FFF;"> <img
+                                            src="images/Packaging/PureCult01.jpg" width="100%" />
+                                        <div class="img_title">
+                                            <span class="text-white">
+                                                Purecult
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image">
+                                    <a href="artcurate.html"> <img src="images/All/Artcurate.jpg" width="100%" />
+                                        <div class="img_title">
+                                            <span class="text-white">
+                                                Artcurate
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+
+                                <div class="image">
+
+                                    <a href="almond_house.html">
+
+                                        <img src="images/Packaging/Almond House-03.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">
+
+                                                Almond House
+
+                                            </span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="anand_sweets.html">
+
+                                        <img src="images/Packaging/Anand Sweets-04.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">
+
+                                                Anand Sweets
+
+                                            </span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="smoor.html">
+
+                                        <img src="images/All/Smoor-True Coverture Chhocolates.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">
+
+                                                Smoor - True Couverture Chocolates
+
+                                            </span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="golf_chaps.html"> <img src="images/All/Golf Chapps.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">
+
+                                                Golf Chaps
+
+                                            </span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="social.html">
+
+                                        <img src="images/print/Social 01.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">
+
+                                                Social Offline
+
+                                            </span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="ekaa.html">
+
+                                        <img src="images/Ekaa Furniture _ Decor.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">
+
+                                                Ekaa Furniture & Decor
+
+                                            </span>
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <!-- <div class="col-md-4 mt-4">
+        
+                                        <div class="image">
+        
+                                            <a href="homezy.html" target="_blank"> <img
+                                                    src="images/All/Homezy - Love for Local.jpg" width="100%" /></a>
+        
+                                            <div class="img_title">
+        
+                                                <span class="text-white">Homezy - Love for Local</span>
+        
+                                            </div>
+        
+                                        </div>
+        
+                                    </div> -->
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="homezy.html">
+
+                                        <img src="images/All/Homezy - Love for Local.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Homezy - Love for Local</span>
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="daily_hunt.html">
+
+                                        <img src="images/All/Dailyhunt.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Dailyhunt</span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="bb_infra.html" >
+
+                                        <img src="images/All/B_B Infra.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">B&B Infra</span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="aura.html">
+
+                                        <img src="images/Packaging/Aura-05.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Aura - Pure & Fresh</span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <!-- <div class="col-md-4 items_top_spac">
+        
+                                            <div class="image">
+        
+                                                <a href="">
+        
+                                                    <img src="images/illustration/The Dirty Picture.jpg" width="100%" />
+        
+                                                    <div class="img_title">
+        
+                                                        <span class="text-white">The Dirty Picture</span>
+        
+                                                    </div>
+        
+                                                </a>
+        
+                                            </div>
+        
+                                        </div> -->
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="" data-toggle="modal" data-target="#exampleModalCenter334"> <img
+                                            src="images/illustration/The Dirty Picture.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">The Dirty Picture</span>
+
+                                        </div>
+
+                                    </a>
+                                    <div class="modal fade bd-example-modal-lg" id="exampleModalCenter334" tabindex="-1"
+                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                                        style="z-index: 9999;background-color: rgba(0, 0, 0, 0.6);">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                            <div>
+                                                <div class="">
+                                                    <button type="button" class="close"
+                                                        style="
+                                                                                                            position: absolute;
+                                                                                                            z-index: 999;
+                                                                                                            left: 81%;
+                                                                                                            text-shadow: 1px 1px 2px black;
+                                                                                                            color: #fff;top: 12%;">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/illustration/Illustration gallery-03.jpg"
+                                                        style="width:100%" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="Le_pure.html">
+
+                                        <img src="images/Packaging/LePure.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">LePure Chocolates</span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="" data-toggle="modal" data-target="#exampleModalCenter33"> <img
+                                            src="images/illustration/Full Circle.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Full Circle</span>
+
+                                        </div>
+
+                                    </a>
+                                    <div class="modal fade bd-example-modal-lg" id="exampleModalCenter33" tabindex="-1"
+                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                                        style="z-index: 9999;background-color: rgba(0, 0, 0, 0.6);">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                            <div>
+                                                <div class="">
+                                                    <button type="button" class="close" style="
+                                                                            position: absolute;
+                                                                            z-index: 999;
+                                                                            left: 81%;
+                                                                            text-shadow: 1px 1px 2px black;
+                                                                            color: #fff;top: 12%;">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/illustration/Illustration gallery-02.jpg"
+                                                        style="width:100%" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="Chhaa_jaa.html">
+
+                                        <img src="images/All/Chhaa Jaa.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Chhaa Jaa</span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="Thomas.html">
+
+                                        <img src="images/All/Thomas Assessments.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Thomas Assessments</span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="compile.html">
+
+                                        <img src="images/digital/Compile.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Compile Healthgraphs</span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 items_top_spac">
+
+                                <div class="image">
+
+                                    <a href="blore.html">
+
+                                        <img src="images/All/Bangalore Steiner School.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Bangalore Steiner School</span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4 items_top_spac">
+                                <div class="image">
+
+                                    <a href="" data-toggle="modal" data-target="#exampleModalCenter2">
+
+                                        <img src="images/All/Khullam Khulla.jpg" width="100%" />
+
+                                        <div class="img_title">
+
+                                            <span class="text-white">Khullam Khulla</span>
+
+                                        </div>
+
+                                    </a>
+                                    <style>
+                                        .modal-backdrop {
+                                            z-index: -1;
+                                        }
+                                    </style>
+                                    <div class="modal fade bd-example-modal-lg" id="exampleModalCenter2" tabindex="-1"
+                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                                        style="z-index: 9999;background-color: rgba(0, 0, 0, 0.6);">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                            <div>
+                                                <div class="">
+                                                    <button type="button" class="close" style="
+                                                                    position: absolute;
+                                                                    z-index: 999;
+                                                                    left: 81%;text-shadow: 1px 1px 2px black;
+                                                                    top: 12%;
+                                                                    color: #fff;
+                                                                    ">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/logofolio/Logofolio Gallery-2.jpg"
+                                                        style="width:100%" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 items_top_spac">
+                                <div class="image">
+                                    <a href="" data-toggle="modal" data-target="#exampleModalCenter3">
+                                        <img src="images/All/aura grand.jpg" width="100%" />
+                                        <div class="img_title">
+                                            <span class="text-white">Aura Grand</span>
+                                        </div>
+                                    </a>
+                                    <style>
+                                        .modal-backdrop {
+                                            z-index: -1;
+                                        }
+                                    </style>
+                                    <div class="modal fade bd-example-modal-lg" id="exampleModalCenter3" tabindex="-1"
+                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                                        style="z-index: 9999;background-color: rgba(0, 0, 0, 0.6);">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                            <div>
+                                                <div class="">
+                                                    <button type="button" class="close" style="position: absolute;
+                                                                    z-index: 999;
+                                                                    left: 81%;text-shadow: 1px 1px 2px black;
+                                                                    top:12%;color: #fff;">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/logofolio/Logofolio Gallery-3.jpg"
+                                                        style="width:100%" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-4 items_top_spac">
+        
+                                            <div class="image">
+                                                <a href="work.html">
+                                                    <img src="images/All/aura grand.jpg" width="100%" />
+        
+                                                    <div class="img_title">
+        
+                                                        <span class="text-white">
+        
+                                                            Aura Grand
+        
+                                                        </span>
+        
+                                                    </div>
+                                                </a>
+        
+                                            </div>
+        
+                                        </div> -->
+
+                            <!-- <div class="col-md-4 items_top_spac">
+        
+                                            <div class="image">
+        
+                                                <a href="">
+        
+                                                    <img src="images/All/khara by Almond Hhouse.jpg" width="100%" />
+        
+                                                    <div class="img_title">
+        
+                                                        <span class="text-white">Khara by Almond House</span>
+        
+                                                    </div>
+        
+                                                </a>
+        
+                                            </div>
+        
+                                        </div> -->
+                            <div class="col-md-4 items_top_spac">
+                                <div class="image">
+                                    <a href="" data-toggle="modal" data-target="#exampleModalCenter4">
+                                        <img src="images/All/khara by Almond Hhouse.jpg" width="100%" />
+                                        <div class="img_title">
+                                            <span class="text-white">Khara by Almond House</span>
+                                        </div>
+                                    </a>
+                                    <style>
+                                        .modal-backdrop {
+                                            z-index: -1;
+                                        }
+                                    </style>
+                                    <div class="modal fade bd-example-modal-lg" id="exampleModalCenter4" tabindex="-1"
+                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                                        style="z-index: 9999;background-color: rgba(0, 0, 0, 0.6);">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                            <div>
+                                                <div class="">
+                                                    <button type="button" class="close" style="position: absolute;
+                                                                                left: 81%;
+                                                                                top: 17%;
+                                                                                z-index: 999;text-shadow: 1px 1px 2px black;
+                                                                                top: 12%;color: #fff;">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/logofolio/Logofolio Gallery-4.jpg"
+                                                        style="width:100%" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 items_top_spac">
+                                <div class="image">
+                                    <a href="" data-toggle="modal" data-target="#exampleModalCenter5">
+                                        <img src="images/All/arre sunn na.jpg" width="100%" />
+                                        <div class="img_title">
+                                            <span class="text-white">Arre Sunn Na</span>
+                                        </div>
+                                    </a>
+                                    <style>
+                                        .modal-backdrop {
+                                            z-index: -1;
+                                        }
+                                    </style>
+                                    <div class="modal fade bd-example-modal-lg" id="exampleModalCenter5" tabindex="-1"
+                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                                        style="z-index: 9999;background-color: rgba(0, 0, 0, 0.6);">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                            <div>
+                                                <div class="">
+                                                    <button type="button" class="close" style="position: absolute;
+                                                                    z-index: 999;
+                                                                    left: 81%;text-shadow: 1px 1px 2px black;
+                                                                    top: 12%; color: #fff;">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/logofolio/Logofolio Gallery-1.jpg"
+                                                        style="width:100%" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-4 items_top_spac">
+        
+                                            <div class="image">
+        
+                                                <a href="">
+        
+                                                    <img src="images/All/arre sunn na.jpg" width="100%" />
+        
+                                                    <div class="img_title">
+        
+                                                        <span class="text-white">Arre Sunn Na</span>
+        
+                                                    </div>
+        
+                                                </a>
+        
+                                            </div>
+        
+                                        </div> -->
+
+                            <!-- <div class="col-md-4 items_top_spac">
+        
+                                            <div class="image">
+        
+                                                <a href="">
+        
+                                                    <img src="images/All/Full Circle Brewery.jpg" width="100%" />
+        
+                                                    <div class="img_title">
+        
+                                                        <span class="text-white">Full Circle Brewery</span>
+        
+                                                    </div>
+        
+                                                </a>
+        
+                                            </div>
+        
+                                        </div> -->
+                            <div class="col-md-4 items_top_spac">
+                                <div class="image">
+                                    <a href="" data-toggle="modal" data-target="#exampleModalCenter6">
+                                        <img src="images/All/Full Circle Brewery.jpg" width="100%" />
+                                        <div class="img_title">
+                                            <span class="text-white">Full Circle Brewery</span>
+                                        </div>
+                                    </a>
+                                    <style>
+                                        .modal-backdrop {
+                                            z-index: -1;
+                                        }
+                                    </style>
+                                    <div class="modal fade bd-example-modal-lg" id="exampleModalCenter6" tabindex="-1"
+                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                                        style="z-index: 9999;background-color: rgba(0, 0, 0, 0.7);">
+                                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                            <div class="">
+                                                <div>
+                                                    <button type="button" class="close" style="position: absolute;
+                                                                        z-index: 999;
+                                                                        left: 81%;text-shadow: 1px 1px 2px black;
+                                                                        top: 12%;color: #fff;">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/logofolio/Logofolio Gallery-5.jpg"
+                                                        style="width:100%" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <img id="ftr" src="images/horizontal white-01.svg" />
+
+            </div>
+
+            <!-- <img id="ftr" src="images/horizontal white-01.svg" /> -->
+
+        </div>
+
+        <!-- <div class="filterDiv brand image">
+    
+                        <img src="images/branding/golf-chapps.jpg" />
+    
+                    </div>
+    
+                    <div class="filterDiv brand image">
+    
+                        <img src="images/branding/dailyhunt.jpg" />
+    
+                    </div>
+    
+                    <div class="filterDiv brand image">
+    
+                        <img src="images/branding/purecult.jpg" />
+    
+                    </div>
+    
+                    <div class="filterDiv brand image">
+    
+                        <img src="images/branding/ekaa.jpg" />
+    
+                    </div>
+    
+                    <div class="filterDiv brand image">
+    
+                        <img src="images/branding/homezy.jpg" />
+    
+                    </div>
+    
+                    <div class="filterDiv brand image">
+    
+                        <img src="images/branding/bridge-postworks.jpg" />
+    
+                    </div>
+    
+                    <div class="filterDiv pack image"></div>
+    
+                    <div class="filterDiv ill image"></div>
+    
+                    <div class="filterDiv print image"></div>
+    
+                    <div class="filterDiv print image"></div>
+    
+                    <div class="filterDiv dig image"></div>
+    
+                    <div class="filterDiv dig image"></div>
+    
+                    <div class="filterDiv pub image"></div> -->
+
+        <div class="portfolio sshide pb-4 mob_img_resp" id="ss2" style="">
+            <div id="gallery">
+                <div id="image-gallery">
+                    <div class="row d-flex m-2 flex-row">
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="pure_cult.html" style="color: #FFF;"> <img
+                                        src="images/Packaging/PureCult01.jpg" width="100%" />
+                                    <div class="img_title">
+                                        <span class="text-white">
+                                            Purecult
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="smoor.html">
+
+                                    <img src="images/All/Smoor-True Coverture Chhocolates.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Smoor-True Coverture Chhocolates
+
+                                        </span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+
+                            <div class="image">
+
+                                <a href="almond_house.html">
+
+                                    <img src="images/Packaging/Almond House-03.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Almond House
+
+                                        </span>
+
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 items_top_spac">
+
+                            <div class="image">
+
+                                <a href="anand_sweets.html">
+
+                                    <img src="images/Packaging/Anand Sweets-04.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Anand Sweets
+
+                                        </span>
+
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 items_top_spac">
+
+                            <div class="image">
+
+                                <a href="aura.html">
+
+                                    <img src="images/Packaging/Aura-05.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Aura
+
+                                        </span>
+
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 items_top_spac">
+
+                            <div class="image">
+
+                                <a href="Le_pure.html">
+
+                                    <img src="images/Packaging/LePure.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">Le Pure Chocolates</span>
+
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="portfolio sshide pb-4 mob_img_resp" id="ss3" style="">
+            <div id="gallery">
+                <div id="image-gallery">
+                    <div class="row d-flex m-2 flex-row">
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="golf_chaps.html"> <img src="images/branding/Golff Chapps_IGCL.jpg"
+                                        width="100%" />
+                                    <div class="img_title">
+                                        <span class="text-white">Golf Chaps</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="artcurate.html">
+                                    <img src="images/branding/Artcurate.jpg" width="100%" />
+                                    <div class="img_title">
+                                        <span class="text-white">
+                                            Artcurate
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="pure_cult.html">
+                                    <img src="images/branding/PureCult.jpg" width="100%" />
+                                    <div class="img_title">
+                                        <span class="text-white">Purecult</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 items_top_spac">
+                            <div class="image">
+                                <a href="ekaa.html">
+                                    <img src="images/branding/Ekaa Furniture _ Decor.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">Ekaa Furniture & Decor</span>
+
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 items_top_spac">
+
+                            <div class="image">
+
+                                <a href="homezy.html">
+
+                                    <img src="images/branding/Homezy - Love for Local.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">Homezy - Love for Local</span>
+
+                                    </div>
+
+                                </a>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 items_top_spac">
+
+                            <div class="image">
+
+                                <a href="daily_hunt.html">
+
+                                    <img src="images/branding/Dailyunt.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">Dailyhunt</span>
+
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="portfolio sshide pb-4 mob_img_resp items_spacing_mobile" id="ss4" style="">
+
+            <div id="gallery">
+                <div id="image-gallery">
+                    <div class="row d-flex m-2 flex-row popup-gallery">
+                        <li class="col-md-4 d-flex">
+                            <div class="image">
+                                <a href="images/logofolio/Logofolio Gallery-1.jpg">
+                                    <img src="images/logofolio/arre sunn na.jpg" alt="" width="100%">
+                                    <div class="img_title">
+                                        <span class="text-white">Arre Sunn Na</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-md-4 d-flex">
+                            <div class="image">
+                                <a href=" images/logofolio/Logofolio Gallery-2.jpg">
+                                    <img src="images/logofolio/Khullam Khulla.jpg" alt="" width="100%">
+                                    <div class="img_title">
+
+                                        <span class="text-white">Khullam Khulla</span>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-md-4 d-flex">
+                            <div class="image">
+                                <a href="images/logofolio/Logofolio Gallery-3.jpg">
+                                    <img src="images/logofolio/aura grand.jpg" alt="" width="100%">
+                                    <div class="img_title">
+
+                                        <span class="text-white">Aura grand</span>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image">
+                                <a href="images/logofolio/Logofolio Gallery-4.jpg">
+                                    <img src="images/logofolio/khara.jpg" alt="" width="100%">
+                                    <div class="img_title">
+
+                                        <span class="text-white">Khara</span>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+
+
+
+                        <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image">
+                                <a href="images/logofolio/Logofolio Gallery-5.jpg">
+                                    <img src="images/logofolio/full circle.jpg" alt="" width="100%">
+                                    <div class="img_title">
+
+                                        <span class="text-white">Full Circle</span>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image">
+                                <a href="images/logofolio/Logofolio Gallery-6.jpg">
+                                    <img src="images/logofolio/jyodas.jpg" alt="" width="100%">
+                                    <div class="img_title">
+
+                                        <span class="text-white">Jyodus
+                                        </span>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="portfolio sshide pb-4 mob_img_resp items_spacing_mobile" id="ss5" style="">
+            <div id="gallery">
+                <div id="image-gallery">
+                    <div class="row d-flex m-2 flex-row popup-gallery1">
+                        <li class="col-md-4 d-flex">
+                            <div class="image">
+                                <a href="images/illustration/Illustration gallery-01.jpg">
+
+                                    <img src="images/illustration/Pure Cult - Clean Earth.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Purecult - Clean Earth</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-md-4 d-flex">
+                            <div class="image">
+                                <a href=" images/illustration/Illustration gallery-02.jpg">
+
+                                    <img src="images/illustration/Full Circle.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Full Circle</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-md-4 d-flex">
+                            <div class="image">
+                                <a href="images/illustration/Illustration gallery-03.jpg">
+
+                                    <img src="images/illustration/The Dirty Picture.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            The Dirty Picture</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image">
+                                <a href="images/illustration/Illustration gallery-04.jpg">
+
+
+                                    <img src="images/illustration/homezy chefs.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Homezy Foods </span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image"><a href="images/illustration/Illustration gallery-05.jpg">
+
+                                    <img src="images/illustration/Homezy food.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Homezy chefs</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image"><a href="images/illustration/Illustration gallery-06.jpg">
+
+                                    <img src="images/illustration/Homezy Delivery.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Homezy Delivery</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image"> <a href="images/illustration/Illustration gallery-07.jpg">
+
+                                    <img src="images/illustration/Thhe complete picture.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            The Complete picture</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image"> <a href="images/illustration/Illustration gallery-08.jpg">
+
+                                    <img src="images/illustration/Ramayan Re-imagined.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Ramayan Re-imagined</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+                        <!-- <li class="col-md-4 items_top_spac d-flex">
+                            <div class="image"> <a href="images/illustration/Illustration gallery-09.jpg">
+
+                                    <img src="images/illustration/India Today.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            India Today</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li> -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="portfolio sshide pb-4 mob_img_resp" id="ss6" style="">
+            <div id="gallery">
+                <div id="image-gallery">
+                    <div class="row d-flex m-2 flex-row">
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="social.html">
+
+                                    <img src="images/print/Social 01.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">Social Offline</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="bb_infra.html">
+
+                                    <img src="images/print/B_B Infra 02.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">B&B Infra</span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+
+                            <div class="image">
+
+                                <a href="blore.html">
+
+                                    <img src="images/print/Steiner School 03.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">Steiner School</span>
+
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="portfolio sshide pb-4 mob_img_resp" id="ss7" style="">
+            <div id="gallery">
+                <div id="image-gallery">
+                    <div class="row d-flex m-2 flex-row">
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="Chhaa_jaa.html">
+
+                                    <img src="images/digital/Chhaa Jaa.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Chhaa Jaa
+
+                                        </span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="image">
+                                <a href="compile.html">
+
+                                    <img src="images/digital/Compile.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+
+                                            Complie Healthgraphs
+
+                                        </span>
+
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+
+                            <div class="image">
+
+                                <a href="Thomas.html">
+
+                                    <img src="images/digital/ThomasAssessments.jpg" width="100%" />
+
+                                    <div class="img_title">
+
+                                        <span class="text-white">
+                                            Thomas Assessments
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio sshide " id="ss8">
+            <div class="text-center coming_soon_div">
+                <span class="text-white" style="font-family:fn1;font-size:28px;">Coming Soon...</span>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="portfolio sshide pb-4" id="ss2" style="padding-left: 30px;
+
+    padding-right: 30px;">
+
+        <div class="row d-flex m-2 flex-row">
+
+            <div class="col-md-4 ">
+
+                <div class="image">
+
+                    <a href="pure_cult.html" target="_blank"><img src="images/Packaging/PureCult01.jpg"
+                            width="100%" /></a>
+
+                    <div class="img_title">
+
+                        <span class="text-white">Pusssre Cult</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 ">
+
+                <div class="image">
+
+                    <a href="smoor.html" target="_blank"><img src="images/Packaging/Smoor-02.jpg" width="100%" /></a>
+
+                    <div class="img_title">
+
+                        <span class="text-white">Smoor</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="image">
+
+                    <a href="almond_house.html" target="_blank"><img src="images/Packaging/Almond House-03.jpg"
+                            width="100%" /></a>
+
+                    <div class="img_title">
+
+                        <span class="text-white">Almond House</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mt-5">
+
+                <div class="image">
+
+                    <a href="anand_sweets.html" target="_blank"><img src="images/Packaging/Anand Sweets-04.jpg"
+                            width="100%" /></a>
+
+                    <div class="img_title">
+
+                        <span class="text-white">Anand Sweets</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mt-5">
+
+                <div class="image">
+
+                    <a href="aura.html" target="_blank"><img src="images/Packaging/Aura-05.jpg" width="100%" /></a>
+
+                    <div class="img_title">
+
+                        <span class="text-white">Aura</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mt-5">
+
+                <div class="image">
+
+                    <a href="Le_pure.html">
+
+                        <img src="images/Packaging/LePure Chocolatiers-06.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">Le Pure</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="portfolio sshide pb-4" id="ss3" style="padding-left: 30px;
+
+    padding-right: 30px;">
+
+        <div id="gallery">
+
+            <div id="image-gallery">
+
+                <div class="row d-flex m-2 flex-row">
+
+                    <div class="col-md-4 ">
+
+                        <div class="image">
+
+                            <a href="golf_chaps.html"> <img src="images/branding/Golff Chapps_IGCL.jpg" width="100%" />
+
+                                <div class="img_title">
+
+                                    <span class="text-white">Golf Chaps</span>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class=" col-md-4 ">
+
+                        <div class=" image">
+
+                            <a href="artcurate.html">
+
+                                <img src="images/branding/Artcurate.jpg" width="100%" />
+
+                                <div class="img_title">
+
+                                    <span class="text-white">
+
+                                        Artcurate
+
+                                    </span>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <div class="image">
+
+                            <a href="pure_cult.html">
+
+                                <img src="images/branding/PureCult.jpg" width="100%" />
+
+                                <div class="img_title">
+
+                                    <span class="text-white">Pure Cult</span>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 mt-5">
+
+                        <div class="image">
+
+                            <a href="">
+
+                                <img src="images/branding/Ekaa Furniture _ Decor.jpg" width="100%" />
+
+                                <div class="img_title">
+
+                                    <span class="text-white">Ekaa Furniture Decor</span>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4  mt-5">
+
+                        <div class="image">
+
+                            <a href="homezy.html">
+
+                                <img src="images/branding/Homezy - Love for Local.jpg" width="100%" />
+
+                                <div class="img_title">
+
+                                    <span class="text-white">Homezy - Love for Local</span>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 mt-5">
+
+                        <div class="image">
+
+                            <a href="daily_hunt.html">
+
+                                <img src="images/branding/Dailyhunt.jpg" width="100%" />
+
+                                <div class="img_title">
+
+                                    <span class="text-white">Dailyhunt</span>
+
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- <div class="p-4">
+
+                    <span style="color: #fff;font-family: fn1;">Coming Soon</span>
+
+                </div>
+
+                <div class="row justify-content-center">
+
+                    <div class="col-md-12 ml-5">
+
+                        <div class="multiple-items">
+
+                            <div class="items">
+
+                                <img src="images/branding/golf-chapps.jpg" width="90%" />
+
+                            </div>
+
+                            <div class="items">
+
+                                <img src="images/branding/dailyhunt.jpg" width="90%" />
+
+                            </div>
+
+                            <div class="items">
+
+                                <img src="images/branding/golf-chapps.jpg" width="90%" />
+
+                            </div>
+
+                            <div class="items">
+
+                                <img src="images/branding/dailyhunt.jpg" width="90%" />
+
+                            </div>
+
+                            <div class="items">
+
+                                <img src="images/branding/ekaa.jpg" width="90%" />
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div> -->
+
+    </div>
+
+    <div class="portfolio sshide pb-4" id="ss4" style="padding-left: 30px;
+
+    padding-right: 30px;">
+        <div class=" row popup-gallery">
+            <li class="col-md-4">
+                <a href="images/logofolio/1.jpg">
+                    <img src="images/logofolio/1.jpg" alt="" width="100%">
+                    <div class="img_title">
+
+                        <span class="text-white">Arre Sunn Na</span>
+
+                    </div>
+                </a>
+            </li>
+
+            <li class="col-md-4">
+                <a href="images/logofolio/2.jpg">
+                    <img src="images/logofolio/2.jpg" alt="" width="100%">
+                    <div class="img_title">
+
+                        <span class="text-white">Khullam Khulla</span>
+
+                    </div>
+                </a>
+            </li>
+            <li class="col-md-4">
+                <a href="images/logofolio/3.jpg">
+                    <img src="images/logofolio/3.jpg" alt="" width="100%">
+                    <div class="img_title">
+
+                        <span class="text-white">Aura grand</span>
+
+                    </div>
+                </a>
+            </li>
+            <li class="col-md-4 ">
+                <a href="images/logofolio/4.jpg">
+                    <img src="images/logofolio/4.jpg" alt="" width="100%">
+                    <div class="img_title">
+
+                        <span class="text-white">Khara</span>
+
+                    </div>
+                </a>
+            </li>
+            <li class="col-md-4">
+                <a href="images/logofolio/5.jpg">
+                    <img src="images/logofolio/5.jpg" alt="" width="100%">
+                    <div class="img_title">
+
+                        <span class="text-white">Full Circle</span>
+
+                    </div>
+                </a>
+            </li>
+            <li class="col-md-4">
+                <a href="images/logofolio/6.jpg">
+                    <img src="images/logofolio/6.jpg" alt="" width="100%">
+                    <div class="img_title">
+
+                        <span class="text-white">Jyodus
+                        </span>
+
+                    </div>
+                </a>
+            </li>
+        </div>
+
+        <!-- <div class="row d-flex m-2 flex-row" id="lightgall">
+
+                <div class="col-md-4 image" data-src="images/logofolio/1.jpg">
+
+                    <a href="images/logofolio/1.jpg">
+
+                        <img src="images/logofolio/1.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">Arre Sunn Na</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-4 image" data-src="images/logofolio/2.jpg">
+
+                    <a href="images/logofolio/2.jpg">
+
+                        <img src="images/logofolio/2.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">Khullam Khulla</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-4 image" data-src="images/logofolio/3.jpg">
+
+                    <a href="images/logofolio/3.jpg">
+
+                        <img src="images/logofolio/3.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">Aura grnada</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-4 mt-5 image" data-src="images/logofolio/4.jpg">
+
+                    <a href="images/logofolio/4.jpg">
+
+                        <img src="images/logofolio/4.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">Khara</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-4 mt-5 image" data-src="images/logofolio/5.jpg">
+
+                    <a href="images/logofolio/5.jpg">
+
+                        <img src="images/logofolio/5.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">
+
+                                Full circle</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-4 mt-5 image" data-src="images/logofolio/6.jpg">
+
+                    <a href="images/logofolio/6.jpg">
+
+                        <img src="images/logofolio/6.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">Jyodas</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div> -->
+
+    </div>
+
+    <div class="portfolio sshide " id="ss5" style="padding-left: 30px;
+
+    padding-right: 30px;">
+
+        <!-- <div class="row d-flex m-2 flex-row" id="lightgall1">
+
+                    <div class="col-md-4 image" data-src="images/illustration/1.jpg">
+
+                        <a href="images/illustration/1.jpg">
+
+                            <img src="images/illustration/1.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    Pure Cult - Clean Earth</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-4 image" data-src="images/illustration/2.jpg">
+
+                        <a href="images/illustration/2.jpg">
+
+                            <img src="images/illustration/2.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    Full Circle</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-4 image" data-src="images/illustration/3.jpg">
+
+                        <a href="images/illustration/3.jpg">
+
+                            <img src="images/illustration/The Dirty Picture.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    The Dirty Picture</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-4 mt-5 image" data-src="images/illustration//4.jpg">
+
+                        <a href="images/illustration//4.jpg">
+
+                            <img src="images/illustration//4.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    India Today</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-4 mt-5 image" data-src="images/illustration/5.jpg">
+
+                        <a href="images/illustration/5.jpg">
+
+                            <img src="images/illustration/5.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    Homezy chefs</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-4 mt-5 image" data-src="images/illustration/6.jpg">
+
+                        <a href="images/illustration/6.jpg">
+
+                            <img src="images/illustration/6.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    Homezy Delivery</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-4 mt-5 image" data-src="images/illustration/7.jpg">
+
+                        <a href="images/illustration/7.jpg">
+
+                            <img src="images/illustration/Thhe complete picture.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    The Complete picture</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-4 mt-5 image" data-src="images/illustration/8.jpg">
+
+                        <a href="images/illustration/8.jpg">
+
+                            <img src="images/illustration/8.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    Ramayan Re-imagined</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-4 mt-5 image" data-src="images/illustration/9.jpg">
+
+                        <a href="images/illustration/9.jpg">
+
+                            <img src="images/illustration/9.jpg" width="100%" />
+
+                            <div class="img_title">
+
+                                <span class="text-white">
+
+                                    India Today</span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                </div> -->
+        <div class=" row popup-gallery mb-4">
+            <li class="col-md-4">
+                <a href="images/illustration/1.jpg">
+
+                    <img src="images/illustration/1.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            Purecult - Clean Earth</span>
+
+                    </div>
+
+                </a>
+            </li>
+
+            <li class="col-md-4">
+                <a href="images/illustration/2.jpg">
+
+                    <img src="images/illustration/2.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            Full Circle</span>
+
+                    </div>
+
+                </a>
+            </li>
+            <li class="col-md-4">
+                <a href="images/illustration/3.jpg">
+
+                    <img src="images/illustration/The Dirty Picture.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            The Dirty Picture</span>
+
+                    </div>
+
+                </a>
+            </li>
+            <li class="col-md-4 mt-4">
+                <a href="images/illustration//4.jpg">
+
+                    <img src="images/illustration//4.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            Homezy Foods </span>
+
+                    </div>
+
+                </a>
+            </li>
+            <li class="col-md-4 mt-4">
+                <a href="images/illustration/5.jpg">
+
+                    <img src="images/illustration/5.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            Homezy chefs</span>
+
+                    </div>
+
+                </a>
+            </li>
+            <li class="col-md-4 mt-4">
+                <a href="images/illustration/6.jpg">
+
+                    <img src="images/illustration/6.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            Homezy Delivery</span>
+
+                    </div>
+
+                </a>
+            </li>
+            <li class="col-md-4 mt-4">
+                <a href="images/illustration/7.jpg">
+
+                    <img src="images/illustration/Thhe complete picture.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            The Complete picture</span>
+
+                    </div>
+
+                </a>
+            </li>
+            <li class="col-md-4 mt-4">
+                <a href="images/illustration/8.jpg">
+
+                    <img src="images/illustration/8.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            Ramayan Re-imagined</span>
+
+                    </div>
+
+                </a>
+            </li>
+            <li class="col-md-4 mt-4">
+                <a href="images/illustration/9.jpg">
+
+                    <img src="images/illustration/9.jpg" width="100%" />
+
+                    <div class="img_title1">
+
+                        <span class="text-white">
+
+                            India Today</span>
+
+                    </div>
+
+                </a>
+            </li>
+        </div>
+    </div>
+
+    <div class="portfolio sshide" id="ss6" style="padding-left: 30px;
+    
+        padding-right: 30px;">
+
+        <div class="row d-flex flex-row mb-4">
+
+            <div class="col-md-4 mt-4 image">
+
+                <div class="image">
+
+                    <a href="social.html">
+
+                        <img src="images/print/Social 01.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">Social Offline</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mt-4 image">
+
+                <div class="image">
+
+                    <a href="bb_infra.html">
+
+                        <img src="images/print/B_B Infra 02.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">B&B Infra</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mt-4 image">
+
+                <div class="image">
+
+                    <a href="blore.html">
+
+                        <img src="images/print/Steiner School 03.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">Steiner School</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="portfolio sshide " id="ss7" style="padding-left: 30px;
+    
+        padding-right:30px;">
+
+        <div class="row d-flex flex-row">
+
+            <div class="col-md-4 mt-4">
+
+                <div class="image">
+
+                    <a href="Chhaa_jaa.html">
+
+                        <img src="images/digital/Chhaa Jaa.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">
+
+                                Chhaa Jaa
+
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mt-4">
+
+                <div class="image">
+
+                    <a href="compile.html">
+
+                        <img src="images/digital/Compile Healthgraphs.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">
+
+                                Complie Healthgraphs
+
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mt-4">
+
+                <div class="image">
+
+                    <a href="Thomas.html">
+
+                        <img src="images/digital/Thomas Assessments.jpg" width="100%" />
+
+                        <div class="img_title">
+
+                            <span class="text-white">
+
+                                Thomas Assessments
+
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="portfolio sshide " id="ss8">
+
+        <div class="text-center coming_soon_div">
+
+            <span class="text-white" style="font-family:fn1;font-size:28px;">Coming Soon...</span>
+
+        </div>
+
+    </div>
+    <!-- <script src="js/script.js"></script> -->
+
+    <script>
+
+        $(".sshide").hide();
+
+        $("#ss1").show()
+
+        $(".ss").click(function (e) {
+
+            var id = $(this).attr("id");
+
+            e.preventDefault();
+
+            $(".sshide").hide();
+
+            var showid = "#ss" + id;
+
+            $(showid).show();
+
+        });
+
+    </script>
+
+    <script type="text/javascript" src="slick/custom.js"></script>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+
+        // Gallery image hover
+
+        $(".img-wrapper").hover(
+
+            function () {
+
+                $(this).find(".img-overlay").animate({ opacity: 1 }, 600);
+
+            }, function () {
+
+                $(this).find(".img-overlay").animate({ opacity: 0 }, 600);
+
+            }
+
+        );
+
+        // Lightbox
+
+        var $overlay = $('<div id="overlay"></div>');
+
+        var $image = $("<img>");
+
+        var $prevButton = $('<div id="prevButton"><i class="fa fa-chevron-left"></i></div>');
+
+        var $nextButton = $('<div id="nextButton"><i class="fa fa-chevron-right"></i></div>');
+
+        var $exitButton = $('<div id="exitButton"><i class="fa fa-times"></i></div>');
+
+        // Add overlay
+
+        $overlay.append($image).prepend($prevButton).append($nextButton).append($exitButton);
+
+        $("#gallery").append($overlay);
+
+        // Hide overlay on default
+
+        $overlay.hide();
+
+        // When an image is clicked
+
+        $(".img-overlay").click(function (event) {
+
+            // Prevents default behavior
+
+            event.preventDefault();
+
+            // Adds href attribute to variable
+
+            var imageLocation = $(this).prev().attr("href");
+
+            // Add the image src to $image
+
+            $image.attr("src", imageLocation);
+
+            // Fade in the overlay
+
+            $overlay.fadeIn("slow");
+
+        });
+
+
+
+        // When the overlay is clicked
+
+        $overlay.click(function () {
+
+            // Fade out the overlay
+
+            $(this).fadeOut("slow");
+
+        });
+
+
+
+        // When next button is clicked
+
+        $nextButton.click(function (event) {
+
+            // Hide the current image
+
+            $("#overlay img").hide();
+
+            // Overlay image location
+
+            var $currentImgSrc = $("#overlay img").attr("src");
+
+            // Image with matching location of the overlay image
+
+            var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
+
+            // Finds the next image
+
+            var $nextImg = $($currentImg.closest(".image").next().find("img"));
+
+            // All of the images in the gallery
+
+            var $images = $("#image-gallery img");
+
+            // If there is a next image
+
+            if ($nextImg.length > 0) {
+
+                // Fade in the next image
+
+                $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
+
+            } else {
+
+                // Otherwise fade in the first image
+
+                $("#overlay img").attr("src", $($images[0]).attr("src")).fadeIn(800);
+
+            }
+
+            // Prevents overlay from being hidden
+
+            event.stopPropagation();
+
+        });
+
+
+
+        // When previous button is clicked
+
+        $prevButton.click(function (event) {
+
+            // Hide the current image
+
+            $("#overlay img").hide();
+
+            // Overlay image location
+
+            var $currentImgSrc = $("#overlay img").attr("src");
+
+            // Image with matching location of the overlay image
+
+            var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
+
+            // Finds the next image
+
+            var $nextImg = $($currentImg.closest(".image").prev().find("img"));
+
+            // Fade in the next image
+
+            $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
+
+            // Prevents overlay from being hidden
+
+            event.stopPropagation();
+
+        });
+
+
+
+        // When the exit button is clicked
+
+        $exitButton.click(function () {
+
+            // Fade out the overlay
+
+            $("#overlay").fadeOut("slow");
+
+        });
+
+    </script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script> -->
+
+    <!-- <script src="js/lightgallery.min.js" type="text/javascript"></script> -->
+
+    <!-- <script>
+
+        lightGallery(document.getElementById('lightgall'));
+
+        lightGallery(document.getElementById('lightgall1'));
+
+    </script> -->
+
+
+
+    <script>
+
+        $(window).on('load', function () {
+
+            $("#cover").fadeOut(4450);
+
+        });
+
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

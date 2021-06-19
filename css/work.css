@@ -1,0 +1,4174 @@
+		@font-face {
+			font-family: fn;
+			src: url('../fonts/ag/Agrandir-Regular.otf');
+		}
+
+		@font-face {
+			font-family: fn1;
+			src: url('../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+		}
+
+		.logo_hv.js-scrolling img {
+			/* height: 40px; */
+			/* -webkit-transition: height 0.2s; 
+	-moz-transition: height 0.2s; 
+	-ms-transition: height 0.2s; 
+	-o-transition: height 0.2s; 
+	transition: height 0.2s;  */
+			transition: 1.7s ease;
+			transform: scaleY(1.0);
+			/* margin-left: 5px !important; */
+			height: 49px !important;
+			/* width: 67px; */
+		}
+
+		.index_logo {
+			width: 190px;
+		}
+
+		.greetings_sec {
+			line-height: 2.4rem;
+		}
+
+		.floor_nos {
+			display: flex !important;
+			justify-content: space-around;
+		}
+
+		.mob_nav {
+			display: none;
+		}
+
+		#work {
+			width: 100%;
+			height: 100%;
+			background-color: #000;
+			float: right;
+			position: absolute;
+			margin-left: 84%;
+			box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.05);
+			transition: all 0.5s ease-in-out;
+			z-index: 3;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			/* padding-right: 17px; Increase/decrease this value for cross-browser compatibility */
+			box-sizing: content-box;
+		}
+
+		#work:hover {
+			transform: perspective(0.14rem) translateX(-1rem);
+		}
+
+		h2 {
+			font-size: 20px;
+		}
+
+		#work h2 {
+			margin-left: 25px;
+			margin-top: 50px;
+			font-family: 'ag';
+			font-size: 20px;
+		}
+
+		#top {
+			width: 100%;
+			display: block;
+			height: 15vh;
+		}
+
+		#top h2 {
+			float: left;
+		}
+
+		/* 
+		#top img {
+
+			float: right;
+
+			cursor: pointer;
+
+			max-width: 22%;
+
+			height: auto;
+
+		} */
+
+		#work h2 {
+			text-align: left;
+			color: #fff;
+		}
+
+		#gallery {
+			width: 100%;
+			display: block;
+			/* margin-left: auto;
+
+			margin-right: auto; */
+		}
+
+		.image {
+			max-width: 100%;
+			height: auto;
+			float: left;
+			/* margin: 0 1% 1% 1%; */
+		}
+
+		.image img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: cover;
+		}
+
+		.image a:hover {
+			text-decoration: underline !important;
+			color: #fff !important;
+			text-underline-position: under;
+			/* -webkit-filter: brightness(50%); */
+		}
+
+		#nav {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		#nav ul {
+			width: 100%
+		}
+
+		#nav li {
+			float: left;
+			width: auto;
+			margin-right: 3.5%;
+			margin-bottom: 2%;
+			list-style: none;
+		}
+
+		#nav a {
+			text-decoration: none;
+			color: white;
+			font-size: 14pt;
+			text-align: center;
+			font-family: 'ag';
+		}
+
+		.logo_div {
+			width: 132px;
+		}
+
+		#nav li a:hover {
+			background-color: white;
+			color: black;
+			border-radius: 18px;
+			padding: 10px;
+			text-decoration: none !important;
+		}
+
+		.tagline_font_style {
+			font-size: 200px;
+			font-weight: 800;
+		}
+
+		#io {
+			padding-left: 20px;
+		}
+
+		#io a {
+			color: #fff;
+			padding-left: 20px !important;
+			padding-right: 36px;
+			font-family: 'ag';
+		}
+
+		#io a:hover {
+			background-color: white !important;
+			color: black !important;
+			font-family: 'ag';
+			border-radius: 5px !important;
+			padding: 6px;
+			/* padding-top: 12px;
+			padding-bottom: 12px;
+			padding-left: 15px !important;
+			padding-right: 15px !important; */
+			transition: 0.4s ease;
+		}
+
+		/* #nav li a:focus{
+
+			background-color: white;
+
+			color: black;
+
+			border-radius: 20px;
+
+			padding: 8px;
+
+		} */
+
+		@media only screen and (min-width:1024px) and (max-width: 1366px) {
+			.greetings_sec a:focus{
+				outline: none;
+				border: none;
+			}
+			/* .pure_baner_sec{
+			display: block !important;
+    margin-top: 48px;
+    margin-bottom: 30px;
+		} */
+			.pure_cultbg {
+				background: url('../images/packaging_details/Packaging/PureCult_Folder/Links/PureCult.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 100vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+		}
+
+		@media only screen and (min-width: 768px) and (max-width: 1023px) {
+			#work {
+				width: 100%;
+				height: 100% !important;
+				background-color: rgb(13, 13, 13);
+				float: right;
+				position: absolute;
+				margin-left: 84% !important;
+				box-shadow: -5px 0px 10px rgb(0 0 0 / 5%);
+				transition: all 0.5s ease-in-out;
+				z-index: 3;
+				overflow-y: hidden;
+				overflow-x: hidden;
+				box-sizing: content-box;
+			}
+			.logo_hv.js-scrolling img {
+				/* height: 40px; */
+				/* -webkit-transition: height 0.2s; 
+	-moz-transition: height 0.2s; 
+	-ms-transition: height 0.2s; 
+	-o-transition: height 0.2s; 
+	transition: height 0.2s;  */
+				transition: 1.7s ease;
+				transform: scaleY(1.0);
+				/* margin-left: -33px !important; */
+				height: 90px;
+				/* height: 75px !important;
+    width: 67px; */
+			}
+			.launch_pad_logo {
+				margin-left: -20px !important;
+			}
+			#nav {
+				width: 100%;
+				height: 20vh;
+				display: block;
+			}
+			#nav ul {
+				width: 100%
+				/*	height: 15vh;*/
+			}
+			#nav li {
+				float: left;
+				width: auto;
+				margin-right: 3.5%;
+				margin-bottom: 2%;
+				list-style: none;
+			}
+			/*#gallery{
+
+				width: 100%;
+
+				height: 100vh;
+
+			}*/
+		}
+
+		.wrk {
+			color: #fff
+		}
+
+		@media only screen and (min-width: 360px) and (max-width: 767px) {
+			.greetings_sec a:focus{
+				outline: none;
+				border: none;
+			}
+			   textarea:focus {
+            background: transparent !important;
+        }
+            .infra_adjust{
+                margin-bottom: 2rem !important;
+            }
+			.bb_below2{
+				margin-bottom: 2rem;
+			}
+			.comp_sec{
+				margin-top: -54px;
+			}
+				.compiler_baner_sec {
+				margin-top: 0px;
+				margin-bottom: 80px;
+			}
+					.thommail {
+				margin-top: 80px;
+				margin-bottom: 40px;
+			}
+			.dly_hunt {
+				margin-bottom: 3.5rem;
+			}
+			.pure_cult_txt{
+				display: none !important;
+			}
+			.meet_guides {
+				margin-bottom: 20px;
+				/* margin-top:30px; */
+			}
+			.thom2 {
+				margin-bottom: 52px;
+				margin-top: 50px;
+			}
+			.topnav{
+				top: 0 !important;
+			}
+			.logo{
+				padding: 10px;
+			}
+			#work a.new_burger img{
+				width: 100px;
+				height: 50px;
+			}
+
+			.thomasservices {
+				padding-bottom: 2rem;
+			}
+			.thomas {
+				padding-bottom: 2rem;
+				padding-top: 0rem;
+			}
+			.golf_extra {
+				padding-top: 0rem;
+				padding-bottom: 0rem;
+			}
+			.golf_div2 {
+				text-align: justify;
+				font-size: 14px;
+				/* line-height: 40px; */
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+				/* padding-right: 70px; */
+			}
+			.logo_mobile {
+				display: block !important;
+			}
+			.logo_desk {
+				display: none !important;
+			}
+			.gal_img {
+				display: none;
+			}
+			.hmzy_ser {
+				padding-bottom: 1rem;
+			}
+			.smoor_services {
+				padding-bottom: 0rem;
+			}
+			#top {
+				width: 100%;
+				display: block;
+				height: 5vh;
+			}
+			.new_burger {
+				display: flex;
+				margin-left: 8px;
+			}
+			.work_hide {
+				display: block;
+			}
+			.img_title1 {
+				font-size: 17px;
+				text-align: left;
+				/* padding-left: 25px; */
+				color: white;
+				font-family: ag;
+				letter-spacing: 1px;
+				padding-top: 8px;
+			}
+			.responsive_work {
+				display: block;
+			}
+			.items_top_spac {
+				margin-top: 0rem;
+			}
+			.art_serv {
+				margin-left: 10px;
+				margin-top: -20px;
+			}
+			.art_desc {
+				margin-bottom: 57px;
+				padding-top: 2rem;
+			}
+			.cmng_soon {
+				margin-bottom: 50px;
+				padding-bottom: 50px;
+				padding: 50px;
+			}
+			.staf_img {
+				width: 80%;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+			}
+			.man_staf {
+				margin-left: 2px
+			}
+			.thomaswidgets {
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+			}
+			.ch_text {
+				margin-bottom: 50px;
+			}
+			.cha_img1 {
+				margin-bottom: 50px;
+				margin-top:50px;
+			}
+			.cha {
+				margin-top: -80px;
+			}
+			.blore_last {
+				/* margin-bottom: 114px; */
+				padding-bottom: 1.5rem;
+			}
+			.blore_texts {
+				padding-bottom: 2rem !important;
+			}
+			.blore_img1 {
+				padding-bottom: 2rem !important;
+				padding-top: 1rem !important;
+			}
+			.bb_div1 {
+				margin-bottom: 1.5rem;
+			}
+			.bb_img1 {
+				padding-top: 0rem;
+				padding-bottom: 40px;
+			}
+			.bb_infra_baner {
+				padding-bottom: 0rem;
+			}
+			.social_mail {
+				margin-bottom: 00px;
+			}
+			.social_4 {
+				margin-top: 1.5rem;
+			}
+			.social_3 {
+				padding-top: 10%;
+				text-align: center;
+			}
+			.social_2 {
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+			.social_text {
+				margin: 30px;
+			}
+			.hunt_mob {
+				margin-top: 2rem;
+			}
+			.wid {
+				margin-left: 0px;
+				padding-bottom: 2rem;
+			}
+			.hunt_widgets {
+				margin-top: 40px;
+			}
+			.hunt_para {
+				margin-bottom: 30px;
+				margin-top: 30px;
+			}
+			.homezy_illust {
+				padding-left: 30px !important;
+				padding-right: 30px !important;
+			}
+			.homzy_app_img {
+				margin-bottom: 3rem;
+			}
+			.service_golf {
+				padding-bottom: 0rem;
+			}
+			.glof_img1 {
+				padding-bottom: 5rem;
+				padding-top: 1rem !important;
+			}
+			.lepure_heading {
+				margin-top: -95px;
+			}
+			.lepure_serv {
+				padding-bottom: 2rem;
+				padding-top: 2rem;
+			}
+			.aura_servicestxt {
+				padding-bottom: 3rem;
+				padding-top: 1rem;
+			}
+			.aura_img1 {
+				padding-bottom: 6rem;
+				/* margin-top: -20px; */
+			}
+			.aura_pckg {
+				margin-bottom: 57px;
+				margin-top: -80px;
+			}
+			.homzy_text {
+				padding-bottom: 1rem;
+				padding-top: 0rem;
+				margin-top: -30px;
+			}
+			.hunt_r_text {
+				padding-bottom: 1rem;
+				padding-top: 0rem;
+				margin-top: -30px;
+			}
+			.anand_para {
+				padding-bottom: 1.5rem;
+			}
+			.golf_para {
+				padding-bottom: 2rem;
+				padding-top: 1rem;
+			}
+			.almond_imgs {
+				padding-bottom: 1.5rem;
+			}
+			.text_red {
+				color: red;
+				cursor: pointer;
+				font-size: 17px !important;
+			}
+			.almond_husdes {
+				padding-bottom: 3rem;
+				padding-top: 1rem;
+			}
+			.almond_heading {
+				margin-bottom: 57px;
+				padding-top: 6rem;
+				margin-top: -60px;
+			}
+			.almond_pack {
+				margin-top: -24px;
+			}
+			.pc_04 {
+				margin-bottom: 15px;
+			}
+			.pure_cult_txt {
+				padding-bottom: 2rem;
+				padding-top: 1rem;
+			}
+			.breakng {
+				display: none;
+			}
+			.desc_text2 {
+				text-align: justify;
+				padding-bottom: 7px;
+			}
+			.pure_cult_det {
+				width: 100%;
+				margin-bottom: 30px !important;
+			}
+			.desc_text {
+				font-size: 17px !important;
+			}
+			.pckg_below {
+				margin-top: 1.5rem;
+				margin-bottom: 3rem !important;
+			}
+			.bb_below {
+				/* padding-top: 1.0rem; */
+				margin-bottom: 1rem !important;
+			}
+			.heading_spacing {
+				margin-left: 5px;
+			}
+			.heading_spacing2 {
+				margin-left: 10px;
+			}
+			.heading_spacing1 {
+				margin-left: 5px;
+				margin-top: -20px;
+			}
+			.heading_spacing_comp_1 {
+				margin-left: 20px;
+				margin-top: -20px;
+			}
+			.heading_div {
+				margin-top: -65px;
+			}
+			.heading_daily_hunt {
+				margin-top: -90px;
+			}
+			.heading_div_aura {
+				margin-top: -85px;
+			}
+			.hunt_img {
+				margin-bottom: 1.5rem !important;
+			}
+			.text_gry {
+				font-size: 16px !important;
+			}
+			.smoor_text {
+				font-size: 17px !important;
+				text-align: justify;
+				line-height: 1.8rem;
+			}
+			.smoor_cnt {
+				padding-top: 20px;
+			}
+			.smoor_cnt1 {
+				margin-bottom: 60px;
+			}
+			.smoor_3 {
+				padding-bottom: 1.5rem !important;
+			}
+			.smoor_3img {
+				margin-bottom: 1.5rem;
+			}
+			.services_txt {
+				font-size: 16px;
+			}
+			.spacing_style {
+				padding-left: 0px;
+			}
+			.spacing_style_r {
+				padding-left: 0px;
+			}
+			.margin_spacing {
+				margin: 0px;
+			}
+			.desc_text_detailed {
+				text-align: justify;
+				font-size: 14px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+				/* padding-right: 40px; */
+			}
+			.page-section_almond_house {
+				margin-top: -108px;
+			}
+			.page-section_pure_house {
+				margin-top: -55px;
+				margin-bottom: 12px;
+			}
+			.work {
+				color: #fff;
+			}
+			.go-top {
+				position: fixed;
+				bottom: 2%;
+				right: 9%;
+				padding: 15px;
+				border-radius: 40px;
+				display: none;
+				cursor: pointer;
+				-webkit-font-smoothing: antialiased;
+			}
+			.navbar {
+				z-index: 9;
+			}
+			.work_text {
+				color: #fff !important;
+			}
+			.brkdown {
+				display: none !important;
+			}
+			.up_space {
+				display: none;
+			}
+			.almond_bg {
+				display: none !important;
+			}
+			.almond_baner_sec {
+				margin-top: 47px;
+				/* margin-bottom: 30px; */
+			}
+			.pure_cultbg {
+				display: none !important;
+			}
+			.pure_baner_sec {
+				display: block;
+				/* margin-top: 48px;
+				margin-bottom: 30px; */
+			}
+			.smoor_bg {
+				display: none !important;
+			}
+			.smoor_baner_sec {
+				margin-top: 96px;
+				/* margin-bottom: 30px; */
+			}
+			.anand_bg {
+				display: none !important;
+			}
+			.anand_baner_sec {
+				margin-top: -60px;
+				margin-bottom: 30px;
+			}
+			.aura_bg {
+				display: none !important;
+			}
+			.aura_baner_sec {
+				margin-top: 48px;
+				margin-bottom: 30px;
+			}
+			.lepure_bg {
+				display: none !important;
+			}
+			.lepure_baner_sec {
+				margin-top: 48px;
+				margin-bottom: 40px;
+			}
+			.golf_bg {
+				display: none !important;
+			}
+			.golf_baner_sec {
+				/* margin-top: 54px; */
+				margin-bottom: 40px;
+			}
+			.home_bg {
+				display: none !important;
+			}
+			.home_baner_sec {
+				margin-top: 25px;
+				margin-bottom: 40px;
+			}
+			.daily_bg {
+				display: none !important;
+			}
+			.daily_baner_sec {
+				/* margin-top: 25px; */
+				margin-bottom: 40px;
+			}
+			.social_bg {
+				display: none !important;
+			}
+			.social_baner_sec {
+				margin-top: 20px;
+				margin-bottom: 40px;
+			}
+			.bb_bg {
+				display: none !important;
+			}
+			.bb_baner_sec {
+				/* margin-top: 100px; */
+				margin-bottom: 40px;
+			}
+			.blore_bg {
+				display: none !important;
+			}
+			.blore_baner_sec {
+				/* margin-top: 100px; */
+				margin-bottom: 40px;
+			}
+			.cchh_bg {
+				display: none !important;
+			}
+			.cchh_baner_sec {
+				/* margin-top: 54px; */
+				margin-bottom: 40px;
+			}
+			.thomas_bg {
+				display: none !important;
+			}
+			.thomas_baner_sec {
+				/* margin-top: 100px; */
+				margin-bottom: 40px;
+			}
+			.complier_bg {
+				display: none !important;
+			}
+			
+			.artcurate_bg {
+				display: none !important;
+			}
+			.artcurate_baner_sec {
+				margin-top:-50px;
+				margin-bottom: 40px;
+			}
+			.ekaa_bg {
+				display: none !important;
+			}
+			.ekaa_baner_sec {
+				margin-top: -42px;
+				/* margin-bottom: 40px; */
+			}
+			.floor_nos {
+				display: none !important;
+			}
+			.mob_nav {
+				display: block;
+			}
+			/* #se_icon {
+		display: none;
+		margin-top: 16px;
+		max-width: 25%;
+	} */
+			#back_arrow {
+				display: none;
+			}
+			.index_logo {
+				width: 120px !important;
+			}
+			.mob_img_resp {
+				padding: 0px !important;
+			}
+			.img_title {
+				font-size: 15px !important;
+				/* margin-left: 10px; */
+			}
+			.page-section {
+				margin-top: -155px !important;
+			}
+			.page-section_golf {
+				margin-top: -60px;
+			}
+			.page-section_hunter {
+				margin-top: -53px;
+			}
+			.page-section_almond {
+				margin-top: -109px;
+			}
+			.pge_sec {
+				margin-top: -59px !important;
+			}
+			.wrk {
+				color: #fff !important;
+			}
+			.wrk {
+				color: #000 !important;
+			}
+			.wrks {
+				color: #000 !important;
+			}
+			.desc_text {
+				line-height: 1.8rem !important;
+			}
+			.greetings_sec {
+				line-height: 1.9rem;
+			}
+			.greetings_msg {
+				font-size: 15px !important;
+			}
+			.main_heading {
+				text-align: left;
+				font-size: 25px !important;
+			}
+			.daily_hunt_main_desc {
+				margin-bottom: 50px;
+				padding: 10px !important;
+			}
+			.daily_hunt_main_desc {
+				padding: 10px;
+			}
+			#logos {
+				width: 40px;
+			}
+			.page-section_home {
+				margin-top: -80px;
+			}
+			#work {
+				width: 100%;
+				height: 70px;
+				background-color: #000;
+				bottom: 0;
+				margin-left: 0%;
+				box-shadow: -5px 0px 2px #0c0c0c;
+				transition: all 0.5s ease-in-out;
+				z-index: 3;
+				overflow: hidden;
+				/* overflow-y: scroll; */
+				/* padding-right: 17px; */
+				/* Increase/decrease this value for cross-browser compatibility */
+				box-sizing: content-box;
+				/* bottom: 0px; */
+			}
+			.logo_div {
+				width: 80px;
+			}
+			#work h2 {
+				margin-left: 25px;
+				margin-top: 25px;
+				margin-left: 25px;
+				margin-top: 23px;
+				margin-right: 35px;
+				margin-bottom: 23px;
+				/* display: none; */
+			}
+			/* #top img {
+
+				width: 50%;
+
+				float: right;
+
+				cursor: pointer;
+
+			} */
+			.nav li {
+				width: 33.3%;
+				margin-bottom: 2%;
+				margin-left: 2%;
+				list-style: none;
+			}
+			#gallery {
+				width: 100%;
+			}
+			.image {
+				/* max-width: 100%;
+
+			max-height: auto; */
+				margin: 5% 0%;
+				/* background: white; */
+			}
+		}
+
+		/* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) { 
+			.thommail {
+				margin-bottom: 40px;
+				margin-top: 20px;
+			}
+			.homzy_mail {
+				margin-bottom: 30px;
+			}
+			.golf_mail {
+				margin-bottom: 20px;
+			}
+			.thoma_mail {
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+			.dly_hunt {
+				margin-bottom: 3.5rem;
+			}
+			.items_spacing_mobile {
+				margin-top: -60px;
+			}
+			.sm_services {
+				padding-bottom: 10px;
+			}
+			.complii {
+				padding-bottom: 4rem;
+			}
+			.compile_servies_txt {
+				padding-bottom: 1rem;
+			}
+			.cha_img1 {
+				margin-bottom: 80px;
+				padding-top: 3rem;
+			}
+			.br_img {
+				padding-bottom: 4rem;
+			}
+			.blorr {
+				padding-bottom: 0rem;
+			}
+			.page-sectionekaa {
+				margin-top: -84px;
+			}
+			.page-sectionart {
+				margin-top: -134px;
+			}
+			.meet_guides {
+				margin-bottom: 20px;
+			}
+			.thom2 {
+				margin-bottom: 52px;
+				margin-top: 50px;
+			}
+			.thomasservices {
+				padding-bottom: 2rem;
+			}
+			.thomas {
+				padding-bottom: 0rem;
+				padding-top: 0rem;
+			}
+			.golf_extra {
+				padding-top: 0rem;
+				padding-bottom: 0rem;
+			}
+			.golf_div2 {
+				text-align: justify;
+				font-size: 14px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+			}
+			.logo_mobile {
+				display: block !important;
+			}
+			.logo_desk {
+				display: none !important;
+			}
+			.gal_img {
+				display: none;
+			}
+			.hmzy_ser {
+				padding-bottom: 1rem;
+			}
+			.smoor_services {
+				padding-bottom: 0rem;
+			}
+			#top {
+				width: 100%;
+				display: block;
+				height: 5vh;
+			}
+			.new_burger {
+				display: flex;
+				margin-left: 8px;
+			}
+			.work_hide {
+				display: block;
+			}
+			.img_title1 {
+				font-size: 17px;
+				text-align: left;
+				color: white;
+				font-family: ag;
+				letter-spacing: 1px;
+				padding-top: 8px;
+			}
+			.responsive_work {
+				display: block;
+			}
+			.items_top_spac {
+				margin-top: 0rem;
+			}
+			.art_serv {
+				margin-left: 10px;
+				margin-top: -20px;
+			}
+			.art_desc {
+				margin-bottom: 57px;
+				padding-top: 2rem;
+			}
+			.cmng_soon {
+				margin-bottom: 50px;
+				padding-bottom: 50px;
+				padding: 50px;
+			}
+			.staf_img {
+				width: 20%;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+			}
+			.man_staf {
+				margin-left: 2px
+			}
+			.thomaswidgets {
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+			}
+			.ch_text {
+				margin-bottom: 50px;
+			}
+			.cha_img1 {
+				margin-bottom: 50px;
+			}
+			.cha {
+				margin-top: -80px;
+			}
+			.blore_last {
+				padding-bottom: 1.5rem;
+			}
+			.blore_texts {
+				padding-bottom: 2rem !important;
+			}
+			.blore_img1 {
+				padding-bottom: 2rem !important;
+				padding-top: 1rem !important;
+			}
+			.bb_div1 {
+				margin-bottom: 1.5rem;
+			}
+			.bb_img1 {
+				padding-top: 0rem;
+				padding-bottom: 40px;
+			}
+			.bb_infra_baner {
+				padding-bottom: 0rem;
+			}
+			.social_mail {
+				margin-bottom: 00px;
+			}
+			.social_4 {
+				margin-top: 1.5rem;
+			}
+			.social_3 {
+				padding-top: 10%;
+				text-align: center;
+			}
+			.social_2 {
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+			.social_text {
+				margin: 30px;
+			}
+			.hunt_mob {
+				margin-top: 2rem;
+			}
+			.wid {
+				margin-left: 0px;
+				padding-bottom: 2rem;
+			}
+			.hunt_widgets {
+				margin-top: 40px;
+			}
+			.hunt_para {
+				margin-bottom: 30px;
+				margin-top: 30px;
+			}
+			.homezy_illust {
+				padding-left: 30px !important;
+				padding-right: 30px !important;
+			}
+			.homzy_app_img {
+				margin-bottom: 3rem;
+			}
+			.service_golf {
+				padding-bottom: 0rem;
+			}
+			.glof_img1 {
+				padding-bottom: 5rem;
+				padding-top: 1rem !important;
+			}
+			.lepure_heading {
+				margin-top: -95px;
+			}
+			.lepure_serv {
+				padding-bottom: 2rem;
+				padding-top: 2rem;
+			}
+			.aura_servicestxt {
+				padding-bottom: 3rem;
+				padding-top: 1rem;
+			}
+			.aura_img1 {
+				padding-bottom: 6rem;
+			}
+			.aura_pckg {
+				margin-bottom: 57px;
+				margin-top: -80px;
+			}
+			.homzy_text {
+				padding-bottom: 1rem;
+				padding-top: 0rem;
+				margin-top: -30px;
+			}
+			.hunt_r_text {
+				padding-bottom: 1rem;
+				padding-top: 0rem;
+				margin-top: -30px;
+			}
+			.anand_para {
+				padding-bottom: 1.5rem;
+			}
+			.golf_para {
+				padding-bottom: 2rem;
+				padding-top: 1rem;
+			}
+			.almond_imgs {
+				padding-bottom: 1.5rem;
+			}
+			.text_red {
+				color: red;
+				cursor: pointer;
+				font-size: 17px !important;
+			}
+			.almond_husdes {
+				padding-bottom: 3rem;
+				padding-top: 1rem;
+			}
+			.almond_heading {
+				margin-bottom: 57px;
+				padding-top: 6rem;
+				margin-top: -60px;
+			}
+			.almond_pack {
+				margin-top: -24px;
+			}
+			.pc_04 {
+				margin-bottom: 15px;
+			}
+			.pure_cult_txt {
+				padding-bottom: 2rem;
+				padding-top: 1rem;
+			}
+			.breakng {
+				display: none;
+			}
+			.desc_text2 {
+				text-align: justify;
+				padding-bottom: 7px;
+			}
+			.pure_cult_det {
+				width: 100%;
+				margin-bottom: 30px !important;
+			}
+			.desc_text {
+				font-size: 17px !important;
+			}
+			.pckg_below {
+				padding-top: 1.5rem;
+				padding-bottom: 3rem !important;
+			}
+			.bb_below {
+				margin-bottom: 1rem !important;
+			}
+			.heading_spacing {
+				margin-left: 5px;
+			}
+			.heading_spacing2 {
+				margin-left: 10px;
+			}
+			.heading_spacing1 {
+				margin-left: 5px;
+				margin-top: -20px;
+			}
+			.heading_spacing_comp_1 {
+				margin-left: 20px;
+				margin-top: -20px;
+			}
+			.heading_div {
+				margin-top: -65px;
+			}
+			.heading_daily_hunt {
+				margin-top: -90px;
+			}
+			.heading_div_aura {
+				margin-top: -85px;
+			}
+			.hunt_img {
+				margin-bottom: 1.5rem !important;
+			}
+			.text_gry {
+				font-size: 16px !important;
+			}
+			.smoor_text {
+				font-size: 17px !important;
+				text-align: justify;
+			}
+			.smoor_cnt {
+				padding-top: 20px;
+			}
+			.smoor_cnt1 {
+				margin-bottom: 60px;
+			}
+			.smoor_3 {
+				padding-bottom: 1.5rem !important;
+			}
+			.smoor_3img {
+				margin-bottom: 1.5rem;
+			}
+			.services_txt {
+				font-size: 16px;
+			}
+			.spacing_style {
+				padding-left: 0px;
+			}
+			.spacing_style_r {
+				padding-left: 0px;
+			}
+			.margin_spacing {
+				margin: 0px;
+			}
+			.desc_text_detailed {
+				text-align: justify;
+				font-size: 14px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+			}
+			.page-section_almond_house {
+				margin-top: -108px;
+			}
+			.work {
+				color: #fff;
+			}
+			.go-top {
+				position: fixed;
+				bottom: 2%;
+				right: 9%;
+				padding: 15px;
+				border-radius: 40px;
+				display: none;
+				cursor: pointer;
+				-webkit-font-smoothing: antialiased;
+			}
+			.navbar {
+				z-index: 9;
+			}
+			.work_text {
+				color: #fff !important;
+			}
+			.brkdown {
+				display: none !important;
+			}
+			.up_space {
+				display: none;
+			}
+			.almond_bg {
+				display: none !important;
+			}
+			.almond_baner_sec {
+				margin-top: 47px;
+			}
+			.pure_cultbg {
+				display: none !important;
+			}
+			.pure_baner_sec {
+				display: block;
+				/* margin-top: 48px;
+			}
+			.smoor_bg {
+				display: none !important;
+			}
+			.smoor_baner_sec {
+				margin-top: 96px;
+			}
+			.anand_bg {
+				display: none !important;
+			}
+			.anand_baner_sec {
+				margin-top: -60px;
+				margin-bottom: 30px;
+			}
+			.aura_bg {
+				display: none !important;
+			}
+			.aura_baner_sec {
+				margin-top: 48px;
+				margin-bottom: 30px;
+			}
+			.lepure_bg {
+				display: none !important;
+			}
+			.lepure_baner_sec {
+				margin-top: 48px;
+				margin-bottom: 40px;
+			}
+			.golf_bg {
+				display: none !important;
+			}
+			.golf_baner_sec {
+				margin-bottom: 40px;
+			}
+			.home_bg {
+				display: none !important;
+			}
+			.home_baner_sec {
+				margin-top: 25px;
+				margin-bottom: 40px;
+			}
+			.daily_bg {
+				display: none !important;
+			}
+			.daily_baner_sec {
+				margin-bottom: 40px;
+			}
+			.social_bg {
+				display: none !important;
+			}
+			.social_baner_sec {
+				margin-top: 20px;
+				margin-bottom: 40px;
+			}
+			.bb_bg {
+				display: none !important;
+			}
+			.bb_baner_sec {
+				margin-bottom: 40px;
+			}
+			.blore_bg {
+				display: none !important;
+			}
+			.blore_baner_sec {
+				margin-bottom: 40px;
+			}
+			.cchh_bg {
+				display: none !important;
+			}
+			.cchh_baner_sec {
+				margin-bottom: 40px;
+			}
+			.thomas_bg {
+				display: none !important;
+			}
+			.thomas_baner_sec {
+				margin-bottom: 40px;
+			}
+			.complier_bg {
+				display: none !important;
+			}
+			.compiler_baner_sec {
+				margin-top: 3px;
+				margin-bottom: 40px;
+			}
+			.artcurate_bg {
+				display: none !important;
+			}
+			.artcurate_baner_sec {
+				margin-top: 84px;
+				margin-bottom: 10px;
+			}
+			.ekaa_bg {
+				display: none !important;
+			}
+			.ekaa_baner_sec {
+				margin-top: 33px;
+				margin-bottom: 4px;
+			}
+			.floor_nos {
+				display: none !important;
+			}
+			.mob_nav {
+				display: block;
+			}
+			#se_icon {
+				display: none;
+				margin-top: 16px;
+				max-width: 25%;
+			}
+			#back_arrow {
+				display: none;
+			}
+			.index_logo {
+				width: 120px;
+			}
+			.mob_img_resp {
+				padding: 0px !important;
+			}
+			.img_title {
+				font-size: 15px !important;
+			}
+			.page-section {
+				margin-top: -155px !important;
+			}
+			.page-section_golf {
+				margin-top: -60px;
+			}
+			.page-section_hunter {
+				margin-top: -53px;
+			}
+			.page-section_almond {
+				margin-top: -109px;
+			}
+			.pge_sec {
+				margin-top: -59px !important;
+			}
+			.wrk {
+				color: #fff !important;
+			}
+			.wrk {
+				color: #000 !important;
+			}
+			.wrks {
+				color: #000 !important;
+			}
+			.desc_text {
+				line-height: 1.8rem !important;
+			}
+			.greetings_sec {
+				line-height: 1.9rem;
+			}
+			.greetings_msg {
+				font-size: 15px !important;
+			}
+			.main_heading {
+				text-align: left;
+				font-size: 25px !important;
+			}
+			.daily_hunt_main_desc {
+				margin-bottom: 50px;
+				padding: 10px !important;
+			}
+			.daily_hunt_main_desc {
+				padding: 10px;
+			}
+			#logos {
+				width: 40px;
+			}
+			.page-section_home {
+				margin-top: -80px;
+			}
+			#work {
+				width: 100%;
+				height: 9vh;
+				background-color: #0c0c0c;
+				display: block;
+				position: absolute;
+				margin-left: 0%;
+				margin-top: 86vh;
+				box-shadow: -5px 0px 2px #0c0c0c;
+				transition: all 0.5s ease-in-out;
+				z-index: 3;
+				overflow-y: scroll;
+				overflow-x: hidden;
+				padding-right: 17px;
+				box-sizing: content-box;
+				bottom: 0px;
+			}
+			.logo_div {
+				width: 58px;
+				height: 25px;
+			}
+			#work h2 {
+				margin-left: 25px;
+				margin-top: 25px;
+				margin-left: 25px;
+				margin-top: 23px;
+				margin-right: 35px;
+				margin-bottom: 23px;
+			}
+			.nav li {
+				width: 33.3%;
+				margin-bottom: 2%;
+				margin-left: 2%;
+				list-style: none;
+			}
+			#gallery {
+				width: 100%;
+			}
+			.image {
+				margin: 5% 0%;
+			}
+		} */
+
+		/* @media only screen and (min-width: 100px) and (max-width: 1080px) {
+			.thommail {
+				margin-bottom: 40px;
+				margin-top: 20px;
+			}
+			.homzy_mail {
+				margin-bottom: 30px;
+			}
+			.golf_mail {
+				margin-bottom: 20px;
+			}
+			.thoma_mail {
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+			.dly_hunt {
+				margin-bottom: 3.5rem;
+			}
+			.items_spacing_mobile {
+				margin-top: -60px;
+			}
+			.sm_services {
+				padding-bottom: 10px;
+			}
+			.complii {
+				padding-bottom: 4rem;
+			}
+			.compile_servies_txt {
+				padding-bottom: 1rem;
+			}
+			.cha_img1 {
+				margin-bottom: 80px;
+				padding-top: 3rem;
+			}
+			.br_img {
+				padding-bottom: 4rem;
+			}
+			.blorr {
+				padding-bottom: 0rem;
+			}
+			.page-sectionekaa {
+				margin-top: -84px;
+			}
+			.page-sectionart {
+				margin-top: -134px;
+			}
+			.meet_guides {
+				margin-bottom: 20px;
+			}
+			.thom2 {
+				margin-bottom: 52px;
+				margin-top: 50px;
+			}
+			.thomasservices {
+				padding-bottom: 2rem;
+			}
+			.thomas {
+				padding-bottom: 0rem;
+				padding-top: 0rem;
+			}
+			.golf_extra {
+				padding-top: 0rem;
+				padding-bottom: 0rem;
+			}
+			.golf_div2 {
+				text-align: justify;
+				font-size: 14px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+			}
+			.logo_mobile {
+				display: block !important;
+			}
+			.logo_desk {
+				display: none !important;
+			}
+			.gal_img {
+				display: none;
+			}
+			.hmzy_ser {
+				padding-bottom: 1rem;
+			}
+			.smoor_services {
+				padding-bottom: 0rem;
+			}
+			#top {
+				width: 100%;
+				display: block;
+				height: 5vh;
+			}
+			.new_burger {
+				display: flex;
+				margin-left: 8px;
+			}
+			.work_hide {
+				display: block;
+			}
+			.img_title1 {
+				font-size: 17px;
+				text-align: left;
+				color: white;
+				font-family: ag;
+				letter-spacing: 1px;
+				padding-top: 8px;
+			}
+			.responsive_work {
+				display: block;
+			}
+			.items_top_spac {
+				margin-top: 0rem;
+			}
+			.art_serv {
+				margin-left: 10px;
+				margin-top: -20px;
+			}
+			.art_desc {
+				margin-bottom: 57px;
+				padding-top: 2rem;
+			}
+			.cmng_soon {
+				margin-bottom: 50px;
+				padding-bottom: 50px;
+				padding: 50px;
+			}
+			.staf_img {
+				width: 20%;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+			}
+			.man_staf {
+				margin-left: 2px
+			}
+			.thomaswidgets {
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+			}
+			.ch_text {
+				margin-bottom: 50px;
+			}
+			.cha_img1 {
+				margin-bottom: 50px;
+			}
+			.cha {
+				margin-top: -80px;
+			}
+			.blore_last {
+				padding-bottom: 1.5rem;
+			}
+			.blore_texts {
+				padding-bottom: 2rem !important;
+			}
+			.blore_img1 {
+				padding-bottom: 2rem !important;
+				padding-top: 1rem !important;
+			}
+			.bb_div1 {
+				margin-bottom: 1.5rem;
+			}
+			.bb_img1 {
+				padding-top: 0rem;
+				padding-bottom: 40px;
+			}
+			.bb_infra_baner {
+				padding-bottom: 0rem;
+			}
+			.social_mail {
+				margin-bottom: 00px;
+			}
+			.social_4 {
+				margin-top: 1.5rem;
+			}
+			.social_3 {
+				padding-top: 10%;
+				text-align: center;
+			}
+			.social_2 {
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+			.social_text {
+				margin: 30px;
+			}
+			.hunt_mob {
+				margin-top: 2rem;
+			}
+			.wid {
+				margin-left: 0px;
+				padding-bottom: 2rem;
+			}
+			.hunt_widgets {
+				margin-top: 40px;
+			}
+			.hunt_para {
+				margin-bottom: 30px;
+				margin-top: 30px;
+			}
+			.homezy_illust {
+				padding-left: 30px !important;
+				padding-right: 30px !important;
+			}
+			.homzy_app_img {
+				margin-bottom: 3rem;
+			}
+			.service_golf {
+				padding-bottom: 0rem;
+			}
+			.glof_img1 {
+				padding-bottom: 5rem;
+				padding-top: 1rem !important;
+			}
+			.lepure_heading {
+				margin-top: -95px;
+			}
+			.lepure_serv {
+				padding-bottom: 2rem;
+				padding-top: 2rem;
+			}
+			.aura_servicestxt {
+				padding-bottom: 3rem;
+				padding-top: 1rem;
+			}
+			.aura_img1 {
+				padding-bottom: 6rem;
+			}
+			.aura_pckg {
+				margin-bottom: 57px;
+				margin-top: -80px;
+			}
+			.homzy_text {
+				padding-bottom: 1rem;
+				padding-top: 0rem;
+				margin-top: -30px;
+			}
+			.hunt_r_text {
+				padding-bottom: 1rem;
+				padding-top: 0rem;
+				margin-top: -30px;
+			}
+			.anand_para {
+				padding-bottom: 1.5rem;
+			}
+			.golf_para {
+				padding-bottom: 2rem;
+				padding-top: 1rem;
+			}
+			.almond_imgs {
+				padding-bottom: 1.5rem;
+			}
+			.text_red {
+				color: red;
+				cursor: pointer;
+				font-size: 17px !important;
+			}
+			.almond_husdes {
+				padding-bottom: 3rem;
+				padding-top: 1rem;
+			}
+			.almond_heading {
+				margin-bottom: 57px;
+				padding-top: 6rem;
+				margin-top: -60px;
+			}
+			.almond_pack {
+				margin-top: -24px;
+			}
+			.pc_04 {
+				margin-bottom: 15px;
+			}
+			.pure_cult_txt {
+				padding-bottom: 2rem;
+				padding-top: 1rem;
+			}
+			.breakng {
+				display: none;
+			}
+			.desc_text2 {
+				text-align: justify;
+				padding-bottom: 7px;
+			}
+			.pure_cult_det {
+				width: 100%;
+				margin-bottom: 30px !important;
+			}
+			.desc_text {
+				font-size: 17px !important;
+			}
+			.pckg_below {
+				padding-top: 1.5rem;
+				padding-bottom: 3rem !important;
+			}
+			.bb_below {
+				margin-bottom: 1rem !important;
+			}
+			.heading_spacing {
+				margin-left: 5px;
+			}
+			.heading_spacing2 {
+				margin-left: 10px;
+			}
+			.heading_spacing1 {
+				margin-left: 5px;
+				margin-top: -20px;
+			}
+			.heading_spacing_comp_1 {
+				margin-left: 20px;
+				margin-top: -20px;
+			}
+			.heading_div {
+				margin-top: -65px;
+			}
+			.heading_daily_hunt {
+				margin-top: -90px;
+			}
+			.heading_div_aura {
+				margin-top: -85px;
+			}
+			.hunt_img {
+				margin-bottom: 1.5rem !important;
+			}
+			.text_gry {
+				font-size: 16px !important;
+			}
+			.smoor_text {
+				font-size: 17px !important;
+				text-align: justify;
+			}
+			.smoor_cnt {
+				padding-top: 20px;
+			}
+			.smoor_cnt1 {
+				margin-bottom: 60px;
+			}
+			.smoor_3 {
+				padding-bottom: 1.5rem !important;
+			}
+			.smoor_3img {
+				margin-bottom: 1.5rem;
+			}
+			.services_txt {
+				font-size: 16px;
+			}
+			.spacing_style {
+				padding-left: 0px;
+			}
+			.spacing_style_r {
+				padding-left: 0px;
+			}
+			.margin_spacing {
+				margin: 0px;
+			}
+			.desc_text_detailed {
+				text-align: justify;
+				font-size: 14px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+			}
+			.page-section_almond_house {
+				margin-top: -108px;
+			}
+			.work {
+				color: #fff;
+			}
+			.go-top {
+				position: fixed;
+				bottom: 2%;
+				right: 9%;
+				padding: 15px;
+				border-radius: 40px;
+				display: none;
+				cursor: pointer;
+				-webkit-font-smoothing: antialiased;
+			}
+			.navbar {
+				z-index: 9;
+			}
+			.work_text {
+				color: #fff !important;
+			}
+			.brkdown {
+				display: none !important;
+			}
+			.up_space {
+				display: none;
+			}
+			.almond_bg {
+				display: none !important;
+			}
+			.almond_baner_sec {
+				margin-top: 47px;
+			}
+			.pure_cultbg {
+				display: none !important;
+			}
+			.pure_baner_sec {
+				display: block;
+				/* margin-top: 48px;
+			}
+			.smoor_bg {
+				display: none !important;
+			}
+			.smoor_baner_sec {
+				margin-top: 96px;
+			}
+			.anand_bg {
+				display: none !important;
+			}
+			.anand_baner_sec {
+				margin-top: -60px;
+				margin-bottom: 30px;
+			}
+			.aura_bg {
+				display: none !important;
+			}
+			.aura_baner_sec {
+				margin-top: 48px;
+				margin-bottom: 30px;
+			}
+			.lepure_bg {
+				display: none !important;
+			}
+			.lepure_baner_sec {
+				margin-top: 48px;
+				margin-bottom: 40px;
+			}
+			.golf_bg {
+				display: none !important;
+			}
+			.golf_baner_sec {
+				margin-bottom: 40px;
+			}
+			.home_bg {
+				display: none !important;
+			}
+			.home_baner_sec {
+				margin-top: 25px;
+				margin-bottom: 40px;
+			}
+			.daily_bg {
+				display: none !important;
+			}
+			.daily_baner_sec {
+				margin-bottom: 40px;
+			}
+			.social_bg {
+				display: none !important;
+			}
+			.social_baner_sec {
+				margin-top: 20px;
+				margin-bottom: 40px;
+			}
+			.bb_bg {
+				display: none !important;
+			}
+			.bb_baner_sec {
+				margin-bottom: 40px;
+			}
+			.blore_bg {
+				display: none !important;
+			}
+			.blore_baner_sec {
+				margin-bottom: 40px;
+			}
+			.cchh_bg {
+				display: none !important;
+			}
+			.cchh_baner_sec {
+				margin-bottom: 40px;
+			}
+			.thomas_bg {
+				display: none !important;
+			}
+			.thomas_baner_sec {
+				margin-bottom: 40px;
+			}
+			.complier_bg {
+				display: none !important;
+			}
+			.compiler_baner_sec {
+				margin-top: 3px;
+				margin-bottom: 40px;
+			}
+			.artcurate_bg {
+				display: none !important;
+			}
+			.artcurate_baner_sec {
+				margin-top: 84px;
+				margin-bottom: 10px;
+			}
+			.ekaa_bg {
+				display: none !important;
+			}
+			.ekaa_baner_sec {
+				margin-top: 33px;
+				margin-bottom: 4px;
+			}
+			.floor_nos {
+				display: none !important;
+			}
+			.mob_nav {
+				display: block;
+			}
+			#se_icon {
+				display: none;
+				margin-top: 16px;
+				max-width: 25%;
+			}
+			#back_arrow {
+				display: none;
+			}
+			.index_logo {
+				width: 120px;
+			}
+			.mob_img_resp {
+				padding: 0px !important;
+			}
+			.img_title {
+				font-size: 15px !important;
+			}
+			.page-section {
+				margin-top: -155px !important;
+			}
+			.page-section_golf {
+				margin-top: -60px;
+			}
+			.page-section_hunter {
+				margin-top: -53px;
+			}
+			.page-section_almond {
+				margin-top: -109px;
+			}
+			.pge_sec {
+				margin-top: -59px !important;
+			}
+			.wrk {
+				color: #fff !important;
+			}
+			.wrk {
+				color: #000 !important;
+			}
+			.wrks {
+				color: #000 !important;
+			}
+			.desc_text {
+				line-height: 1.8rem !important;
+			}
+			.greetings_sec {
+				line-height: 1.9rem;
+			}
+			.greetings_msg {
+				font-size: 15px !important;
+			}
+			.main_heading {
+				text-align: left;
+				font-size: 25px !important;
+			}
+			.daily_hunt_main_desc {
+				margin-bottom: 50px;
+				padding: 10px !important;
+			}
+			.daily_hunt_main_desc {
+				padding: 10px;
+			}
+			#logos {
+				width: 40px;
+			}
+			.page-section_home {
+				margin-top: -80px;
+			}
+			#work {
+				width: 100%;
+				height: 9vh;
+				background-color: #0c0c0c;
+				display: block;
+				position: absolute;
+				margin-left: 0%;
+				margin-top: 86vh;
+				box-shadow: -5px 0px 2px #0c0c0c;
+				transition: all 0.5s ease-in-out;
+				z-index: 3;
+				overflow-y: scroll;
+				overflow-x: hidden;
+				padding-right: 17px;
+				box-sizing: content-box;
+				bottom: 0px;
+			}
+			.logo_div {
+				width: 58px;
+				height: 25px;
+			}
+			#work h2 {
+				margin-left: 25px;
+				margin-top: 25px;
+				margin-left: 25px;
+				margin-top: 23px;
+				margin-right: 35px;
+				margin-bottom: 23px;
+			}
+			.nav li {
+				width: 33.3%;
+				margin-bottom: 2%;
+				margin-left: 2%;
+				list-style: none;
+			}
+			#gallery {
+				width: 100%;
+			}
+			.image {
+				margin: 5% 0%;
+			}
+		} */
+
+		.navbar {
+			z-index: 9;
+		}
+
+		@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+			/* .anand_bg{
+display: none !important;
+			} */
+
+			.anand_baner_sec {
+				margin-top: -56px;
+				margin-bottom: 30px;
+			}
+		}
+
+		.portfolio {
+			overflow: hidden;
+		}
+
+		.show {
+			/* display: block; */
+		}
+
+		.filter {
+			display: none;
+		}
+
+		.desc_text {
+			text-align: justify;
+			font-size: 20px;
+			line-height: 40px;
+			font-weight: 400;
+			font-family: fn;
+		}
+
+		.text_red {
+			color: red;
+			cursor: pointer;
+			font-size: 20px;
+		}
+
+		.text_red:hover {
+			text-decoration: underline;
+		}
+
+		.text_gry {
+			color: gray;
+			cursor: pointer;
+			font-size: 18px;
+		}
+
+		.greetings_msg {
+			text-align: left;
+			font-size: 30px;
+			font-family: fn;
+		}
+
+		.main_heading {
+			text-align: left;
+			font-size: 40px;
+		}
+
+		.coming_soon_div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 50vh;
+		}
+
+		.pure_cult_bg {
+			background-image: url('../images/packaging_details/Packaging/PureCult_Folder/Links/1PC-1BANNER.png');
+			background-repeat: no-repeat;
+			height: 75vh !important;
+			/* background-attachment: fixed; */
+			background-size: cover;
+			background-position: initial;
+		}
+
+		.daily_hunt_main_desc {
+			margin-bottom: 114px;
+			padding: 100px;
+		}
+
+		.img_title {
+			font-size: 20px;
+			text-align: left;
+			color: white;
+			font-family: ag;
+			letter-spacing: 1px;
+			padding-top: 8px;
+		}
+
+		@media only screen and (min-width: 800px) and (max-width: 1800px) {
+			.greetings_sec a:focus{
+				outline: none;
+				border: none;
+			}
+				.comp_sec{
+				margin-top: -129px;
+			}
+			.thommail {
+				margin-top: 80px;
+				margin-bottom: 40px;
+			}
+			.homzy_mail {
+				margin-bottom: 70px;
+			}
+			.golf_mail {
+				margin-bottom: 40px;
+				margin-top: 80px;
+			}
+			.thoma_mail {
+				margin-top: 30px;
+				margin-bottom: 60px;
+			}
+			.dly_hunt {
+				margin-bottom: 4.5rem;
+			}
+			.complii {
+				padding-bottom: 4rem;
+			}
+			.compile_servies_txt {
+				padding-bottom: 4rem;
+			}
+			.br_img {
+				padding-bottom: 6rem;
+			}
+			.blorr {
+				padding-bottom: 2rem;
+			}
+			.page-section_pure_house {
+				margin-top: -108px;
+			}
+			.meet_guides {
+				margin-bottom: 52px;
+				margin-top: 70px;
+			}
+			.thom2 {
+				margin-bottom: 52px;
+				margin-top: 100px;
+			}
+			.thomasservices {
+				padding-bottom: 4.0rem;
+			}
+			.thomas {
+				padding-bottom: 4rem;
+				padding-top: 4rem;
+			}
+			.golf_extra {
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+			}
+			.golf_div2 {
+				text-align: justify;
+				font-size: 17px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+				padding-right: 70px;
+			}
+			.nav-item a:hover {
+				color: red !important;
+			}
+			.work_redirect:hover {
+				text-decoration: none !important;
+				color: red !important;
+			}
+			.pure_baner_sec {
+				display: none;
+			}
+			.logo_desk {
+				display: block;
+			}
+			.logo_mobile {
+				display: none;
+			}
+			.wrk_link:hover {
+				text-decoration: none;
+			}
+			.hmzy_ser {
+				padding-bottom: 6rem;
+			}
+			.smoor_services {
+				padding-bottom: 3rem;
+			}
+			.hmz_services {
+				padding-bottom: 2rem;
+			}
+			.sm_services {
+				padding-bottom: 3rem;
+			}
+			.opp {
+				display: none !important;
+			}
+			.work_resp {
+				display: block;
+			}
+			.responsive_work {
+				display: none;
+			}
+			#back_arrow {
+				display: inline-flex;
+			}
+			.items_top_spac {
+				margin-top: 1.4rem;
+			}
+			.work_logo {
+				width: 190px;
+				padding: 15px;
+				margin-top: 12px;
+			}
+			.art_serv {
+				margin: 0;
+			}
+			.art_desc {
+				margin-bottom: 57px;
+				padding-top: 6rem;
+			}
+			.cmng_soon {
+				margin-bottom: 50px;
+				padding-bottom: 50px;
+				padding: 100px;
+			}
+			.staf_img {
+				width: 80%;
+			}
+			.man_staf {
+				margin-left: 132px
+			}
+			.thomaswidgets {
+				margin-bottom: 100px;
+				margin-top: 70px;
+			}
+			.ch_text {
+				margin-bottom: 80px;
+			}
+			.cha_img1 {
+				margin-bottom: 80px;
+				padding-top: 5rem;
+			}
+			.blore_texts {
+				padding-bottom: 6rem;
+			}
+			.blore_img1 {
+				padding-bottom: 6rem;
+				padding-top: 4.5rem;
+			}
+			.bb_div1 {
+				margin-bottom: 100px;
+				margin-top: 70px;
+			}
+			.bb_img1 {
+				padding-top: 3rem;
+				padding-bottom: 40px;
+			}
+			.bb_infra_baner {
+				padding-bottom: 6rem;
+			}
+			.social_mail {
+				margin-bottom: 50px;
+				margin-top: 70px;
+			}
+			.social_4 {
+				margin-bottom: 114px;
+			}
+			.blore_last {
+				margin-bottom: 70px;
+				/* padding-bottom: 1.5rem; */
+			}
+			.social_3 {
+				padding-top: 50%;
+			}
+			.social_2 {
+				margin-top: 40px;
+				margin-bottom: 100px;
+			}
+			.social_text {
+				margin-top: 30px;
+				margin-bottom: 15px;
+				margin-bottom: 15px;
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+			.hunt_mob {
+				margin-top: 114px;
+			}
+			.wid {
+				margin-left: 50px;
+			}
+			.hunt_widgets {
+				margin-top: 114px;
+			}
+			.hunt_para {
+				margin-bottom: 80px;
+			}
+			.hunt_img {
+				margin-bottom: 100px;
+			}
+			.homzy_app_img {
+				margin-bottom: 122px;
+			}
+			.homzy_text {
+				margin-bottom: 60px;
+				padding-top: 6rem;
+			}
+			.hunt_r_text {
+				padding-top: 0rem;
+			}
+			.service_golf {
+				padding-bottom: 2.2rem;
+			}
+			.glof_img1 {
+				padding-bottom: 5rem;
+				padding-top: 5rem;
+			}
+			.lepure_serv {
+				padding-bottom: 6rem;
+			}
+			.aura_servicestxt {
+				padding-bottom: 6rem;
+				padding-top: 6rem;
+			}
+			.aura_img1 {
+				padding-bottom: 6rem !important;
+			}
+			.aura_pckg {
+				margin-bottom: 57px;
+			}
+			.anand_para {
+				padding-bottom: 6rem;
+			}
+			.golf_para {
+				padding-bottom: 6rem;
+				padding-top: 4.5rem;
+			}
+			.almond_husdes {
+				padding-bottom: 6rem;
+				padding-top: 6rem;
+			}
+			.almond_heading {
+				margin-bottom: 57px;
+				padding-top: 6rem;
+			}
+			.smoor_3 {
+				padding-bottom: 5rem;
+				padding-top: 4rem;
+			}
+			.smoor_cnt1 {
+				margin-bottom: 60px;
+				margin-top: 60px;
+			}
+			.pc_04 {
+				margin-bottom: 54px;
+			}
+			.smoor_3img {
+				margin-bottom: 3rem;
+			}
+			.almond_imgs {
+				padding-bottom: 3rem;
+			}
+			.breakng {
+				display: block;
+			}
+			.pure_cult_det {
+				width: 78%;
+				margin-bottom: 114px;
+			}
+			.pckg_below {
+				margin-bottom: 114px;
+				padding-top: 5rem
+			}
+			.bb_below {
+				margin-bottom: 114px;
+			}
+			.bb_below1 {
+				margin-bottom: 0px;
+			}
+			.bb_below2 {
+				margin-bottom: 3rem;
+			}
+			.margin_spacing {
+				margin: 14px;
+			}
+			.spacing_style {
+				padding-left: 50px;
+			}
+			.spacing_style_r {
+				padding-left: 50px;
+			}
+			.page-section_almond_house {
+				margin-top: -134px;
+			}
+			.page-sectionart {
+				margin-top: -134px;
+			}
+			.page-sectionekaa {
+				margin-top: -134px;
+			}
+			.work {
+				color: #000;
+			}
+			.go-top {
+				position: fixed;
+				bottom: 2%;
+				right: 3%;
+				padding: 15px;
+				border-radius: 40px;
+				display: none;
+				cursor: pointer;
+				-webkit-font-smoothing: antialiased;
+			}
+			.go-top:after {
+				font-family: FontAwesome;
+				content: "\f106";
+				background-color: rgb(42, 99, 255);
+				padding: 0px 14px;
+				color: #fff;
+				position: absolute;
+				bottom: 10px;
+				width: 44px;
+				font-size: 28px;
+				border-radius: 75px;
+				height: 44px;
+			}
+			.go-top-text {
+				position: absolute;
+				width: 60px;
+				text-align: center;
+				font-family: 'Questrial';
+				line-height: 1.5;
+				letter-spacing: 3px;
+				font-size: 12px;
+				margin: 20px 0 0 -4px;
+			}
+			.go-top:hover {
+				transition: all .4s linear;
+				transform: scale(1.1);
+			}
+			.work_text {
+				color: #000;
+			}
+			.almond_baner_sec {
+				display: none !important;
+			}
+			.almond_bg {
+				background: url('../images/packaging_details/Packaging/Almond House_Folder/Links/A-H-banner1.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 120vh;
+				/* -moz-background-size: cover;
+-o-background-size: cover; */
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			.pure_cultbg {
+				background: url('../images/packaging_details/Packaging/PureCult_Folder/Links/PureCult.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 100vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			/* .pure_baner_sec{
+display: none !important;
+			} */
+			.smoor_bg {
+				background: url('../images/packaging_details/Packaging/Smoor_Folder/Links/smoor-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 120vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.smoor_baner_sec {
+				display: none !important;
+			}
+			.anand_bg {
+				background: url('../images/packaging_details/Packaging/Anand Sweets_Folder/Links/Anand-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 100vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.anand_baner_sec {
+				display: none !important;
+			}
+			.aura_bg {
+				background: url('../images/packaging_details/Packaging/Aura_Folder/Links/aura-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.aura_baner_sec {
+				display: none !important;
+			}
+			.lepure_bg {
+				background: url('../images/packaging_details/Packaging/Le Pure Chocolatier/Le Pure Chocolatier/Le\ Pure\ Chocolatier\ Replace-1.jpg') no-repeat center center;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.lepure_baner_sec {
+				display: none !important;
+			}
+			.golf_bg {
+				background: url('../images/digital/Golf Chaps/Golf-Chaps-banner.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.golf_baner_sec {
+				display: none !important;
+			}
+			.home_bg {
+				background: url('../images/Branding_details/Branding/homezy_Folder/homezy-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.home_baner_sec {
+				display: none !important;
+			}
+			.daily_bg {
+				background: url('../images/Branding_details/Branding/dailyhunt_Folder/Links/dailyhunt\ Replacejpg-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 115vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.daily_baner_sec {
+				display: none !important;
+			}
+			.social_bg {
+				background: url('../images/print_media/social/social/social-banner-1.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.social_baner_sec {
+				display: none !important;
+			}
+			.bb_bg {
+				background: url('../images/print_media/B_B Infra/B_B Infra/newspaper.gif') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.bb_baner_sec {
+				display: none !important;
+			}
+			.blore_bg {
+				background: url('../images/print_media/Bangalore Steiner School/Bangalore Steiner School/steiner.gif') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.blore_baner_sec {
+				display: none !important;
+			}
+			.cchh_bg {
+				background: url('../images/digital/Chhaa Jaa Guidelines/Chhaa-Jaa1-banner.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.cchh_baner_sec {
+				display: none !important;
+			}
+			.thomas_bg {
+				background: url('../images/digital/Thomas Assessments/Thomas-Assessments-banner-banner-banner.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.thomas_baner_sec {
+				display: none !important;
+			}
+			.compiler_baner_sec {
+				display: none !important;
+			}
+			.compiler_bg {
+				background: url('../images/digital/Compile_Folder/Compile_Folder-Banner.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 120vh;
+				/* -moz-background-size: cover;
+				-o-background-size: cover; */
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			.artcurate_bg {
+				background: url('../	images/Branding_details/Branding/artcurate-1.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.artcurate_baner_sec {
+				display: none !important;
+			}
+			.ekaa_bg {
+				background: url('../images/branding/ekaa-1.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.ekaa_baner_sec {
+				display: none !important;
+			}
+			.page-section {
+				margin-top: -200px;
+			}
+			.page-section_golf {
+				margin-top: -200px;
+				/* margin-bottom: 60px; */
+				padding-bottom: 6rem;
+			}
+			.page-section_hunter {
+				margin-top: -104px;
+			}
+			.page-section_home {
+				margin-top: -150px;
+				padding-bottom: 6rem;
+			}
+			.page-section_anand {
+				margin-top: -106px;
+				padding-bottom: 6rem;
+			}
+			.pure_cult_txt {
+				margin-top: -80px;
+			}
+			.mob_img_resp {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			.pge_sec {
+				margin-top: -81px !important;
+			}
+			.text_red:hover {
+				text-decoration: underline !important;
+				text-underline-position: under;
+			}
+			.logo_hv.js-scrolling img {
+				/* height: 40px; */
+				/* -webkit-transition: height 0.2s; 
+	-moz-transition: height 0.2s; 
+	-ms-transition: height 0.2s; 
+	-o-transition: height 0.2s; 
+	transition: height 0.2s;  */
+				transition: 1.5s ease;
+				transform: scaleY(1.0);
+				margin-left: 20px !important;
+				height: 49px !important;
+				/* width: 67px; */
+			}
+			@font-face {
+				font-family: fn;
+				src: url('../fonts/ag/Agrandir-Regular.otf');
+			}
+			@font-face {
+				font-family: fn1;
+				src: url('../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+			}
+			#work {
+				width: 100%;
+				height: 100%;
+				background-color: rgb(13, 13, 13);
+				float: right;
+				position: absolute;
+				margin-left: 84%;
+				box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.05);
+				transition: all 0.5s ease-in-out;
+				z-index: 3;
+				overflow-y: hidden;
+				overflow-x: hidden;
+				/* padding-right: 17px; Increase/decrease this value for cross-browser compatibility */
+				box-sizing: content-box;
+			}
+			h2 {
+				font-size: 20px;
+			}
+			#work h2 {
+				margin-left: 50px;
+				margin-top: 50px;
+				font-family: 'ag';
+				font-size: 18px;
+			}
+			#top {
+				width: 100%;
+				display: block;
+				height: 15vh;
+			}
+			#top h2 {
+				float: left;
+			}
+			#top img {
+				float: right;
+				cursor: pointer;
+				max-width: 17%;
+				height: auto;
+			}
+			#work h2 {
+				text-align: left;
+				color: #fff;
+			}
+			#gallery {
+				width: 100%;
+				display: block;
+				/* margin-left: auto;
+
+			margin-right: auto; */
+			}
+			.image {
+				max-width: 100%;
+				height: auto;
+				float: left;
+				text-align: center;
+				/* margin: 0 1% 1% 1%; */
+			}
+			.image img {
+				max-width: 100%;
+				max-height: 100%;
+				object-fit: cover;
+			}
+			.image a:hover {
+				text-decoration: underline !important;
+				color: #fff !important;
+				text-underline-position: under;
+				/* -webkit-filter: brightness(50%); */
+			}
+			#nav {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+			#nav ul {
+				width: 100%
+			}
+			#nav li {
+				float: left;
+				width: auto;
+				margin-right: 3.5%;
+				margin-bottom: 2%;
+				list-style: none;
+			}
+			#nav a {
+				text-decoration: none;
+				color: white;
+				font-size: 14pt;
+				text-align: center;
+				font-family: 'ag';
+			}
+			#nav li a:hover {
+				background-color: white;
+				color: black;
+				border-radius: 18px;
+				padding: 10px;
+				text-decoration: none !important;
+			}
+			.tagline_font_style {
+				font-size: 160px;
+				font-weight: 800;
+			}
+			#io {
+				padding-left: 20px;
+				padding-top: 10px;
+			}
+			#io a {
+				color: #fff;
+				/* padding-left: 17px !important; */
+				padding-right: 0px;
+				font-family: 'ag';
+				font-size: 1.16rem;
+			}
+			#io a:hover {
+				background-color: white !important;
+				color: black !important;
+				font-family: 'ag';
+				border-radius: 20px !important;
+				padding: 6px;
+				text-align: center !important;
+				/* padding-top: 12px;
+
+				padding-bottom: 12px;
+
+				padding-left: 15px !important;
+
+				padding-right: 15px !important; */
+				transition: 0.4s ease;
+			}
+			.portfolio {
+				overflow: hidden;
+			}
+			.show {
+				display: block;
+			}
+			.filter {
+				display: none;
+			}
+			.smoor_text {
+				text-align: justify;
+				font-size: 18px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.9rem;
+				padding-right: 110px;
+			}
+			.desc_text {
+				text-align: justify;
+				font-size: 20px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.9rem;
+				padding-right: 110px;
+			}
+			.desc_text_detailed {
+				text-align: justify;
+				font-size: 17px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+				padding-right: 40px;
+			}
+			.desc_text2 {
+				font-size: 20px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				padding-right: 35px;
+				padding-left: 35px;
+				text-align: justify;
+			}
+			.text_red {
+				color: red;
+				cursor: pointer;
+				font-size: 20px;
+			}
+			.text_red:hover {
+				text-decoration: underline;
+			}
+			.text_gry {
+				color: gray;
+				cursor: pointer;
+				font-size: 18px;
+			}
+			.services_txt {
+				font-size: 18px;
+			}
+			.greetings_msg {
+				text-align: left;
+				font-size: 30px;
+				font-family: fn;
+			}
+			.main_heading {
+				text-align: left;
+				font-size: 41px;
+				line-height: 3.3rem;
+			}
+			.coming_soon_div {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 50vh;
+			}
+			.pure_cult_bg {
+				background-image: url('../images/packaging_details/Packaging/PureCult_Folder/Links/1PC-1BANNER.png');
+				background-repeat: no-repeat;
+				height: 75vh !important;
+				/* background-attachment: fixed; */
+				background-size: cover;
+				background-position: initial;
+			}
+			.daily_hunt_main_desc {
+				margin-bottom: 114px;
+				padding: 100px;
+			}
+			.img_title {
+				font-size: 17px;
+				text-align: left;
+				/* padding-left: 13px; */
+				color: white;
+				font-family: ag;
+				letter-spacing: 1px;
+				padding-top: 8px;
+			}
+			.img_title1 {
+				font-size: 17px;
+				text-align: left;
+				/* padding-left: 25px; */
+				color: white;
+				font-family: ag;
+				letter-spacing: 1px;
+				padding-top: 8px;
+			}
+			.sub_1 {
+				font-size: 22px;
+				font-family: ag;
+			}
+			.sub_2 {
+				line-height: 2rem;
+				color: red;
+				font-size: 22px;
+				font-family: ag;
+			}
+			.sub_3 {
+				font-size: 22px;
+			}
+			.sub_3_div {
+				line-height: 2rem;
+				font-family: ag;
+			}
+			.sub_4_div {
+				line-height: 2rem;
+				font-family: ag;
+			}
+			.sub_4 {
+				font-size: 22px;
+			}
+			.tagline_sec {
+				line-height: 3.8rem;
+			}
+		}
+
+		@media only screen and (min-width: 1800px) {
+			@font-face {
+				font-family: fn;
+				src: url('../fonts/ag/Agrandir-Regular.otf');
+			}
+			@font-face {
+				font-family: fn1;
+				src: url('../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+			}
+			#work {
+				width: 100%;
+				height: 100%;
+				background-color: rgb(13, 13, 13);
+				float: right;
+				position: absolute;
+				margin-left: 84%;
+				box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.05);
+				transition: all 0.5s ease-in-out;
+				z-index: 3;
+				overflow-y: scroll;
+				overflow-x: hidden;
+				/* padding-right: 17px; Increase/decrease this value for cross-browser compatibility */
+				box-sizing: content-box;
+			}
+			h2 {
+				font-size: 20px;
+			}
+			#work h2 {
+				margin-left: 50px;
+				margin-top: 50px;
+				font-family: 'ag';
+				font-size: 18px;
+			}
+			#top {
+				width: 100%;
+				display: block;
+				height: 15vh;
+			}
+			#top h2 {
+				float: left;
+			}
+			#top img {
+				float: right;
+				cursor: pointer;
+				max-width: 22%;
+				height: auto;
+			}
+			#work h2 {
+				text-align: left;
+				color: #fff;
+			}
+			#gallery {
+				width: 100%;
+				display: block;
+				/* margin-left: auto;
+
+			margin-right: auto; */
+			}
+			.image {
+				max-width: 100%;
+				height: auto;
+				float: left;
+				/* margin: 0 1% 1% 1%; */
+			}
+			.image img {
+				max-width: 100%;
+				max-height: 100%;
+				object-fit: cover;
+			}
+			.image a:hover {
+				text-decoration: underline !important;
+				color: #fff !important;
+				text-underline-position: under;
+				/* -webkit-filter: brightness(50%); */
+			}
+			#nav {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+			#nav ul {
+				width: 100%
+			}
+			#nav li {
+				float: left;
+				width: auto;
+				margin-right: 3.5%;
+				margin-bottom: 2%;
+				list-style: none;
+			}
+			#nav a {
+				text-decoration: none;
+				color: white;
+				font-size: 14pt;
+				text-align: center;
+				font-family: 'ag';
+			}
+			#nav li a:hover {
+				background-color: white;
+				color: black;
+				border-radius: 25px;
+				padding: 10px;
+				text-decoration: none !important;
+			}
+			.tagline_font_style {
+				font-size: 160px;
+				font-weight: 800;
+			}
+			#io {
+				padding-left: 20px;
+				padding-top: 10px;
+			}
+			#io a {
+				color: #fff;
+				/* padding-left: 17px !important; */
+				padding-right: 0px;
+				font-family: 'ag';
+				font-size: 1.16em;
+			}
+			#io a:hover {
+				background-color: white !important;
+				color: black !important;
+				font-family: 'ag';
+				border-radius: 5px !important;
+				padding: 6px;
+				/* padding-top: 12px;
+
+				padding-bottom: 12px;
+
+				padding-left: 15px !important;
+
+				padding-right: 15px !important; */
+				transition: 0.4s ease;
+			}
+			.portfolio {
+				overflow: hidden;
+			}
+			.show {
+				display: block;
+			}
+			.filter {
+				display: none;
+			}
+			.desc_text {
+				text-align: justify;
+				font-size: 20px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+			}
+			.text_red {
+				color: red;
+				cursor: pointer;
+				font-size: 20px;
+			}
+			.text_red:hover {
+				text-decoration: underline;
+			}
+			.text_gry {
+				color: gray;
+				cursor: pointer;
+				font-size: 18px;
+			}
+			.greetings_msg {
+				text-align: left;
+				font-size: 30px;
+				font-family: fn;
+			}
+			.main_heading {
+				text-align: left;
+				font-size: 40px;
+			}
+			.coming_soon_div {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 50vh;
+			}
+			.pure_cult_bg {
+				background-image: url('../images/packaging_details/Packaging/PureCult_Folder/Links/1PC-1BANNER.png');
+				background-repeat: no-repeat;
+				height: 75vh !important;
+				/* background-attachment: fixed; */
+				background-size: cover;
+				background-position: initial;
+			}
+			.daily_hunt_main_desc {
+				margin-bottom: 114px;
+				padding: 100px;
+			}
+			.img_title {
+				font-size: 20px;
+				text-align: left;
+				color: white;
+				font-family: ag;
+				letter-spacing: 1px;
+				padding-top: 8px;
+			}
+			.sub_1 {
+				font-size: 22px;
+				font-family: ag;
+			}
+			.sub_2 {
+				line-height: 2rem;
+				color: red;
+				font-size: 22px;
+				font-family: ag;
+			}
+			.sub_3 {
+				font-size: 22px;
+			}
+			.sub_3_div {
+				line-height: 2rem;
+				font-family: ag;
+			}
+			.sub_4_div {
+				line-height: 2rem;
+				font-family: ag;
+			}
+			.sub_4 {
+				font-size: 22px;
+			}
+			.tagline_sec {
+				line-height: 3.8rem;
+			}
+			.meet_guides {
+				margin-bottom: 52px;
+				margin-top: 70px;
+			}
+			.thom2 {
+				margin-bottom: 52px;
+				margin-top: 100px;
+			}
+			.thomasservices {
+				padding-bottom: 4.0rem;
+			}
+			.thomas {
+				padding-bottom: 6rem;
+				padding-top: 4rem;
+			}
+			.golf_extra {
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+			}
+			.golf_div2 {
+				text-align: justify;
+				font-size: 17px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+				padding-right: 70px;
+			}
+			.nav-item a:hover {
+				color: red !important;
+			}
+			.work_redirect:hover {
+				text-decoration: none !important;
+				color: red !important;
+			}
+			.pure_baner_sec {
+				display: none;
+			}
+			.logo_desk {
+				display: block;
+			}
+			.logo_mobile {
+				display: none;
+			}
+			.wrk_link:hover {
+				text-decoration: none;
+			}
+			.hmzy_ser {
+				padding-bottom: 6rem;
+			}
+			.smoor_services {
+				padding-bottom: 2rem;
+			}
+			.sm_services {
+				padding-bottom: 3rem;
+			}
+			.opp {
+				display: none !important;
+			}
+			.work_resp {
+				display: block;
+			}
+			.responsive_work {
+				display: none;
+			}
+			#back_arrow {
+				display: inline-flex;
+			}
+			.items_top_spac {
+				margin-top: 1.4rem;
+			}
+			.work_logo {
+				width: 190px;
+				padding: 15px;
+				margin-top: 12px;
+			}
+			.art_serv {
+				margin: 0;
+			}
+			.art_desc {
+				margin-bottom: 57px;
+				padding-top: 6rem;
+			}
+			.cmng_soon {
+				margin-bottom: 50px;
+				padding-bottom: 50px;
+				padding: 100px;
+			}
+			.staf_img {
+				width: 80%;
+			}
+			.man_staf {
+				margin-left: 132px
+			}
+			.thomaswidgets {
+				margin-bottom: 100px;
+				margin-top: 70px;
+			}
+			.ch_text {
+				margin-bottom: 80px;
+			}
+			.cha_img1 {
+				margin-bottom: 80px;
+				padding-top: 4rem;
+			}
+			.blore_texts {
+				padding-bottom: 6rem;
+			}
+			.blore_img1 {
+				padding-bottom: 6rem;
+				padding-top: 40px;
+			}
+			.bb_div1 {
+				margin-bottom: 100px;
+				margin-top: 70px;
+			}
+			.bb_img1 {
+				padding-top: 3rem;
+				padding-bottom: 40px;
+			}
+			.bb_infra_baner {
+				padding-bottom: 6rem;
+			}
+			.social_mail {
+				margin-bottom: 60px;
+				margin-top: 70px;
+			}
+			.social_4 {
+				margin-bottom: 114px;
+			}
+			.blore_last {
+				margin-bottom: 70px;
+				/* padding-bottom: 1.5rem; */
+			}
+			.social_3 {
+				padding-top: 50%;
+			}
+			.social_2 {
+				margin-top: 40px;
+				margin-bottom: 100px;
+			}
+			.social_text {
+				margin: 30px;
+			}
+			.hunt_mob {
+				margin-top: 114px;
+			}
+			.wid {
+				margin-left: 50px;
+			}
+			.hunt_widgets {
+				margin-top: 114px;
+			}
+			.hunt_para {
+				margin-bottom: 80px;
+			}
+			.hunt_img {
+				margin-bottom: 100px;
+			}
+			.homzy_app_img {
+				margin-bottom: 122px;
+			}
+			.homzy_text {
+				margin-bottom: 60px;
+				padding-top: 6rem;
+			}
+			.hunt_r_text {
+				padding-top: 0rem;
+			}
+			.service_golf {
+				padding-bottom: 2.2rem;
+			}
+			.glof_img1 {
+				padding-bottom: 5rem;
+				padding-top: 5rem;
+			}
+			.lepure_serv {
+				padding-bottom: 6rem;
+			}
+			.aura_servicestxt {
+				padding-bottom: 6rem;
+				padding-top: 6rem;
+			}
+			.aura_img1 {
+				padding-bottom: 6rem !important;
+			}
+			.aura_pckg {
+				margin-bottom: 57px;
+			}
+			.anand_para {
+				padding-bottom: 6rem;
+			}
+			.golf_para {
+				padding-bottom: 6rem;
+				padding-top: 4.5rem;
+			}
+			.almond_husdes {
+				padding-bottom: 6rem;
+				padding-top: 4rem;
+			}
+			.almond_heading {
+				margin-bottom: 57px;
+				padding-top: 6rem;
+			}
+			.smoor_3 {
+				padding-bottom: 5rem;
+				padding-top: 4rem;
+			}
+			.smoor_cnt1 {
+				margin-bottom: 60px;
+				margin-top: 60px;
+			}
+			.pc_04 {
+				margin-bottom: 54px;
+			}
+			.smoor_3img {
+				margin-bottom: 3rem;
+			}
+			.almond_imgs {
+				padding-bottom: 4rem;
+			}
+			.breakng {
+				display: block;
+			}
+			.pure_cult_det {
+				width: 78%;
+				margin-bottom: 114px;
+			}
+			.pckg_below {
+				margin-bottom: 114px;
+				padding-top: 5rem
+			}
+			.bb_below {
+				margin-bottom: 114px;
+			}
+			.bb_below1 {
+				margin-bottom: 0px;
+			}
+			.bb_below2 {
+				margin-bottom: 4rem;
+			}
+			.margin_spacing {
+				margin: 14px;
+			}
+			.spacing_style {
+				padding-left: 50px;
+			}
+			.spacing_style_r {
+				padding-left: 50px;
+			}
+			.page-section_almond_house {
+				margin-top: -134px;
+			}
+			.work {
+				color: #000;
+			}
+			.go-top {
+				position: fixed;
+				bottom: 2%;
+				right: 3%;
+				padding: 15px;
+				border-radius: 40px;
+				display: none;
+				cursor: pointer;
+				-webkit-font-smoothing: antialiased;
+			}
+			.go-top:after {
+				font-family: FontAwesome;
+				content: "\f106";
+				background-color: rgb(42, 99, 255);
+				padding: 0px 14px;
+				color: #fff;
+				position: absolute;
+				bottom: 10px;
+				width: 44px;
+				font-size: 28px;
+				border-radius: 75px;
+				height: 44px;
+			}
+			.go-top-text {
+				position: absolute;
+				width: 60px;
+				text-align: center;
+				font-family: 'Questrial';
+				line-height: 1.5;
+				letter-spacing: 3px;
+				font-size: 12px;
+				margin: 20px 0 0 -4px;
+			}
+			.go-top:hover {
+				transition: all .4s linear;
+				transform: scale(1.1);
+			}
+			.work_text {
+				color: #000;
+			}
+			.almond_baner_sec {
+				display: none !important;
+			}
+			.almond_bg {
+				background: url('../images/packaging_details/Packaging/Almond House_Folder/Links/A-H-banner1.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 120vh;
+				/* -moz-background-size: cover;
+-o-background-size: cover; */
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			.pure_cultbg {
+				background: url('../images/packaging_details/Packaging/PureCult_Folder/Links/PureCult.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 100vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			/* .pure_baner_sec{
+display: none !important;
+			} */
+			.smoor_bg {
+				background: url('../images/packaging_details/Packaging/Smoor_Folder/Links/smoor-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 120vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.smoor_baner_sec {
+				display: none !important;
+			}
+			.anand_bg {
+				background: url('../images/packaging_details/Packaging/Anand Sweets_Folder/Links/Anand-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 100vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.anand_baner_sec {
+				display: none !important;
+			}
+			.aura_bg {
+				background: url('../images/packaging_details/Packaging/Aura_Folder/Links/aura-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.aura_baner_sec {
+				display: none !important;
+			}
+			.lepure_bg {
+				background: url('../images/packaging_details/Packaging/Le Pure Chocolatier/Le Pure Chocolatier/Le\ Pure\ Chocolatier\ Replace-1.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.lepure_baner_sec {
+				display: none !important;
+			}
+			.golf_bg {
+				background: url('../images/digital/Golf Chaps/Golf-Chaps-banner.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.golf_baner_sec {
+				display: none !important;
+			}
+			.home_bg {
+				background: url('../images/Branding_details/Branding/homezy_Folder/homezy-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.home_baner_sec {
+				display: none !important;
+			}
+			.daily_bg {
+				background: url('../images/Branding_details/Branding/dailyhunt_Folder/Links/dailyhunt\ Replacejpg-01.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 115vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.daily_baner_sec {
+				display: none !important;
+			}
+			.social_bg {
+				background: url('../images/print_media/social/social/social-banner-1.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.social_baner_sec {
+				display: none !important;
+			}
+			.bb_bg {
+				background: url('../images/print_media/B_B Infra/B_B Infra/newspaper.gif') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.bb_baner_sec {
+				display: none !important;
+			}
+			.blore_bg {
+				background: url('../images/print_media/Bangalore Steiner School/Bangalore Steiner School/steiner.gif') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.blore_baner_sec {
+				display: none !important;
+			}
+			.cchh_bg {
+				background: url('../images/digital/Chhaa Jaa Guidelines/Chhaa-Jaa1-banner.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.cchh_baner_sec {
+				display: none !important;
+			}
+			.thomas_bg {
+				background: url('../images/digital/Thomas Assessments/Thomas-Assessments-banner-banner-banner.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.thomas_baner_sec {
+				display: none !important;
+			}
+			.compiler_baner_sec {
+				display: none !important;
+			}
+			.compiler_bg {
+				background: url('../images/digital/Compile_Folder/Compile_Folder-Banner.png') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 120vh;
+				/* -moz-background-size: cover;
+-o-background-size: cover; */
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			.artcurate_bg {
+				background: url('../	images/Branding_details/Branding/artcurate-1.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.artcurate_baner_sec {
+				display: none !important;
+			}
+			.ekaa_bg {
+				background: url('../images/branding/ekaa-1.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				height: 107vh;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.ekaa_baner_sec {
+				display: none !important;
+			}
+			.page-section {
+				margin-top: -200px;
+			}
+			.page-section_golf {
+				margin-top: -200px;
+				/* margin-bottom: 60px; */
+				padding-bottom: 6rem;
+			}
+			.page-section_hunter {
+				margin-top: -104px;
+			}
+			.page-section_home {
+				margin-top: -150px;
+				padding-bottom: 6rem;
+			}
+			.page-section_anand {
+				margin-top: -106px;
+				padding-bottom: 6rem;
+			}
+			.pure_cult_txt {
+				margin-top: -80px;
+			}
+			.mob_img_resp {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			.pge_sec {
+				margin-top: -81px !important;
+			}
+			.text_red:hover {
+				text-decoration: underline !important;
+				text-underline-position: under;
+			}
+			.logo_hv.js-scrolling img {
+				/* height: 40px; */
+				/* -webkit-transition: height 0.2s; 
+	-moz-transition: height 0.2s; 
+	-ms-transition: height 0.2s; 
+	-o-transition: height 0.2s; 
+	transition: height 0.2s;  */
+				transition: 1.5s ease;
+				transform: scaleY(1.0);
+				margin-left: 20px !important;
+				height: 49px !important;
+				/* width: 67px; */
+			}
+			@font-face {
+				font-family: fn;
+				src: url('../fonts/ag/Agrandir-Regular.otf');
+			}
+			@font-face {
+				font-family: fn1;
+				src: url('../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+			}
+			#work {
+				width: 100%;
+				height: 100%;
+				background-color: rgb(13, 13, 13);
+				float: right;
+				position: absolute;
+				margin-left: 84%;
+				box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.05);
+				transition: all 0.5s ease-in-out;
+				z-index: 3;
+				overflow-y: hidden;
+				overflow-x: hidden;
+				/* padding-right: 17px; Increase/decrease this value for cross-browser compatibility */
+				box-sizing: content-box;
+			}
+			h2 {
+				font-size: 20px;
+			}
+			#work h2 {
+				margin-left: 50px;
+				margin-top: 50px;
+				font-family: 'ag';
+				font-size: 18px;
+			}
+			#top {
+				width: 100%;
+				display: block;
+				height: 15vh;
+			}
+			#top h2 {
+				float: left;
+			}
+			#top img {
+				float: right;
+				cursor: pointer;
+				max-width: 17%;
+				height: auto;
+			}
+			#work h2 {
+				text-align: left;
+				color: #fff;
+			}
+			#gallery {
+				width: 100%;
+				display: block;
+				/* margin-left: auto;
+
+			margin-right: auto; */
+			}
+			.image {
+				max-width: 100%;
+				height: auto;
+				float: left;
+				text-align: center;
+				/* margin: 0 1% 1% 1%; */
+			}
+			.image img {
+				max-width: 100%;
+				max-height: 100%;
+				object-fit: cover;
+			}
+			.image a:hover {
+				text-decoration: underline !important;
+				color: #fff !important;
+				text-underline-position: under;
+				/* -webkit-filter: brightness(50%); */
+			}
+			#nav {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+			#nav ul {
+				width: 100%
+			}
+			#nav li {
+				float: left;
+				width: auto;
+				margin-right: 3.5%;
+				margin-bottom: 2%;
+				list-style: none;
+			}
+			#nav a {
+				text-decoration: none;
+				color: white;
+				font-size: 14pt;
+				text-align: center;
+				font-family: 'ag';
+			}
+			#nav li a:hover {
+				background-color: white;
+				color: black;
+				border-radius: 18px;
+				padding: 10px;
+				text-decoration: none !important;
+			}
+			.tagline_font_style {
+				font-size: 160px;
+				font-weight: 800;
+			}
+			#io {
+				padding-left: 20px;
+				padding-top: 10px;
+			}
+			#io a {
+				color: #fff;
+				/* padding-left: 17px !important; */
+				padding-right: 0px;
+				font-family: 'ag';
+				font-size: 1.16rem;
+			}
+			#io a:hover {
+				background-color: white !important;
+				color: black !important;
+				font-family: 'ag';
+				border-radius: 20px !important;
+				padding: 6px;
+				text-align: center !important;
+				/* padding-top: 12px;
+
+				padding-bottom: 12px;
+
+				padding-left: 15px !important;
+
+				padding-right: 15px !important; */
+				transition: 0.4s ease;
+			}
+			.portfolio {
+				overflow: hidden;
+			}
+			.show {
+				display: block;
+			}
+			.filter {
+				display: none;
+			}
+			.smoor_text {
+				text-align: justify;
+				font-size: 18px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.9rem;
+				padding-right: 110px;
+			}
+			.desc_text {
+				text-align: justify;
+				font-size: 20px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.9rem;
+				padding-right: 110px;
+			}
+			.desc_text_detailed {
+				text-align: justify;
+				font-size: 17px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				line-height: 1.7rem;
+				padding-right: 40px;
+			}
+			.desc_text2 {
+				font-size: 20px;
+				line-height: 40px;
+				font-weight: 400;
+				font-family: fn;
+				padding-right: 35px;
+				padding-left: 35px;
+				text-align: justify;
+			}
+			.text_red {
+				color: red;
+				cursor: pointer;
+				font-size: 20px;
+			}
+			.text_red:hover {
+				text-decoration: underline;
+			}
+			.text_gry {
+				color: gray;
+				cursor: pointer;
+				font-size: 18px;
+			}
+			.services_txt {
+				font-size: 18px;
+			}
+			.greetings_msg {
+				text-align: left;
+				font-size: 30px;
+				font-family: fn;
+			}
+			.main_heading {
+				text-align: left;
+				font-size: 41px;
+				line-height: 3.3rem;
+			}
+			.coming_soon_div {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 50vh;
+			}
+			.pure_cult_bg {
+				background-image: url('../images/packaging_details/Packaging/PureCult_Folder/Links/1PC-1BANNER.png');
+				background-repeat: no-repeat;
+				height: 75vh !important;
+				/* background-attachment: fixed; */
+				background-size: cover;
+				background-position: initial;
+			}
+			.daily_hunt_main_desc {
+				margin-bottom: 114px;
+				padding: 100px;
+			}
+			.img_title {
+				font-size: 17px;
+				text-align: left;
+				/* padding-left: 13px; */
+				color: white;
+				font-family: ag;
+				letter-spacing: 1px;
+				padding-top: 8px;
+			}
+			.img_title1 {
+				font-size: 17px;
+				text-align: left;
+				/* padding-left: 25px; */
+				color: white;
+				font-family: ag;
+				letter-spacing: 1px;
+				padding-top: 8px;
+			}
+			.sub_1 {
+				font-size: 22px;
+				font-family: ag;
+			}
+			.sub_2 {
+				line-height: 2rem;
+				color: red;
+				font-size: 22px;
+				font-family: ag;
+			}
+			.sub_3 {
+				font-size: 22px;
+			}
+			.sub_3_div {
+				line-height: 2rem;
+				font-family: ag;
+			}
+			.sub_4_div {
+				line-height: 2rem;
+				font-family: ag;
+			}
+			.sub_4 {
+				font-size: 22px;
+			}
+			.tagline_sec {
+				line-height: 3.8rem;
+			}
+		}
+
+		/* @media only screen and (max-width: 800px) {
+
+			.tagline_sec1 {
+
+				line-height: 1.8rem;
+
+			}
+
+		} */

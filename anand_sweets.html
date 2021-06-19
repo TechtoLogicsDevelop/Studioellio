@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html style="    overflow: auto !important;">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Ellio</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="css/work.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css" /> -->
+    <link rel="icon" type="image/gif" href="images/elliofavicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <script src="js/jquery-3.1.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+
+
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: fn !important;
+            overflow-x: hidden !important;
+        }
+
+        * {
+            font-family: fn !important;
+        }
+
+        #Div2 {
+            display: none;
+        }
+
+        .content {
+            height: 1000px;
+            font-family: 'Questrial';
+            line-height: 1.5;
+            letter-spacing: 3px;
+            font-size: 20px;
+            text-decoration: underline;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .go-top {
+            position: fixed;
+            bottom: 2%;
+            right: 3%;
+            padding: 15px;
+            border-radius: 40px;
+            display: none;
+            cursor: pointer;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .go-top:after {
+            font-family: FontAwesome;
+            content: "\f106";
+            background-color: #000;
+            padding: 0px 14px;
+            color: #fff;
+            position: absolute;
+            bottom: 10px;
+            width: 44px;
+            font-size: 28px;
+            border-radius: 75px;
+            height: 44px;
+        }
+
+        .go-top-text {
+            position: absolute;
+            width: 60px;
+            text-align: center;
+            font-family: 'Questrial';
+            line-height: 1.5;
+            letter-spacing: 3px;
+            font-size: 12px;
+            margin: 20px 0 0 -4px;
+        }
+
+        .go-top:hover {
+            transition: all .4s linear;
+            transform: scale(1.1);
+        }
+
+        .modal-content {
+            font-weight: bold;
+            background: #EA4A3A;
+        }
+
+        h4 {
+            font-weight: bold;
+            color: #fff;
+            font-family: fn1 !important;
+        }
+
+        .form-control {
+            margin: 1em 0;
+            padding:0px;
+        }
+ .form-control::-webkit-input-placeholder {
+            font-size: 13px;
+            color: #000;
+        }
+        .form-control:hover,
+        .form-control:focus {
+            box-shadow: none;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #000;
+        }
+
+        .username,
+        .email {
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            border-bottom: 1px solid #000;
+            padding-left: 0;
+            font-weight: normal;
+            background: transparent;
+            color: #000 !important;
+        }
+
+       
+
+        .form-control:focus::-webkit-input-placeholder {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .login {
+            padding: 6px 20px;
+            border-radius: 20px;
+            background: none;
+            border: 2px solid #FAB87F;
+            color: #FAB87F;
+            font-weight: bold;
+            transition: all .5s;
+            margin-top: 1em;
+        }
+
+        /* .login:hover {
+            background: #FAB87F;
+            color: #;
+        } */
+
+       
+
+        @media only screen and (min-width: 100px) and (max-width: 1080px) {
+            .go-top {
+                position: fixed;
+                bottom: 2%;
+                right: 9%;
+                padding: 15px;
+                border-radius: 40px;
+                display: none;
+                cursor: pointer;
+                -webkit-font-smoothing: antialiased;
+                z-index: 99;
+            }
+        }
+
+        .work_text:hover {
+            text-decoration: none;
+        }
+
+        .work_text {
+            color: #fff;
+        }
+
+        .icon_arrows {
+            font-size: 26px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+
+
+        .icon_arrows:hover {
+            color: red !important;
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+
+<body style="overflow: auto;">
+    <!-- <div class="content">Scroll Down</div> -->
+    <div class="go-top">
+        <!-- <p class="go-top-text">Back To Top</p> -->
+    </div>
+
+    <!-- Navigation--> <br class="up_space">
+    <nav class="navbar navbar-expand-lg " id="mainNav">
+
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <ul class="navbar-nav text-uppercase mt-0" style="margin-top: 0px;">
+
+                    <li class="nav-item d-flex align-items-center">
+
+                        <a class="nav-link js-scroll-trigger">
+                            <span class="icon_arrows" onclick="window.location.href='index.html'">
+                                &#60;
+                            </span>
+                            <a href="work.html" class="work_text"><span class="pl-1">WORK</span></a>
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="responsive_work">
+                <span class="d-flex align-items-center" style="color: #fff;">
+                    <span class="icon_arrows" onclick="window.location.href='index.html'">
+                        &#60; </span>
+                    <a href="work.html"><span class="pl-1 " style="color: #fff;">WORK</span></a></span>
+            </div>
+
+            <a class="navbar-brand js-scroll-trigger mr-0" href="index.html">
+
+                <img src="images/packaging_details/Packaging/Almond House_Folder/Links/Asset 25A-H-18.png"
+                    class="logo_div" /></a>
+            </a>
+
+
+        </div>
+    </nav>
+    <!-- Services-->
+    <section class="page-section_anand" style="">
+        <div class="container-fluid p-0">
+            <div class="row ">
+                <div class="col-md-12 p-0">
+                    <div class="anand_bg">
+                    </div>
+                    <div class="anand_baner_sec">
+                        <img src="images/packaging_details/Packaging/Anand Sweets_Folder/Links/Anand-01.jpg"
+                            width="100%" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <!-- container -->
+        </div>
+        <!-- header hero -->
+    </section>
+    <section class="" id="" style="">
+        <div class="container">
+            <div class="row justify-content-center" style="margin-bottom:57px;">
+                <div class="col-lg-10">
+                    <div class="text-left heading_spacing">
+                        <span class="title-h1 main_heading" style="">
+                            Anand Sweets & Savouries - A new
+                            benchmark <br class="breakng"> for premium Indian sweets</span>
+                    </div>
+                    <!-- about content -->
+                </div>
+            </div>
+            <!-- row -->
+            <div class="row" style="">
+                <div class="col-lg-6">
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-left heading_spacing1" style="line-height: 0rem;">
+
+                        <h5 class=" text_gry">Services</h5>
+
+                        <pre> <h5 class="services_txt mb-0">Packaging Design</h5></pre>
+
+                    </div>
+                    <!-- about content -->
+                </div>
+            </div>
+            <!-- row -->
+            <div class="row overview_content pckg_below" style="">
+                <div class="col-lg-12 ">
+                    <img src="images/packaging_details/Packaging/Anand Sweets_Folder/Links/A-S-2.png"
+                        STYLE="width:100%;" />
+                </div>
+
+            </div>
+
+            <div class="row justify-content-end anand_para" style="" id="Div1">
+                <div class="col-md-8">
+                    <div class="text-right">
+                        <h2 class="title-h1 desc_text">
+                            “With an innovative array of enticing creations, the aim of the packaging is to uplift the
+                            traditional status of mithai and namkeens, and merge
+                            it with a timeless design - all this while maintaining the inherent festivity of exchanging
+                            gifts with loved ones. <br><br>
+                            Anand Sweets makes luxury accessible to everyone with their packaging design because
+                            customers are at the heart of what they do.”</h2>
+
+                    </div>
+                    <p class="pt-4 text_red" onclick="switchVisible();">
+                        Learn more about the project
+                    </p>
+                    <!-- about content -->
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row  justify-content-end anand_para" style="padding-bottom: 5rem;display: none;" id="Div2">
+                    <div class="col-md-6">
+                        <div class="spacing_style">
+                            <h2 class="title-h1 desc_text_detailed">
+                                Anand Sweets & Savouries is a well-loved Indian
+                                mithai (sweets) and namkeen (savouries) business with
+                                a legacy of over 30 years in Bangalore. <br> <br>
+                                The packaging design of the brand attempts to capture
+                                the essence of Indian folk crafts, which gives you
+                                diverse range of colours and techniques like bone
+                                inlay work, paper-cutting, and block print design
+                                among other things. With a range of about 300 products, the design language demands
+                                uniqueness and consistency to fit different tones of celebrations. </h2> <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                To encapsulate the everyday-Indian-luxury vibe, and
+                                add to the design's premium feel, Sanjhi, an Indian
+                                craft style, is used aesthetically with a touch of
+                                foiling.</h2> <br>
+
+
+                        </div>
+
+                        <!-- about content -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <h2 class="title-h1 desc_text_detailed">
+                                With an innovative array of enticing creations, the aim of the
+                                packaging
+                                is to uplift
+                                the traditional status of mithai
+                                and namkeens, and merge it with a timeless design — all this while maintaining the
+                                inherent festivity of exchanging
+                                gifts with loved ones.
+                            </h2> <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                Anand Sweets makes luxury accessible to everyone with their packaging designs because
+                                customers are at the heart of what
+                                they do.</h2>
+                            <!-- <h2 class="title-h1 desc_text_detailed">
+                                            From intimate gatherings to weddings and even
+                                            corporate occasions, there’s Anand for everyone</h2> -->
+                        </div>
+                        <p class="pt-4 text_gry">
+                            Developed with Anomaly Brands.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row pc_04">
+                <div class="col-lg-12">
+                    <img src="images/packaging_details/Packaging/Anand Sweets_Folder/Links/A-S-3.png"
+                        style="width:100%;height:auto" />
+                </div>
+
+            </div>
+            <div class="row pc_04">
+                <div class="col-lg-12">
+                    <img src="images/packaging_details/Packaging/Anand Sweets_Folder/Links/A-S-9.png"
+                        style="width:100%;height:auto" />
+                </div>
+
+            </div>
+            <div class="row pc_04">
+                <div class="col-lg-12">
+                    <img src="images/packaging_details/Packaging/Anand Sweets_Folder/Links/A-S-5.png"
+                        style="width:100%;height:auto" />
+                </div>
+
+            </div>
+
+
+            <div class="row pc_04">
+                <div class="col-lg-12">
+                    <img src="images/packaging_details/Packaging/Anand Sweets_Folder/Links/A-S-6.png"
+                        style="width:100%;height: auto;" />
+                </div>
+
+            </div>
+            <div class="row pc_04" style="">
+                <div class="col-lg-12">
+                    <img src="images/packaging_details/Packaging/Anand Sweets_Folder/Links/A-S-7.png"
+                        style="width:100%;height:auto" />
+                </div>
+
+            </div>
+            <div class="row" style="">
+                <div class="col-lg-12">
+                    <img src="images/packaging_details/Packaging/Anand Sweets_Folder/Links/A-S-8.png"
+                        style="width:100%;height:auto" />
+                </div>
+
+            </div>
+            <div class="row" style="margin-bottom:40px;margin-top: 80px;">
+
+                <div class="col-lg-12">
+                    <div class="greetings_sec" style="">
+                        <span class="title-h1 greetings_msg">Let’s create something unique for you as well!</span><br>
+                        <span class="title-h1 greetings_msg">Email us at <a href="" style="color:red;"
+                                data-target="#login" data-toggle="modal">hello@studioellio.com</a></span>
+                    </div>
+                    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header" style="border-bottom: none;">
+                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                  
+                                </div>
+                                <div class="modal-body p-5">
+                                    <!-- <button data-dismiss="modal" class="close">&times;</button> -->
+                                    <h4 style="font-family: 'fn1';color: #000;font-weight: 200;">Say hi!</h4>
+                                    <form action="https://formspree.io/f/mleanejg" method="POST" class="mt-5">
+                                        <input type="text" name="name" class="username form-control"
+                                            placeholder="Your Name">
+                                        <input type="email" name="_replyto" class="email form-control"
+                                            placeholder="Email">
+                                        <textarea id="w3review" name="Message" class="form-control" rows="4" cols="48"
+                                            placeholder="Your Message"
+                                            style="background-color: transparent;border: none;border-bottom: 1px solid #000;width: 100%;"></textarea>
+                                        <!-- <input type="textarea" name="username" class="username form-control"
+                                                                                                                            placeholder="Username" /> -->
+                                        <!-- <textarea placeholder="Message" id="msg" name="Message" required style="width: 100%;
+                                                                                        height: 6vh;
+                                                                                        margin-top: 18vh;
+                                                                                        background-color: #ea4a3a;
+                                                                                        border: none;
+                                                                                        color:#000 !important;
+                                                                                        border-bottom: 1px solid black;
+                                                                                        overflow: hidden;
+                                                                                        font-size: 2vh;
+                                                                                        font-family: 'ag';"></textarea> -->
+                                        <div class="d-flex mt-4 justify-content-between align-items-center">
+                                            <div style="
+                                                                                        width: 93%;
+                                                                                    ">
+                                                <img src=" images/Studio-Ellio-logo-horizontal-preview.png" alt=""
+                                                    width="70%">
+                                            </div>
+
+                                            <button type="submit" id="send_btn"
+                                                style="
+                                                                                                                                                        width: 40%;
+                                                                                                                                                        /* height: 6vh; */
+                                                                                                                                                        background-color: white;
+                                                                                                                                                        text-align: center;
+                                                                                                                                                        font-size: 13pt;
+                                                                                                                                                        font-family: 'ag';
+                                                                                                                                                        border: none;
+                                                                                                                                                        border-radius: 50px;
+                                                                                                                                                        float: right;
+                                                                                                                                                        /* margin-top: 40px; */
+                                                                                                                                                        cursor: pointer;
+                                                                                                                                                        text-transform: uppercase;
+                                                                                                                                                        ">Send</button>
+
+
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                            </div> -->
+                            </div>
+                        </div>
+                        <!-- <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div> -->
+                    </div>
+                    <!-- about content -->
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+    </section>
+    <!-- <div class="content">Scroll Down</div> -->
+    <div class="go-top">
+        <!-- <p class="go-top-text">Back To Top</p> -->
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        function switchVisible() {
+            if (document.getElementById('Div1')) {
+
+                if (document.getElementById('Div1').style.display == 'none') {
+                    document.getElementById('Div1').style.display = 'inline-flex';
+                    document.getElementById('Div2').style.display = 'none';
+                }
+                else {
+                    document.getElementById('Div1').style.display = 'none';
+                    document.getElementById('Div2').style.display = 'inline-flex';
+                }
+            }
+        }
+    </script>
+    <script>
+        $(function () {
+
+            //Scroll event
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                if (scrolled > 200) $('.go-top').fadeIn('slow');
+                if (scrolled < 200) $('.go-top').fadeOut('slow');
+            });
+
+            //Click event
+            $('.go-top').click(function () {
+                $("html, body").animate({ scrollTop: "0" }, 500);
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

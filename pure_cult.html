@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+
+<html style="overflow: auto !important;">
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Studio Ellio</title>
+    <!-- 
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/about.css" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/work.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css" /> -->
+
+    <link rel="icon" type="image/gif" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            overflow-x: hidden !important;
+
+            font-family: fn !important;
+
+        }
+
+
+
+        * {
+
+            font-family: fn !important;
+
+        }
+
+        @font-face {
+
+            font-family: fn1;
+
+            src: url('fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+
+        }
+
+        #Div2 {
+
+            display: none;
+
+        }
+
+        .go-top {
+            position: fixed;
+            bottom: 2%;
+            right: 3%;
+            padding: 15px;
+            border-radius: 40px;
+            display: none;
+            cursor: pointer;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .go-top:after {
+            font-family: FontAwesome;
+            content: "\f106";
+            background-color: #000;
+            padding: 0px 14px;
+            color: #fff;
+            position: absolute;
+            bottom: 10px;
+            width: 44px;
+            font-size: 28px;
+            border-radius: 75px;
+            height: 44px;
+        }
+
+        .go-top-text {
+            position: absolute;
+            width: 60px;
+            text-align: center;
+            font-family: 'Questrial';
+            line-height: 1.5;
+            letter-spacing: 3px;
+            font-size: 12px;
+            margin: 20px 0 0 -4px;
+        }
+
+        .go-top:hover {
+            transition: all .4s linear;
+            transform: scale(1.1);
+        }
+
+        h4 {
+            font-weight: bold;
+            color: #fff;
+            font-family: fn1 !important;
+        }
+
+        .close {
+            color: #fff;
+            transform: scale(1.2)
+        }
+
+        .modal-content {
+            font-weight: bold;
+            background: #EA4A3A;
+        }
+
+        .form-control {
+            margin: 1em 0;
+            padding:0px;
+        }
+
+        .form-control:hover,
+        .form-control:focus {
+            box-shadow: none;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #000;
+        }
+
+        .username,
+        .email {
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            border-bottom: 1px solid #000;
+            padding-left: 0;
+            font-weight: normal;
+            background: transparent;
+            color: #000 !important;
+        }
+
+           .form-control::-webkit-input-placeholder {
+            font-size: 13px;
+            color: #000;
+        }
+           textarea:-ms-input-placeholder {
+            color: #fff;
+            font-size: 3px !important;
+        }
+
+
+        .form-control:focus::-webkit-input-placeholder {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .login {
+            padding: 6px 20px;
+            border-radius: 20px;
+            background: none;
+            border: 2px solid #FAB87F;
+            color: #FAB87F;
+            font-weight: bold;
+            transition: all .5s;
+            margin-top: 1em;
+        }
+
+        /* .login:hover {
+            background: #FAB87F;
+            color: #;
+        } */
+
+       
+
+        @media only screen and (min-width: 100px) and (max-width: 1080px) {
+            .go-top {
+                position: fixed;
+                bottom: 2%;
+                right: 9%;
+                padding: 15px;
+                border-radius: 40px;
+                display: none;
+                cursor: pointer;
+                -webkit-font-smoothing: antialiased;
+                z-index: 99;
+            }
+        }
+
+        .work_text:hover {
+            text-decoration: none;
+        }
+
+        .icon_arrows {
+            font-size: 26px;
+            color: #000;
+            cursor: pointer;
+        }
+
+
+
+        .icon_arrows:hover {
+            color: red !important;
+            text-decoration: none !important;
+        }
+    </style>
+
+</head>
+
+
+
+<body style="overflow: auto;">
+
+    <!-- Navigation-->
+    <!-- <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+        <a href="/" class="navbar-brand d-flex w-50 mr-auto">Navbar 3</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+
+                <li class="nav-item">
+                    <a class="navbar-brand js-scroll-trigger" href="indexx.html">
+
+                        <img src="images/STUDIO-ELLIO-_Black_-removebg-preview.png" class="logo_div" />
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+    <br class="up_space">
+    <nav class="navbar navbar-expand-lg " id="mainNav">
+
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <ul class="navbar-nav text-uppercase mt-0" style="margin-top: 0px;color: #000;">
+
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link js-scroll-trigger ">
+                            <span class="icon_arrows" onclick="window.location.href='index.html'">
+                                &#60; </span>
+                            <a href="work.html" class="work_text"><span class="pl-1 ">WORK</span></a></a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="responsive_work">
+                <span class="d-flex align-items-center" style="color: #000;">
+                    <span class="icon_arrows" onclick="window.location.href='index.html'">
+                        &#60; </span>
+                    <a href="work.html"><span class="pl-1 " style="color: #000;">WORK</span></a></span>
+            </div>
+
+            <a class="navbar-brand js-scroll-trigger mr-0" href="index.html">
+
+                <img src="images/STUDIO-ELLIO-_Black_-removebg-preview.png" class="logo_div" />
+
+            </a>
+
+
+
+        </div>
+    </nav>
+
+    <!-- Services-->
+
+    <section class="page-section_almond_house" style="padding-bottom: 6rem;">
+
+        <div class="container-fluid p-0">
+
+            <!-- <div class="row ">
+
+                <div class="">
+
+                    <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-01.jpg" width="100%" />
+
+                </div>
+
+            </div> -->
+            <div class="col-md-12 p-0">
+                <div class="pure_cultbg" loading="lazy" >
+                </div>
+                <div class="pure_baner_sec">
+                    <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PureCult.jpg" width="100%" />
+                </div>
+            </div>
+
+            <!-- container -->
+
+        </div>
+
+        <!-- header hero -->
+
+    </section>
+
+    <section class="" id="" style="padding-bottom: 0rem;">
+
+        <div class="container">
+
+            <div class="row justify-content-center heading_div" style="margin-bottom:57px;">
+
+                <div class="col-lg-10">
+
+                    <div class="text-left heading_spacing">
+
+                        <span class="title-h1 main_heading">PureCult - Clean Alternatives - Going
+
+                            beyond conventional Cleaning & Design</span>
+
+                    </div>
+
+                    <!-- about content -->
+
+                </div>
+
+            </div>
+
+            <!-- row -->
+
+            <div class="row" style="">
+
+                <div class="col-lg-6">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="text-left heading_spacing1" style="line-height: 0rem;">
+
+                        <h5 class=" text_gry">Services</h5>
+
+                        <pre> <h5 class="services_txt">Brand Identity    Packaging Design</h5></pre>
+
+                    </div>
+
+                    <!-- about content -->
+
+                </div>
+
+            </div>
+
+            <!-- row -->
+
+            <div class="row overview_content">
+
+                <div class="col-12 col-md-12 col-lg-12 pckg_below">
+
+                    <img src="images/packaging_details/Packaging/PureCult_Folder/Links/2PC-2.png"
+                        style="width:100%;height:auto"  loading="lazy"/>
+
+                </div>
+
+            </div>
+
+            <div class="row justify-content-end" style=" margin-bottom: 42px;" id="Div1">
+
+                <div class="col-md-12 col-lg-8">
+
+                    <div class="text-right">
+
+                        <h2 class="title-h1 desc_text">
+                            "The brand strategy for PureCult was to build a brand that is honest, fuss-free, enpowering
+                            and conscious, with a visual
+                            aim that is not only relevant but also contextual. It seeks to spark an interest in cleaning
+                            products with a fresh outlook and
+                            reinforce it beyond the conventional graphics and design. One of the core ideas is to
+                            encourage consumers to consider sustainable eco friendly cleaning alternatives. <br><br>
+
+                            This was brought to life with a vision of a safer, cleaner and greener earth. The idea was
+                            to acheive a mix of urban city life and clean green for more sustainable world.
+                            We have taken an illustrative approach to the brand's packaging, making it distinct from any
+                            other product in the category."</h2>
+
+                    </div>
+
+                    <p class="pt-4 text_red" onclick="switchVisible();">
+
+                        Learn more about the project
+
+                    </p>
+
+                    <!-- about content -->
+
+                </div>
+
+            </div>
+            <div class="container pl-3">
+                <div class="row margin_spacing justify-content-end" style="margin-bottom: 42px;display: none;"
+                    id="Div2">
+
+                    <div class="col-md-6 ">
+
+                        <div class="spacing_style">
+
+                            <h2 class="title-h1 desc_text_detailed">
+
+                                PureCult, a natural home cleaning products range,
+
+                                is here to raise awareness, and stir the
+
+                                conversation around your cleaning practices.
+
+                                Cleaning isn't just about how clean the outcome is
+
+                                but also about how you clean. For PureCult clean spaces matters, the product used for
+                                cleaning matters, and above all, the environment matters! Therefore
+                                they have introduced a range of products with a difference, because you matter!
+                            </h2> <br>
+
+                            <h2 class="title-h1 desc_text_detailed">
+
+                                The brand strategy for PureCult was to build a brand that is honest, fuss-free,
+                                enpowering
+                                and conscious ,with a visual
+                                aim that is not only relevant but also contextual. It seeks to spark an interest in
+                                cleaning
+                                products with a fresh outlook and
+                                reinforce it beyond the conventional graphics and design. One of the core ideas is to
+                                encourage consumers to consider sustainable eco friendly cleaning alternatives.</h2>
+                            <br>
+
+
+                        </div>
+
+                        <!-- about content -->
+
+                    </div>
+
+                    <div class="col-md-6 spacing_style_r" style="">
+
+                        <div class="">
+
+                            <h2 class="title-h1 desc_text_detailed">
+                                This was brought to life with a vision of a safer, cleaner and greener earth. The idea
+                                was
+                                to acheive a mix of urban city life and clean green for more sustainable world.
+                                We have taken an illustrative approach to the brand's packaging, making it distinct from
+                                any
+                                other product in the category.
+                            </h2>
+                            <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                The client came to us with a custom mould for their products, and designs were created
+                                keeping in mind the bottle
+                                structure. Each section of the label has its own distinct
+                                function -- product name, variant, benefits of how a cleaner, greener earth could look.
+                                <br> <br>
+
+                                However, due to production hurdles, the brand launched with adapts of these designs on
+                                generic bottles. They aim to
+                                launch their custom packs in phase two.
+                            </h2>
+                        </div>
+
+                        <p class="pt-4 text_gry" id="Button1">
+
+                            Developed with Anomaly Brands
+
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class=" row d-flex align-items-center justify-content-center" style="margin-bottom:42px;">
+
+                <div class="col-12 col-md-12 col-lg-12">
+
+                    <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-02.jpg"
+                        style="width:100%;height: auto;" loading="lazy" />
+
+                </div>
+
+            </div>
+
+            <div class="row mt-4" style="">
+
+                <div class="col-lg-6 text-center">
+
+                    <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-03.jpg" style=""
+                        class="pure_cult_det" />
+
+                </div>
+
+                <div class="col-lg-5 text-center flex-column d-flex align-items-center justify-content-center "
+                    style="font-size: 16px;">
+
+                    <div class="pure_cult_txt ">
+                        <h2 class="title-h1 desc_text2" style="font-size: 16px;line-height: 1.5rem;">
+
+                            The client came to us with a custom mould
+
+                            for their products, and the designs were
+
+                            created keeping in mind the bottle structure.
+
+                            Each section of the label has its own distinct
+
+                            function — product name, variant, benefits of
+
+                            how a cleaner, greener earth could look.</h2> <br class="breakng">
+
+                        <h2 class="title-h1 desc_text2" style="font-size: 16px;line-height: 1.5rem;">
+
+                            However, due to production hurdles, the
+
+                            brand launched with adapts of these designs
+
+                            on generic bottles. They aim to launch their
+
+                            custom packs in phase two.</h2>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row d-flex justify-content-center align-items-center pc_04" style="">
+
+                <div class="col-md-12 text-center">
+
+                    <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-04.jpg" width="100%">
+
+                </div>
+
+            </div>
+            <div class="row d-flex justify-content-center align-items-center pc_04" style="">
+
+                <div class="col-md-12 text-center">
+
+                    <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-05.jpg" style="width:100%;" />
+
+                </div>
+
+            </div>
+            <!-- container -->
+
+    </section>
+
+
+
+    <div class="container" style="">
+
+        <div class="row d-flex justify-content-center align-items-center pc_04">
+
+            <div class="col-md-12 text-center">
+
+                <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-06.jpg" style="width:100%;" />
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="container">
+
+
+        <div class="row  d-flex justify-content-center align-items-center pc_04" style="">
+
+            <div class="col-md-12 text-center">
+
+                <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-07.jpg" style="width:100%;" />
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center pc_04" style="">
+            <div class="col-md-12 text-center">
+                <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-08.jpg" style="width:100%;" />
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center" style="margin-bottom:52px;">
+            <div class="col-md-12 text-center">
+                <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-09.jpg" style="width:100%;" />
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center" style="margin-bottom:52px;">
+            <div class="col-md-12 text-center">
+                <img src="images/packaging_details/Packaging/PureCult_Folder/Links/PC-10.jpg" style="width:100%;" />
+            </div>
+        </div>
+        <div class="row" style="margin-bottom:40px;">
+
+            <div class="col-lg-12">
+                <div class="greetings_sec">
+                    <span class="title-h1 greetings_msg">Let’s create something unique for you as well!</span><br>
+                    <span class="title-h1 greetings_msg">Email us at <a href="" style="color:red;" data-target="#login"
+                            data-toggle="modal">hello@studioellio.com</a></span>
+                </div>
+                <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header" style="border-bottom: none;">
+                                <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                               
+                            </div>
+                            <div class="modal-body p-5">
+                                <!-- <button data-dismiss="modal" class="close">&times;</button> -->
+                                <h4 style="font-family: 'fn1';color: #000;font-weight: 200;">Say hi!</h4>
+                                <form action="https://formspree.io/f/mleanejg" method="POST" class="mt-5">
+                                    <input type="text" name="name" class="username form-control"
+                                        placeholder="Your Name">
+                                    <input type="email" name="_replyto" class="email form-control" placeholder="Email">
+                                    <textarea id="w3review" name="Message"  class="form-control" rows="4" cols="48"
+                                        placeholder="Your Message"
+                                        style="background-color: transparent;border: none;border-bottom: 1px solid #000;width: 100%;"></textarea>
+                                    <!-- <input type="textarea" name="username" class="username form-control"
+                                                                                                            placeholder="Username" /> -->
+                                    <!-- <textarea placeholder="Message" id="msg" name="Message" required style="width: 100%;
+                                                                        height: 6vh;
+                                                                        margin-top: 18vh;
+                                                                        background-color: #ea4a3a;
+                                                                        border: none;
+                                                                        color:#000 !important;
+                                                                        border-bottom: 1px solid black;
+                                                                        overflow: hidden;
+                                                                        font-size: 2vh;
+                                                                        font-family: 'ag';"></textarea> -->
+                                    <div class="d-flex mt-4 justify-content-between align-items-center">
+                                        <div style="
+                                                                        width: 93%;
+                                                                    ">
+                                            <img src=" images/Studio-Ellio-logo-horizontal-preview.png" alt=""
+                                                width="70%">
+                                        </div>
+
+                                        <button type="submit" id="send_btn"
+                                            style="
+                                                                                                                                        width: 40%;
+                                                                                                                                        /* height: 6vh; */
+                                                                                                                                        background-color: white;
+                                                                                                                                        text-align: center;
+                                                                                                                                        font-size: 13pt;
+                                                                                                                                        font-family: 'ag';
+                                                                                                                                        border: none;
+                                                                                                                                        border-radius: 50px;
+                                                                                                                                        float: right;
+                                                                                                                                        /* margin-top: 40px; */
+                                                                                                                                        cursor: pointer;
+                                                                                                                                        text-transform: uppercase;
+                                                                                                                                        ">Send</button>
+
+
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div> -->
+                        </div>
+                    </div>
+                    <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- about content -->
+    </div>
+    </div>
+    </div>
+    <!-- <div class="content">Scroll Down</div> -->
+    <div class="go-top"></div>
+    <script src="js/script.js"></script>
+    <script>
+        function switchVisible() {
+            if (document.getElementById('Div1')) {
+                if (document.getElementById('Div1').style.display == 'none') {
+                    document.getElementById('Div1').style.display = 'flex';
+                    document.getElementById('Div2').style.display = 'none';
+                }
+                else {
+                    document.getElementById('Div1').style.display = 'none';
+                    document.getElementById('Div2').style.display = 'flex';
+                }
+            }
+        }
+    </script>
+    <script>
+           $(function() {
+        $('.lazy').lazy();
+    });
+    </script>
+    <script>
+        $(function () {
+
+            //Scroll event
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                if (scrolled > 200) $('.go-top').fadeIn('slow');
+                if (scrolled < 200) $('.go-top').fadeOut('slow');
+            });
+
+            //Click event
+            $('.go-top').click(function () {
+                $("html, body").animate({ scrollTop: "0" }, 500);
+            });
+
+        });
+
+    </script>
+    <!-- <script>
+
+        function lazyimg(){
+    document.getElementsByTagName('img');
+    console.log("executed");
+}
+document.addEventListener("on")
+    </script> -->
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        
+    </script>
+</body>
+
+</html>

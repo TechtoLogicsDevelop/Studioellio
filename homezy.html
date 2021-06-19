@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html style="    overflow: auto !important;">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Ellio</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="css/work.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="icon" type="image/gif" href="images/elliofavicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: fn !important;
+            overflow-x: hidden !important;
+        }
+
+        * {
+            font-family: fn !important;
+        }
+
+        #Div2 {
+            display: none;
+        }
+
+        .go-top {
+            position: fixed;
+            bottom: 2%;
+            right: 3%;
+            padding: 15px;
+            border-radius: 40px;
+            display: none;
+            cursor: pointer;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .go-top:after {
+            font-family: FontAwesome;
+            content: "\f106";
+            background-color: #000;
+            padding: 0px 14px;
+            color: #fff;
+            position: absolute;
+            bottom: 10px;
+            width: 44px;
+            font-size: 28px;
+            border-radius: 75px;
+            height: 44px;
+        }
+
+        .go-top-text {
+            position: absolute;
+            width: 60px;
+            text-align: center;
+            font-family: 'Questrial';
+            line-height: 1.5;
+            letter-spacing: 3px;
+            font-size: 12px;
+            margin: 20px 0 0 -4px;
+        }
+
+        .go-top:hover {
+            transition: all .4s linear;
+            transform: scale(1.1);
+        }
+
+        @media only screen and (min-width: 100px) and (max-width: 1080px) {
+            .go-top {
+                position: fixed;
+                bottom: 2%;
+                right: 9%;
+                padding: 15px;
+                border-radius: 40px;
+                display: none;
+                cursor: pointer;
+                -webkit-font-smoothing: antialiased;
+                z-index: 99;
+            }
+        }
+
+        h4 {
+            font-weight: bold;
+            color: #fff;
+            font-family: fn1 !important;
+        }
+
+        .close {
+            color: #fff;
+            transform: scale(1.2)
+        }
+
+        .modal-content {
+            font-weight: bold;
+            background: #EA4A3A;
+        }
+
+        .form-control {
+            margin: 1em 0;
+            padding:0px;
+        }
+ .form-control::-webkit-input-placeholder {
+            font-size: 13px;
+            color: #000;
+        }
+        .form-control:hover,
+        .form-control:focus {
+            box-shadow: none;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #000;
+        }
+
+        .username,
+        .email {
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            border-bottom: 1px solid #000;
+            padding-left: 0;
+            font-weight: normal;
+            background: transparent;
+            color: #000 !important;
+        }
+
+     
+        .form-control:focus::-webkit-input-placeholder {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .login {
+            padding: 6px 20px;
+            border-radius: 20px;
+            background: none;
+            border: 2px solid #FAB87F;
+            color: #FAB87F;
+            font-weight: bold;
+            transition: all .5s;
+            margin-top: 1em;
+        }
+
+        /* .login:hover {
+            background: #FAB87F;
+            color: #;
+        } */
+
+     
+
+        .work_text:hover {
+            text-decoration: none;
+        }
+
+        .icon_arrows {
+            font-size: 26px;
+            color: #000;
+            cursor: pointer;
+        }
+
+
+
+        .icon_arrows:hover {
+            color: red !important;
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+
+<body style="overflow: auto;">
+    <div class="go-top">
+        <!-- <p class="go-top-text">Back To Top</p> -->
+    </div>
+
+    <!-- Navigation-->
+    <!-- <nav class="navbar navbar-expand-lg " id="mainNav">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase mt-0" style="    margin-top: 0px;">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger wrk" href="work.html">WORK</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand js-scroll-trigger" href="indexx.html">
+                <img src="images/packaging_details/Packaging/Almond House_Folder/Links/Asset 25A-H-18.png"
+                    class="logo_div" /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+
+        </div>
+    </nav> --> <br class="up_space">
+    <nav class="navbar navbar-expand-lg " id="mainNav">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase mt-0" style="    margin-top: 0px;">
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link js-scroll-trigger "><span></span>
+                            <span class="icon_arrows" onclick="window.location.href='index.html'">
+                                &#60; </span>
+                            </span><a href="work.html" class="work_text"><span class="pl-1 ">WORK</span></a></a>
+                    </li>
+                </ul>
+            </div>
+            <a href="work.html">
+                <div class="responsive_work">
+                    <img src="images/right-arrow.svg" alt="" width="15px" style="margin-top: -4px;color: #fff;"><span
+                        class="pl-1" style="color: #000;">WORK</span>
+                </div>
+            </a>
+            <a class="navbar-brand js-scroll-trigger mr-0" href="index.html">
+
+                <img src="images/STUDIO-ELLIO-_Black_-removebg-preview.png" class="logo_div" />
+
+            </a>
+
+
+
+        </div>
+    </nav>
+    <!-- Services-->
+    <section class="page-section_home" style="
+    ">
+        <div class="container-fluid p-0">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="home_bg">
+                    </div>
+                    <div class="home_baner_sec">
+                        <img src="images/Branding_details/Branding/homezy_Folder/homezy-01.jpg" width="100%"
+                            class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <!-- container -->
+        </div>
+        <!-- header hero -->
+    </section>
+    <section class="" id="" style="padding-bottom: 0rem;">
+        <div class="container">
+            <div class="row" style="margin-bottom:40px;">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <div class="text-left heading_spacing">
+                        <span class="title-h1 main_heading">
+                            Homezy - Made at home to made for you</span>
+                    </div>
+                    <!-- about content -->
+                </div>
+
+            </div>
+            <!-- row -->
+            <div class="row hmz_services" style="">
+                <div class="col-lg-6">
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-left heading_spacing1" style="line-height: 0rem;">
+
+                        <h5 class=" text_gry">Services</h5>
+
+                        <pre> <h5 class="services_txt">Brand Identity      Illustration</h5></pre>
+
+                    </div>
+                    <!-- about content -->
+                </div>
+            </div>
+            <!-- row -->
+            <div class="row overview_content homzy_text" style="">
+                <div class="col-lg-12">
+                    <img src="images/Branding_details/Branding/homezy_Folder/homezy-02.jpg" STYLE="width:100%;" />
+                </div>
+
+            </div>
+
+            <div class="row justify-content-end hmzy_ser" style="" id="Div1">
+                <div class="col-md-8">
+                    <div class="text-right">
+                        <h2 class="title-h1 desc_text">
+                            “We created an identity for Homezy inspired by local handmade elements that are familiar and
+                            relatable like street art,
+                            hand painted signages and posters, to induce and create a nostalgic, organic and homely
+                            identity. <br><br>
+
+                            The logo speaks to the soul of the brand that is to support and uplift local businesses. The
+                            slight arch represents the
+                            brand's idea to lift the home chefs by providing them and their talent a platform.”</h2>
+
+                    </div>
+                    <p class="pt-4 text_red mb-0" onclick="switchVisible();">
+                        Learn more about the project
+                    </p>
+                    <!-- about content -->
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row  justify-content-end golf_para pt-0" style=" " id="Div2">
+                    <div class="col-md-6">
+                        <div class="">
+                            <h2 class="title-h1 desc_text_detailed">
+                                Homezy, an online delivery platform, provides fresh, hygienic, and affordable home
+                                cooked
+                                food. It comes to the rescue
+                                of those who desire healthy, home meals but lack the time or skills to prepare one
+                                themselves. <br><br>
+                                With an aim to support small local businesses, the platform empowers home chefs by
+                                providing
+                                them a marketplace to
+                                monetize their skills.</h2> <br>
+                            <h2 class="title-h1 desc_text_detailed">We created an identity for them inspired by local
+                                handmade
+                                elements that are familiar and
+                                relatable like street art,
+                                hand painted signages and posters, to induce and create a nostalgic, organic and homely
+                                identity.</h2>
+
+                        </div>
+
+                        <!-- about content -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <h2 class="title-h1 desc_text_detailed">
+                                The logo speaks to the soul of the brand that is to support and uplift local businesses.
+                                The
+                                slight arch represents the
+                                brand's idea to lift the home chefs by providing them and their talent a platform.</h2>
+                            <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                The brand uses yellow, often associated with hunger, as its most prominent colour
+                                inspired
+                                from our local posters and
+                                graphics. However, the identity includes a larger colour palette complementing the
+                                Indian
+                                culture.</h2> <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                We move away from the vector style illustration which is commonly followed in online
+                                food
+                                delivery apps and created a
+                                rooted hand done chalk style that is organic and handmade with love just like the food
+                                offered on Homezy.</h2>
+                        </div>
+                        <!-- <p class="pt-4 text_gry">
+                            Developed with Anomaly Brands.
+                        </p> -->
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row pc_04" style="">
+                <div class="col-lg-12">
+                    <img src="images/Branding_details/Branding/homezy_Folder/homezy-03.jpg" style="width:100%;" />
+                </div>
+            </div>
+            <div class="row pc_04" style="">
+                <div class="col-md-12">
+                    <img src="images/Branding_details/Branding//homezy_Folder/homezy-04.jpg" style="width:100%" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row text-center " style="background-color: #1A1A1A;padding-top: 0px;">
+            <div class="col-12 col-md-12 col-lg-12">
+                <img src="images/Branding_details/Branding/homezy_Folder/homezy-replace1.jpg" style="width:94%;height:auto" />
+            </div>
+        </div>
+        <div class="row text-center homzy_app_img" style="background-color: #1A1A1A;">
+            <div class="col-12 col-md-12 col-lg-12">
+                <img src="images/Branding_details/Branding/homezy_Folder/homezy2.jpg" style="width:100%;height:auto" />
+            </div>
+        </div>
+        <!-- <div class="row justify-content-center" style="margin-bottom:100px;background-color: #1A1A1A;">
+            <div class="col-lg-11">
+                <img src="images/Branding_details/Branding/homezy_Folder/homezy-07.jpg" style="width:100%;" />
+            </div>
+        </div> -->
+        <div class="row ">
+            <div class="col-md-12 text-center d-flex justify-content-center homezy_illust">
+                <h2 class="title-h1 desc_text pr-0" style="font-size: 25px;">
+                    Illustrations for the Customer Interface of the App</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center" style="margin-bottom:20px;">
+            <div class="col-lg-10">
+                <img src="images/Branding_details/Branding/homezy_Folder/homezy-08.jpg" style="width:100%;" />
+            </div>
+        </div>
+        <div class="row " style="margin-bottom:52px;">
+            <div class="col-md-12 text-center d-flex justify-content-center homezy_illust">
+                <h2 class="title-h1 desc_text pr-0" style="font-size: 25px;">
+                    Illustrations for the Home Chef Interface of the App</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <img src="images/Branding_details/Branding/homezy_Folder/homezy-09.jpg"
+                    style="width:100%;margin-top: -65px;" />
+            </div>
+        </div>
+        <div class="container">
+            <div class="row homzy_mail" style="">
+
+                <div class="col-lg-12">
+                    <div class="greetings_sec" style="">
+                        <span class="title-h1 greetings_msg">Let’s create something unique for you as well!</span><br>
+                        <span class="title-h1 greetings_msg">Email us at <a href="" style="color:red;"
+                                data-target="#login" data-toggle="modal">hello@studioellio.com</a></span>
+                    </div>
+                    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header" style="border-bottom: none;">
+                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                   
+                                </div>
+                                <div class="modal-body p-5">
+                                    <!-- <button data-dismiss="modal" class="close">&times;</button> -->
+                                    <h4 style="font-family: 'fn1';color: #000;font-weight: 200;">Say hi!</h4>
+                                    <form action="https://formspree.io/f/mleanejg" method="POST" class="mt-5">
+                                        <input type="text" name="name" class="username form-control"
+                                            placeholder="Your Name">
+                                        <input type="email" name="_replyto" class="email form-control"
+                                            placeholder="Email">
+                                        <textarea id="w3review" name="Message" class="form-control" rows="4" cols="48"
+                                            placeholder="Your Message"
+                                            style="background-color: transparent;border: none;border-bottom: 1px solid #000;width:100%"></textarea>
+                                        <!-- <input type="textarea" name="username" class="username form-control"
+                                                                                                                                placeholder="Username" /> -->
+                                        <!-- <textarea placeholder="Message" id="msg" name="Message" required style="width: 100%;
+                                                                                            height: 6vh;
+                                                                                            margin-top: 18vh;
+                                                                                            background-color: #ea4a3a;
+                                                                                            border: none;
+                                                                                            color:#000 !important;
+                                                                                            border-bottom: 1px solid black;
+                                                                                            overflow: hidden;
+                                                                                            font-size: 2vh;
+                                                                                            font-family: 'ag';"></textarea> -->
+                                        <div class="d-flex mt-4 justify-content-between align-items-center">
+                                            <div style="
+                                                                                            width: 93%;
+                                                                                        ">
+                                                <img src=" images/Studio-Ellio-logo-horizontal-preview.png" alt=""
+                                                    width="70%">
+                                            </div>
+
+                                            <button type="submit" id="send_btn"
+                                                style="
+                                                                                                                                                            width: 40%;
+                                                                                                                                                            /* height: 6vh; */
+                                                                                                                                                            background-color: white;
+                                                                                                                                                            text-align: center;
+                                                                                                                                                            font-size: 13pt;
+                                                                                                                                                            font-family: 'ag';
+                                                                                                                                                            border: none;
+                                                                                                                                                            border-radius: 50px;
+                                                                                                                                                            float: right;
+                                                                                                                                                            /* margin-top: 40px; */
+                                                                                                                                                            cursor: pointer;
+                                                                                                                                                            text-transform: uppercase;
+                                                                                                                                                            ">Send</button>
+
+
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                                </div> -->
+                            </div>
+                        </div>
+                        <!-- <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div> -->
+                    </div>
+                    <!-- about content -->
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+    </section>
+    <script src="js/script.js"></script>
+    <script>
+        function switchVisible() {
+            if (document.getElementById('Div1')) {
+                if (document.getElementById('Div1').style.display == 'none') {
+                    document.getElementById('Div1').style.display = 'inline-flex';
+                    document.getElementById('Div2').style.display = 'none';
+                }
+                else {
+                    document.getElementById('Div1').style.display = 'none';
+                    document.getElementById('Div2').style.display = 'inline-flex';
+                }
+            }
+        }
+
+    </script>
+    <!-- <script>
+        $(function () {
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop
+            })
+        })
+    </script> -->
+    <script>
+        $(function () {
+
+            //Scroll event
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                if (scrolled > 200) $('.go-top').fadeIn('slow');
+                if (scrolled < 200) $('.go-top').fadeOut('slow');
+            });
+
+            //Click event
+            $('.go-top').click(function () {
+                $("html, body").animate({ scrollTop: "0" }, 500);
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

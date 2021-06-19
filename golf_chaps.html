@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+
+<html style="    overflow: auto !important;">
+
+
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Studio Ellio</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/about.css" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/work.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <link rel="icon" type="image/gif" href="images/elliofavicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+
+            font-family: fn !important;
+
+            background-color: #1A1A1A;
+            overflow-x: hidden !important;
+        }
+
+
+
+        * {
+
+            font-family: fn !important;
+
+        }
+
+
+
+        #Div2 {
+
+            display: none;
+
+        }
+
+        .go-top {
+            position: fixed;
+            bottom: 2%;
+            right: 3%;
+            padding: 15px;
+            border-radius: 40px;
+            display: none;
+            cursor: pointer;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .go-top:after {
+            font-family: FontAwesome;
+            content: "\f106";
+            background-color: #000;
+            padding: 0px 14px;
+            color: #fff;
+            position: absolute;
+            bottom: 10px;
+            width: 44px;
+            font-size: 28px;
+            border-radius: 75px;
+            height: 44px;
+        }
+
+        .go-top-text {
+            position: absolute;
+            width: 60px;
+            text-align: center;
+            font-family: 'Questrial';
+            line-height: 1.5;
+            letter-spacing: 3px;
+            font-size: 12px;
+            margin: 20px 0 0 -4px;
+        }
+
+        .go-top:hover {
+            transition: all .4s linear;
+            transform: scale(1.1);
+        }
+
+        @media only screen and (min-width: 100px) and (max-width: 1080px) {
+            .go-top {
+                position: fixed;
+                bottom: 2%;
+                right: 9%;
+                padding: 15px;
+                border-radius: 40px;
+                display: none;
+                cursor: pointer;
+                -webkit-font-smoothing: antialiased;
+                z-index: 99;
+            }
+        }
+
+        h4 {
+            font-weight: bold;
+            color: #fff;
+            font-family: fn1 !important;
+        }
+
+        .close {
+            color: #fff;
+            transform: scale(1.2)
+        }
+
+        .modal-content {
+            font-weight: bold;
+            background: #EA4A3A;
+        }
+
+        .form-control {
+            margin: 1em 0;
+            padding:0px;
+        }
+ .form-control::-webkit-input-placeholder {
+            font-size: 13px;
+            color: #000;
+        }
+        .form-control:hover,
+        .form-control:focus {
+            box-shadow: none;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #000;
+        }
+
+        .username,
+        .email {
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            border-bottom: 1px solid #000;
+            padding-left: 0;
+            font-weight: normal;
+            background: transparent;
+            color: #000 !important;
+        }
+
+      
+
+        .form-control:focus::-webkit-input-placeholder {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .login {
+            padding: 6px 20px;
+            border-radius: 20px;
+            background: none;
+            border: 2px solid #FAB87F;
+            color: #FAB87F;
+            font-weight: bold;
+            transition: all .5s;
+            margin-top: 1em;
+        }
+
+        /* .login:hover {
+            background: #FAB87F;
+            color: #;
+        } */
+
+       
+
+        @media only screen and (min-width: 100px) and (max-width: 1080px) {
+            .go-top {
+                position: fixed;
+                bottom: 2%;
+                right: 9%;
+                padding: 15px;
+                border-radius: 40px;
+                display: none;
+                cursor: pointer;
+                -webkit-font-smoothing: antialiased;
+                z-index: 99;
+            }
+        }
+
+        .work_text:hover {
+            text-decoration: none;
+        }
+
+        .icon_arrows {
+            font-size: 26px;
+            color: #000;
+            cursor: pointer;
+        }
+
+
+
+        .icon_arrows:hover {
+            color: red !important;
+            text-decoration: none !important;
+        }
+    </style>
+
+</head>
+
+
+
+<body style="overflow: auto;">
+
+    <div class="go-top">
+        <!-- <p class="go-top-text">Back To Top</p> -->
+    </div>
+
+    <!-- Navigation--><br class="up_space">
+
+    <nav class="navbar navbar-expand-lg " id="mainNav">
+
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <ul class="navbar-nav text-uppercase mt-0" style="margin-top: 0px;color: #000;">
+
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link js-scroll-trigger "><span></span>
+                            <span class="icon_arrows" onclick="window.location.href='index.html'">
+                                &#60; </span>
+                            </span><a href="work.html" class="work_text"><span class="pl-1 ">WORK</span></a></a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <a href="work.html">
+                <div class="responsive_work">
+                    <span class="" style="color: #000;"><img src="images/right-arrow.svg" alt="" width="15px"
+                            style="margin-top: -4px;color: #fff;"><span class="pl-1">WORK</span></span>
+                </div>
+            </a>
+            <a class="navbar-brand js-scroll-trigger mr-0" href="index.html">
+
+                <img src="images/STUDIO-ELLIO-_Black_-removebg-preview.png" class="logo_div" />
+
+            </a>
+
+
+
+
+
+
+        </div>
+
+    </nav>
+
+    <!-- Services-->
+
+    <section class="page-section_golf" style="">
+
+        <div class="container-fluid p-0">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="golf_bg">
+                    </div>
+                    <div class="golf_baner_sec">
+                        <img src="images/digital/Golf Chaps/Golf-Chaps-banner.png" width="100%"
+                            class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <!-- container -->
+        </div>
+
+        <!-- header hero -->
+
+    </section>
+
+    <section class="" id="" style="">
+        <div class="container">
+            <div class="row justify-content-center" style="margin-bottom:40px;">
+                <div class="col-lg-11">
+                    <div class="text-left text-white heading_spacing">
+                        <span class="title-h1 main_heading">Golf Chaps - Timeless and inspirational typography <br
+                                class="breakng"> and
+                            iconography</span>
+                    </div>
+                    <!-- about content -->
+                </div>
+            </div>
+            <!-- row -->
+            <div class="row sm_services" style="">
+                <div class="col-lg-6">
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-left text-white heading_spacing1" style="line-height: 0rem;">
+                        <h5 class="title-h1 text_gry" style="">
+                            Services</h5>
+                        <pre class="mb-0"> <h5 class="text-white services_txt">Brand Identity Design</h5></pre>
+                    </div>
+                    <!-- about content -->
+                </div>
+            </div>
+            <div class="row overview_content glof_img1" style="">
+                <div class="col-lg-12">
+                    <img src="images/digital/Golf Chaps/Golf-Chaps-1.png" style="width:100%;" />
+                </div>
+            </div>
+        </div>
+        <!-- row -->
+        <div class="container">
+            <div class="row justify-content-end golf_para" id="Div1">
+                <div class="col-md-8">
+                    <div class="text-white">
+                        <h2 class="title-h1 desc_text">
+                            "Our approach to the logos was to create something that would be finessed, identifiable and
+                            symbolic. The logos are
+                            modelled on some of the earliest old style typefaces with a contemporary twist. Simple,
+                            elegant workhorse fonts for
+                            printing of classic texts. Both the logos' careful insistence of enforcing capital letters
+                            in every medium is a
+                            deliberate choice. It sends out a strong message that the brand and its impact is here to
+                            stay."
+                        </h2>
+                    </div>
+                    <p class="pt-4 text_red" onclick="switchVisible();">
+                        Learn more about the project
+                    </p>
+                    <!-- about content -->
+                </div>
+            </div>
+            <div class="container pl-3">
+                <div class="row margin_spacing golf_extra justify-content-end text-white"
+                    style="margin-bottom: 22px;display: none;" id="Div2">
+
+                    <div class="col-md-6 ">
+
+
+                        <div class="spacing_style">
+
+                            <h2 class="title-h1 desc_text_detailed">
+                                Golf Chaps is a group of five passionate golfers who have come together for their common
+                                love for golf to organise
+                                events for amateurs in India. <br><br>
+                                Studio Ellio was brought on board to create their identity, and combine it with their
+                                first
+                                event — Indian Golf Clubs
+                                League (IGCL) — which would be the brand's main identifier. Hence, the two identities
+                                needed
+                                to complement each other,
+                                and yet be distinct. </h2> <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                How do you create a logo worthy of the highest levels of athletic achievement? A mark of
+                                excellence, a symbol of a
+                                timeless tradition that stirs the soul and ignites the competitive fire within?</h2>
+                            <br>
+
+                            <h2 class="title-h1 desc_text_detailed">
+                                Our approach to the logos was to create something that would be finessed, identifiable
+                                and
+                                symbolic.The logos are modelled on some of the earliest old style typefaces with a
+                                contemporary twist. Simple,
+                                elegant
+                            </h2>
+                            <br>
+                        </div>
+                        <!-- about content -->
+                    </div>
+
+                    <div class="col-md-6 spacing_style_r" style="">
+
+                        <div class="">
+
+                            <h2 class="title-h1 golf_div2">
+                                workhorse fonts for
+                                printing of classic texts. Both the logos' careful insistence of enforcing capitaL
+                                letters
+                                in every medium is a
+                                deliberate choice. It sends out a strong message that the brand and its impact is here
+                                to
+                                stay.
+                            </h2> <br>
+                            <h2 class="title-h1 golf_div2">
+                                The Golf Chaps logo is accompanied with a custom symbol that combines the letter G and
+                                golf
+                                pins in a unique
+                                combination. It becomes an identifier for the brand as event organisers for sport. The
+                                colours used represent the classy
+                                and exclusive nature of the sport.</h2> <br>
+                            <h2 class="title-h1 golf_div2">
+                                The IGCL logo on the other hand is supported by a silhouette of a golfer. It is believed
+                                to
+                                be a composite creation that
+                                should remind one of an elegant and powerful golf swing. <br> <br> The final outcome
+                                displays
+                                a
+                                set
+                                of
+                                seemingly simple logos steeped in history but effortlessly imbued with a modern
+                                sensibility.</h2>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- <div class="container">
+                <div class="row justify-content-end text-white golf_para" style="" id="Div2">
+                    <div class="col-md-6">
+                        <div class="">
+                            <h2 class="title-h1 desc_text_detailed">
+                                Golf Chaps is a group of five passionate golfers who have come together for their common
+                                love for golf to organise
+                                events for amateurs in India. <br><br>
+                                Studio Ellio was brought on board to create their identity, and combine it with their
+                                first
+                                event — Indian Golf Clubs
+                                League (IGCL) — which would be the brand's main identifier. Hence, the two identities
+                                needed
+                                to complement each other,
+                                and yet be distinct. </h2> <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                How do you create a logo worthy of the highest levels of athletic achievement? A mark of
+                                excellence, a symbol of a
+                                timeless tradition that stirs the soul and ignites the competitive fire within?</h2>
+                            <br>
+
+                            <h2 class="title-h1 desc_text_detailed">
+                                Our approach to the logos was to create something that would be finessed, identifiable
+                                and
+                                symbolic.The logos are modelled on some of the earliest old style typefaces with a
+                            </h2>
+                        </div>
+                  
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <h2 class="title-h1 desc_text_detailed">
+                                contemporary twist. Simple,
+                                elegant workhorse fonts for
+                                printing of classic texts. Both the logos' careful insistence of enforcing capitaL
+                                letters
+                                in every medium is a
+                                deliberate choice. It sends out a strong message that the brand and its impact is here
+                                to
+                                stay.
+                            </h2> <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                The Golf Chaps logo is accompanied with a custom symbol that combines the letter G and
+                                golf
+                                pins in a unique
+                                combination. It becomes an identifier for the brand as event organisers for sport. The
+                                colours used represent the classy
+                                and exclusive nature of the sport.</h2> <br>
+                            <h2 class="title-h1 desc_text_detailed">
+                                The IGCL logo on the other hand is supported by a silhouette of a golfer. It is believed
+                                to
+                                be a composite creation that
+                                should remind one of an elegant and powerful golf swing. The final outcome displays a
+                                set
+                                of
+                                seemingly simple logos steeped in history but effortlessly imbued with a modern
+                                sensibility.</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div> -->
+            <div class="row" style="">
+
+                <div class="col-lg-12 text-center">
+
+                    <img src="images/digital/Golf Chaps/Golf-Chaps-2.png" style="width:100%;" />
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+
+                    <img src="images/digital/Golf Chaps/Golf-Chaps-4.png" style="width:100%;" />
+
+                </div>
+
+            </div>
+
+            <div class="row justify-content-end " style="" id="Div1">
+
+                <div class="col-md-12">
+
+                    <img src="images/digital/Golf Chaps/Golf-Chaps-3.png" style="width:100%;" />
+
+                </div>
+
+            </div>
+
+            <div class="row golf_mail" style="">
+
+                <div class="col-lg-12">
+                    <div class="greetings_sec" style="">
+                        <span class="title-h1 greetings_msg text-white">Let’s create something unique for you as
+                            well!</span><br>
+                        <span class="title-h1 greetings_msg text-white">Email us at <a href="" style="color:red;"
+                                data-target="#login" data-toggle="modal">hello@studioellio.com</a></span>
+                    </div>
+                    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header" style="border-bottom: none;">
+                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                    
+                                </div>
+                                <div class="modal-body p-5">
+                                    <!-- <button data-dismiss="modal" class="close">&times;</button> -->
+                                    <h4 style="font-family: 'fn1';color: #000;font-weight: 200;">Say hi!</h4>
+                                    <form action="https://formspree.io/f/mleanejg" method="POST" class="mt-5">
+                                        <input type="text" name="name" class="username form-control"
+                                            placeholder="Your Name">
+                                        <input type="email" name="_replyto" class="email form-control"
+                                            placeholder="Email">
+                                        <textarea id="w3review" name="Message" rows="4" cols="48" class="form-control"
+                                            placeholder="Your Message"
+                                            style="background-color: transparent;border: none;border-bottom: 1px solid #000;width:100%"></textarea>
+                                        <!-- <input type="textarea" name="username" class="username form-control"
+                                                                                                                                placeholder="Username" /> -->
+                                        <!-- <textarea placeholder="Message" id="msg" name="Message" required style="width: 100%;
+                                                                                            height: 6vh;
+                                                                                            margin-top: 18vh;
+                                                                                            background-color: #ea4a3a;
+                                                                                            border: none;
+                                                                                            color:#000 !important;
+                                                                                            border-bottom: 1px solid black;
+                                                                                            overflow: hidden;
+                                                                                            font-size: 2vh;
+                                                                                            font-family: 'ag';"></textarea> -->
+                                        <div class="d-flex mt-4 justify-content-between align-items-center">
+                                            <div style="
+                                                                                            width: 93%;
+                                                                                        ">
+                                                <img src=" images/Studio-Ellio-logo-horizontal-preview.png" alt=""
+                                                    width="70%">
+                                            </div>
+
+                                            <button type="submit" id="send_btn"
+                                                style="
+                                                                                                                                                            width: 40%;
+                                                                                                                                                            /* height: 6vh; */
+                                                                                                                                                            background-color: white;
+                                                                                                                                                            text-align: center;
+                                                                                                                                                            font-size: 13pt;
+                                                                                                                                                            font-family: 'ag';
+                                                                                                                                                            border: none;
+                                                                                                                                                            border-radius: 50px;
+                                                                                                                                                            float: right;
+                                                                                                                                                            /* margin-top: 40px; */
+                                                                                                                                                            cursor: pointer;
+                                                                                                                                                            text-transform: uppercase;
+                                                                                                                                                            ">Send</button>
+
+
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                                </div> -->
+                            </div>
+                        </div>
+                        <!-- <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div> -->
+                    </div>
+                    <!-- about content -->
+                </div>
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+        <!-- container -->
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+    <script>
+
+        function switchVisible() {
+
+            if (document.getElementById('Div1')) {
+
+                if (document.getElementById('Div1').style.display == 'none') {
+
+                    document.getElementById('Div1').style.display = 'inline-flex';
+
+                    document.getElementById('Div2').style.display = 'none';
+
+                }
+
+                else {
+
+                    document.getElementById('Div1').style.display = 'none';
+
+                    document.getElementById('Div2').style.display = 'inline-flex';
+
+                }
+
+            }
+
+        }
+
+    </script>
+    <script>
+        $(function () {
+
+            //Scroll event
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                if (scrolled > 200) $('.go-top').fadeIn('slow');
+                if (scrolled < 200) $('.go-top').fadeOut('slow');
+            });
+
+            //Click event
+            $('.go-top').click(function () {
+                $("html, body").animate({ scrollTop: "0" }, 500);
+            });
+
+        });
+
+    </script>
+
+</body>
+
+
+
+</html>
