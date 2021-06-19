@@ -1,0 +1,77 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: dailyhunt.ai
+Color Mode: RGB color
+Color Profile: none
+Ruler Units: pixels
+Artboard Dimensions: 1921.3586 px x 1012.4411 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Agrandir Regular (OTF)
+Helvetica Light (TrueType)
+Mukta Light (TrueType)
+Mukta Regular (TrueType)
+Mukta Medium (TrueType)
+Mukta SemiBold (TrueType)
+Mukta Bold (TrueType)
+Mukta ExtraBold (TrueType)
+Mukta Mahee Regular (TrueType)
+Mukta Mahee ExtraBold (TrueType)
+Myriad Pro (OTF)
+Arial Black (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+
+/Users/ankitadsouza/Desktop/Dailyhunt Behance/Film-Grain-Textures_(FREE Pack)/AU_FG_Texture-1.jpg
+Type: Other
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/sanjanaraju/Desktop/Behance/dailyhunt/dailyhunt icon.gif
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 1865K, 691 by 691 pixels
+Dimensions: 917.282 by 917.282 points 
+Resolution: 54.239 by 54.239 pixels per inch
+
+
+/Users/sanjanaraju/Desktop/Screen Shot 2021-03-25 at 23.21.49
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 13291K, 2448 by 1390 pixels
+Dimensions: 1923.462 by 1092.162 points 
+Resolution: 91.635 by 91.635 pixels per inch
+
+
+/Users/sanjanaraju/Desktop/Screen Shot 2021-03-25 at 23.05.24
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 6807K, 1874 by 930 pixels
+Dimensions: 1920.848 by 953.249 points 
+Resolution: 70.244 by 70.244 pixels per inch
